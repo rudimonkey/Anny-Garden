@@ -1,0 +1,155 @@
+{
+  "slug": "monstera-deliciosa",
+  "commonName": "Monstera",
+  "scientificName": "Monstera deliciosa",
+  "botanicalFamily": "Araceae",
+  "labelES": "Monstera",
+  "labelEN": "Monstera",
+  "featured": true,
+  "growthRate": "Moderate",
+  "growthHeight": "2-3m (indoor), up to 9m (outdoor)",
+  "growthWidth": "1-2m",
+  "bloomColor": "Cream/White",
+  "bloomTime": "Rarely indoors",
+  "bloomSeason": "summer",
+  "waterNeeds": "moderate",
+  "lightNeeds": "indirect",
+  "sunlightHoursMin": 4,
+  "sunlightHoursMax": 6,
+  "temperatureRange": "18-30°C",
+  "humidityNeeds": "High",
+  "relativeHumidityNeeds": "60-80%",
+  "fertilizerNeeds": "Monthly in spring/summer",
+  "soilNeeds": "Well-drained, peat-based",
+  "nativeRegion": "Mexico to Panama",
+  "predominantCRRegions": "Lowlands, rainforests",
+  "droughtTolerance": "Low",
+  "hardinessZone": "10-12",
+  "localNames": "Mano de tigre, Piñanona",
+  "culturalUses": "Ornamental, edible fruit (when ripe)",
+  "culturalUsesES": "Ornamental, fruto comestible (cuando está maduro)",
+  "toxicityPets": "Toxic (contains calcium oxalates)",
+  "toxicityHumans": "Toxic if leaves ingested; fruit safe when fully ripe",
+  "propagationMethods": ["Stem cuttings", "Air layering"],
+  "economicImportance": "High (ornamental plant industry)",
+  "localSeasonality": "Year-round",
+  "warnings": ["Keep away from pets"],
+  "warningsES": ["Mantener fuera del alcance de mascotas"],
+  "careTips": ["Wipe leaves with a damp cloth", "Provide a moss pole for climbing"],
+  "careTipsES": ["Limpiar las hojas con un paño húmedo", "Proporcionar un tutor de musgo para trepar"],
+  "facets": {
+    "habitat": ["interior", "garden", "shadow"],
+    "growthHabit": ["climber", "herbaceous", "perennial"],
+    "use": ["ornamental"],
+    "difficulty": ["intermediate"],
+    "pollinator": ["beetles"],
+    "companion": false,
+    "maintenance": ["medium"]
+  },
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/plantitas/image/upload/v1/plants/monstera-1.jpg",
+      "width": 1000,
+      "height": 1500,
+      "caption": "Large Monstera leaf with fenestrations",
+      "isPrimary": true,
+      "attribution": "Plantitas Internal",
+      "altText": "Hoja grande de Monstera"
+    }
+  ],
+  "genus": "Monstera",
+  "cultivar": null,
+  "lifeCycle": "perennial",
+  "bloomStart": "June",
+  "bloomEnd": "August",
+  "phenologyRecords": [
+    {
+      "stage": "Leaf Production",
+      "startMonth": "January",
+      "endMonth": "December",
+      "crSpecific": true
+    }
+  ],
+  "companionPlants": [],
+  "companionInfo": {
+    "goodWith": [],
+    "avoidWith": []
+  },
+  "pollinatorValue": {
+    "attracts": ["Beetles"],
+    "nectarRating": "Low"
+  },
+  "beneficialInsects": [],
+  "pestRepellent": [],
+  "harvestInfo": {
+    "firstHarvestDays": 1000,
+    "daysToMaturity": 1500,
+    "yieldPerPlant": "Few fruits per year",
+    "yieldPerPlantES": "Pocos frutos al año",
+    "expectedYieldPerSqMeter": "N/A",
+    "frequency": "Occasional",
+    "frequencyES": "Ocasional",
+    "edibleParts": ["Fruit (ripe)"],
+    "ediblePartsES": ["Fruto (maduro)"]
+  },
+  "culinaryUses": [],
+  "commonPests": [
+    {
+      "name": "Mealybugs",
+      "nameES": "Cochinillas",
+      "symptoms": "White cottony spots",
+      "symptomsES": "Manchas blancas algodonosas",
+      "organicControls": ["Alcohol wipe", "Neem oil"],
+      "organicControlsES": ["Limpieza con alcohol", "Aceite de neem"]
+    }
+  ],
+  "diseaseResistance": "High",
+  "soilPreferences": {
+    "phRange": "5.5-7.0",
+    "preferredType": "Rich, well-drained",
+    "nutrientNotes": "Needs organic matter",
+    "nutrientNotesES": "Necesita materia orgánica"
+  },
+  "climateSuitability": {
+    "heatTolerance": "Moderate",
+    "frostSensitivity": "High",
+    "drought": "Moderate",
+    "rainfallPreference": "High",
+    "windTolerance": "Low",
+    "heatToleranceES": "Moderada",
+    "frostSensitivityES": "Alta",
+    "droughtES": "Moderada",
+    "rainfallPreferenceES": "Alta",
+    "windToleranceES": "Baja"
+  },
+  "carbonSequestration": "Medium",
+  "biodiversityScore": 6,
+  "invasivePotential": "Low",
+  "regionalAdaptations": [],
+  "relatedPlants": [],
+  "seedSources": [],
+  "organicCertification": "N/A",
+  "externalIds": {
+    "Wikidata": "Q161077"
+  },
+  "synonyms": ["Philodendron pertusum"],
+  "etymology": "Monstera means 'monstrous' (referring to the leaves), deliciosa refers to the fruit.",
+  "tags": ["houseplant", "tropical", "ornamental"],
+  "searchKeywords": ["monstera", "mano de tigre", "swiss cheese plant"],
+  "metaDescription": "The ultimate guide to caring for Monstera deliciosa in Costa Rica.",
+  "difficultyLevel": "Intermediate",
+  "maintenanceLevel": "Medium",
+  "popularityScore": 98,
+  "published": true,
+  "source": {
+    "api": "manual",
+    "lastSyncedAt": "2026-06-20T00:00:00Z",
+    "enrichmentLevel": 5
+  },
+  "changeLog": [],
+  "version": 1,
+  "createdAt": "2026-06-20T00:00:00Z",
+  "updatedAt": "2026-06-20T00:00:00Z",
+  "createdBy": "admin-id",
+  "updatedBy": "admin-id"
+}

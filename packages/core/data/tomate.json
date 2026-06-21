@@ -1,0 +1,173 @@
+{
+  "slug": "tomate",
+  "commonName": "Tomato",
+  "scientificName": "Solanum lycopersicum",
+  "botanicalFamily": "Solanaceae",
+  "labelES": "Tomate",
+  "labelEN": "Tomato",
+  "featured": false,
+  "growthRate": "Fast",
+  "growthHeight": "1.5-2.5 m (indeterminate)",
+  "growthWidth": "0.5-1.0 m",
+  "bloomColor": "Yellow",
+  "bloomTime": "Spring to Fall",
+  "bloomSeason": "spring",
+  "waterNeeds": "high",
+  "lightNeeds": "direct",
+  "sunlightHoursMin": 8,
+  "sunlightHoursMax": 12,
+  "temperatureRange": "15-32°C",
+  "humidityNeeds": "Moderate",
+  "relativeHumidityNeeds": "50-70%",
+  "fertilizerNeeds": "Weekly when fruiting",
+  "soilNeeds": "Rich, well-drained, slightly acidic",
+  "nativeRegion": "South America",
+  "predominantCRRegions": "Cartago, Alajuela, Central Valley",
+  "droughtTolerance": "Low",
+  "hardinessZone": "10-12",
+  "localNames": "Tomate",
+  "culturalUses": "Culinary",
+  "culturalUsesES": "Culinario",
+  "toxicityPets": "Toxic (leaves and stems)",
+  "toxicityHumans": "Safe fruit; toxic leaves and stems",
+  "propagationMethods": ["Seeds", "Suckers"],
+  "economicImportance": "Very High (major food crop)",
+  "localSeasonality": "Year-round with irrigation",
+  "warnings": ["Support required for heavy fruit", "Prone to blight in high humidity"],
+  "warningsES": ["Requiere soporte para frutos pesados", "Propenso al tizón en alta humedad"],
+  "careTips": ["Water at the base to avoid leaf diseases", "Mulch to retain moisture"],
+  "careTipsES": ["Regar en la base para evitar enfermedades foliares", "Acolchar para retener la humedad"],
+  "facets": {
+    "habitat": ["huerto", "garden", "pot"],
+    "growthHabit": ["herbaceous", "perennial"],
+    "use": ["culinary"],
+    "difficulty": ["intermediate"],
+    "pollinator": ["bees"],
+    "companion": true,
+    "maintenance": ["high"]
+  },
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/plantitas/image/upload/v1/plants/tomate-1.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Ripening tomatoes on the vine",
+      "isPrimary": true,
+      "attribution": "Plantitas Internal",
+      "altText": "Tomates madurando en la mata"
+    }
+  ],
+  "genus": "Solanum",
+  "cultivar": "Manzano",
+  "lifeCycle": "perennial",
+  "bloomStart": "February",
+  "bloomEnd": "November",
+  "phenologyRecords": [
+    {
+      "stage": "Fruiting",
+      "startMonth": "April",
+      "endMonth": "December",
+      "crSpecific": true
+    }
+  ],
+  "companionPlants": [
+    {
+      "slug": "albahaca",
+      "benefit": "Repels hornworms and improves flavor",
+      "benefitES": "Repele gusanos del tomate y mejora el sabor"
+    }
+  ],
+  "companionInfo": {
+    "goodWith": ["Basil", "Marigolds", "Carrots"],
+    "avoidWith": ["Cabbage", "Corn", "Walnut trees"]
+  },
+  "pollinatorValue": {
+    "attracts": ["Bumblebees"],
+    "nectarRating": "Low"
+  },
+  "beneficialInsects": ["Ladybugs"],
+  "pestRepellent": [],
+  "harvestInfo": {
+    "firstHarvestDays": 75,
+    "daysToMaturity": 100,
+    "yieldPerPlant": "5-10 kg",
+    "yieldPerPlantES": "5-10 kg",
+    "expectedYieldPerSqMeter": "15kg",
+    "frequency": "Daily during peak season",
+    "frequencyES": "Diario durante el pico",
+    "edibleParts": ["Fruit"],
+    "ediblePartsES": ["Fruto"]
+  },
+  "culinaryUses": [
+    {
+      "part": "Fruit",
+      "recipes": ["Salads", "Sauces", "Salsa Lizano base"],
+      "tips": ["Harvest when fully red for best flavor"]
+    }
+  ],
+  "commonPests": [
+    {
+      "name": "Whitefly",
+      "nameES": "Mosca blanca",
+      "symptoms": "Yellowing leaves, tiny white insects",
+      "symptomsES": "Hojas amarillentas, pequeños insectos blancos",
+      "organicControls": ["Yellow sticky traps", "Neem oil"],
+      "organicControlsES": ["Trampas pegajosas amarillas", "Aceite de neem"]
+    }
+  ],
+  "diseaseResistance": "Low to Moderate",
+  "soilPreferences": {
+    "phRange": "6.0-6.8",
+    "preferredType": "Sandy loam",
+    "nutrientNotes": "Needs high phosphorus and potassium",
+    "nutrientNotesES": "Necesita alto fósforo y potasio"
+  },
+  "climateSuitability": {
+    "heatTolerance": "High",
+    "frostSensitivity": "Very High",
+    "drought": "Low",
+    "rainfallPreference": "Moderate",
+    "windTolerance": "Low",
+    "heatToleranceES": "Alta",
+    "frostSensitivityES": "Muy Alta",
+    "droughtES": "Baja",
+    "rainfallPreferenceES": "Moderada",
+    "windToleranceES": "Baja"
+  },
+  "carbonSequestration": "Low",
+  "biodiversityScore": 6,
+  "invasivePotential": "Low",
+  "regionalAdaptations": [
+    {
+      "region": "Cartago",
+      "adaptation": "Exceptional growth in volcanic soils",
+      "notes": "Best region for traditional Manzano tomatoes"
+    }
+  ],
+  "relatedPlants": [],
+  "seedSources": [],
+  "organicCertification": "N/A",
+  "externalIds": {
+    "Wikidata": "Q23501"
+  },
+  "synonyms": ["Lycopersicon esculentum"],
+  "etymology": "From Nahuatl 'tomatl'.",
+  "tags": ["vegetable", "culinary", "crop"],
+  "searchKeywords": ["tomate", "tomato", "huerto"],
+  "metaDescription": "Tips for growing high-yield tomatoes in the Costa Rican climate.",
+  "difficultyLevel": "Intermediate",
+  "maintenanceLevel": "High",
+  "popularityScore": 99,
+  "published": true,
+  "source": {
+    "api": "manual",
+    "lastSyncedAt": "2026-06-20T00:00:00Z",
+    "enrichmentLevel": 5
+  },
+  "changeLog": [],
+  "version": 1,
+  "createdAt": "2026-06-20T00:00:00Z",
+  "updatedAt": "2026-06-20T00:00:00Z",
+  "createdBy": "admin-id",
+  "updatedBy": "admin-id"
+}

@@ -1,0 +1,48 @@
+{
+  "common": {
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "nav": {
+    "home": "Home",
+    "browse": "Browse",
+    "search": "Search",
+    "collection": "Collection",
+    "profile": "Profile",
+    "admin": "Admin"
+  },
+  "plant": {
+    "scientificName": "Scientific Name",
+    "family": "Family",
+    "habitat": "Habitat",
+    "care": "Care",
+    "water": "Water",
+    "light": "Light",
+    "difficulty": "Difficulty",
+    "maintenance": "Maintenance",
+    "featured": "Featured",
+    "nativeTo": "Native to",
+    "toxicity": "Toxicity",
+    "propagation": "Propagation",
+    "tips": "Care Tips",
+    "warnings": "Warnings",
+    "companion": "Companion Plants"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password"
+  }
+}

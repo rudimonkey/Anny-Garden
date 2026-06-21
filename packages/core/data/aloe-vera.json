@@ -1,0 +1,161 @@
+{
+  "slug": "aloe-vera",
+  "commonName": "Aloe Vera",
+  "scientificName": "Aloe vera",
+  "botanicalFamily": "Asphodelaceae",
+  "labelES": "Sábila",
+  "labelEN": "Aloe Vera",
+  "featured": true,
+  "growthRate": "Slow to Moderate",
+  "growthHeight": "60-100 cm",
+  "growthWidth": "60-100 cm",
+  "bloomColor": "Yellow",
+  "bloomTime": "Summer",
+  "bloomSeason": "summer",
+  "waterNeeds": "low",
+  "lightNeeds": "direct",
+  "sunlightHoursMin": 6,
+  "sunlightHoursMax": 10,
+  "temperatureRange": "15-45°C",
+  "humidityNeeds": "Low",
+  "relativeHumidityNeeds": "20-40%",
+  "fertilizerNeeds": "Rarely",
+  "soilNeeds": "Cactus mix, sandy, well-drained",
+  "nativeRegion": "Arabian Peninsula",
+  "predominantCRRegions": "Dry regions, Guanacaste, Coastal areas",
+  "droughtTolerance": "High",
+  "hardinessZone": "9-11",
+  "localNames": "Sábila",
+  "culturalUses": "Medicinal, cosmetic, ornamental",
+  "culturalUsesES": "Medicinal, cosmético, ornamental",
+  "toxicityPets": "Toxic to dogs and cats if ingested (leaves)",
+  "toxicityHumans": "Generally safe topically; purgative if ingested in large amounts",
+  "propagationMethods": ["Offsets (pups)", "Seeds"],
+  "economicImportance": "Very High (global skincare/health industry)",
+  "localSeasonality": "Year-round",
+  "warnings": ["Do not overwater", "Keep away from pets"],
+  "warningsES": ["No regar en exceso", "Mantener alejado de mascotas"],
+  "careTips": ["Wait for soil to dry completely before watering", "Provide bright, direct light"],
+  "careTipsES": ["Espere a que el suelo se seque por completo antes de regar", "Proporcionar luz brillante y directa"],
+  "facets": {
+    "habitat": ["exterior", "garden", "succulent-garden", "pot"],
+    "growthHabit": ["succulent", "perennial"],
+    "use": ["medicinal", "ornamental"],
+    "difficulty": ["beginner"],
+    "pollinator": ["birds", "bees"],
+    "companion": false,
+    "maintenance": ["low"]
+  },
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/plantitas/image/upload/v1/plants/aloe-1.jpg",
+      "width": 1200,
+      "height": 1200,
+      "caption": "Aloe Vera plant in sunny garden",
+      "isPrimary": true,
+      "attribution": "Plantitas Internal",
+      "altText": "Planta de Sábila al sol"
+    }
+  ],
+  "genus": "Aloe",
+  "cultivar": null,
+  "lifeCycle": "perennial",
+  "bloomStart": "March",
+  "bloomEnd": "May",
+  "phenologyRecords": [
+    {
+      "stage": "Flowering",
+      "startMonth": "March",
+      "endMonth": "May",
+      "crSpecific": true
+    }
+  ],
+  "companionPlants": [],
+  "companionInfo": {
+    "goodWith": ["Onions", "Geraniums"],
+    "avoidWith": []
+  },
+  "pollinatorValue": {
+    "attracts": ["Hummingbirds", "Bees"],
+    "nectarRating": "Medium"
+  },
+  "beneficialInsects": [],
+  "pestRepellent": [],
+  "harvestInfo": {
+    "firstHarvestDays": 365,
+    "daysToMaturity": 730,
+    "yieldPerPlant": "3-4 leaves per harvest",
+    "yieldPerPlantES": "3-4 hojas por cosecha",
+    "expectedYieldPerSqMeter": "N/A",
+    "frequency": "Every few months",
+    "frequencyES": "Cada pocos meses",
+    "edibleParts": ["Gel (internal)"],
+    "ediblePartsES": ["Gel (interno)"]
+  },
+  "culinaryUses": [
+    {
+      "part": "Gel",
+      "recipes": ["Smoothies", "Aloe water"],
+      "tips": ["Rinse well to remove aloin (yellow bitter sap)"]
+    }
+  ],
+  "commonPests": [
+    {
+      "name": "Scale insects",
+      "nameES": "Escamas",
+      "symptoms": "Bumpy brown spots",
+      "symptomsES": "Manchas marrones elevadas",
+      "organicControls": ["Scrape off", "Alcohol wipe"],
+      "organicControlsES": ["Raspado manual", "Limpieza con alcohol"]
+    }
+  ],
+  "diseaseResistance": "High",
+  "soilPreferences": {
+    "phRange": "7.0-8.5",
+    "preferredType": "Sandy, well-draining",
+    "nutrientNotes": "Does not need frequent fertilization",
+    "nutrientNotesES": "No necesita fertilización frecuente"
+  },
+  "climateSuitability": {
+    "heatTolerance": "Very High",
+    "frostSensitivity": "High",
+    "drought": "Very High",
+    "rainfallPreference": "Low",
+    "windTolerance": "High",
+    "heatToleranceES": "Muy Alta",
+    "frostSensitivityES": "Alta",
+    "droughtES": "Muy Alta",
+    "rainfallPreferenceES": "Baja",
+    "windToleranceES": "Alta"
+  },
+  "carbonSequestration": "Low",
+  "biodiversityScore": 5,
+  "invasivePotential": "Low",
+  "regionalAdaptations": [],
+  "relatedPlants": [],
+  "seedSources": [],
+  "organicCertification": "N/A",
+  "externalIds": {
+    "Wikidata": "Q80296"
+  },
+  "synonyms": ["Aloe barbadensis"],
+  "etymology": "Aloe from Arabic 'alloeh' (shining bitter substance), vera means 'true'.",
+  "tags": ["succulent", "medicinal", "sábila"],
+  "searchKeywords": ["aloe", "sábila", "burn relief"],
+  "metaDescription": "Discover the medicinal benefits and care tips for Aloe Vera (Sábila) in Costa Rica.",
+  "difficultyLevel": "Beginner",
+  "maintenanceLevel": "Low",
+  "popularityScore": 96,
+  "published": true,
+  "source": {
+    "api": "manual",
+    "lastSyncedAt": "2026-06-20T00:00:00Z",
+    "enrichmentLevel": 5
+  },
+  "changeLog": [],
+  "version": 1,
+  "createdAt": "2026-06-20T00:00:00Z",
+  "updatedAt": "2026-06-20T00:00:00Z",
+  "createdBy": "admin-id",
+  "updatedBy": "admin-id"
+}
