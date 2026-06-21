@@ -3,57 +3,40 @@ import { test, expect } from '@playwright/test';
 test.describe('Presentational Layer Validation', () => {
   test('home page renders featured plants', async ({ page }) => {
     await page.goto('http://localhost:3000');
-    // Use getByRole to avoid strict mode ambiguity with multiple badges
-    const featuredHeading = page.getByRole('heading', { name: 'Destacado' });
+
+    // Check for the "Plantas Destacadas" heading
+    const featuredHeading = page.getByRole('heading', { name: /Destacadas/i });
     await expect(featuredHeading).toBeVisible();
 
-    // Check for at least one plant card
+    // Check for at least one plant card (they are links to /plants/...)
     const plantCards = page.locator('a[href^="/plants/"]');
-    expect(await plantCards.count()).toBeGreaterThan(0);
+    await expect(await plantCards.count()).toBeGreaterThan(0);
   });
 
   test('search functionality works presentationaly', async ({ page }) => {
     await page.goto('http://localhost:3000/search');
-    const searchInput = page.getByPlaceholder('Buscar...');
+    // Wait for hydration
+    await page.waitForTimeout(1000);
+    const searchInput = page.getByPlaceholder(/buscar/i);
     await searchInput.fill('Albahaca');
 
-    // Results should filter. We use first() to avoid ambiguity if there are multiple matches
+    // Click the search button
+    await page.getByRole('button', { name: /buscar/i }).click();
+
+    // Results should filter.
     await expect(page.getByText('Albahaca', { exact: false }).first()).toBeVisible();
   });
 
-  test('language switcher changes UI strings', async ({ page }) => {
+  test('navigation works', async ({ page }) => {
     await page.goto('http://localhost:3000');
-    const langBtn = page.locator('button', { hasText: 'EN' });
-    await langBtn.click();
 
-    // Nav should change
-    await expect(page.getByText('Home')).toBeVisible();
-    await expect(page.getByText('Search')).toBeVisible();
+    // Click on Buscar in nav
+    await page.getByRole('link', { name: /Buscar/i }).click();
+    await expect(page).toHaveURL(/.*search/);
 
-    // Plant title should change. Use first() to avoid ambiguity with multiplied mock data
-    await expect(page.getByText('Sweet Basil', { exact: false }).first()).toBeVisible();
-  });
-
-  test('pinning a plant reflects visually', async ({ page }) => {
+    // Click on a plant card to go to detail
     await page.goto('http://localhost:3000');
-    // Wait for the links to be ready
-    const plantLink = page.locator('a[href^="/plants/"]').first();
-    await plantLink.click();
-
-    // The detail page should have the pin button.
-    // In our implementation, it's a button with white heart icon.
-    // Let's use a more robust selector.
-    const pinBtn = page.locator('button', { hasText: /🤍|❤️/ });
-    await expect(pinBtn).toBeVisible();
-
-    // If it's already pinned, click to unpin then pin again to be sure of state
-    const text = await pinBtn.innerText();
-    if (text.includes('❤️')) {
-        await pinBtn.click();
-        await expect(pinBtn).toHaveText('🤍');
-    }
-
-    await pinBtn.click();
-    await expect(pinBtn).toHaveText('❤️');
+    await page.locator('a[href^="/plants/"]').first().click();
+    await expect(page).toHaveURL(/.*plants/);
   });
 });

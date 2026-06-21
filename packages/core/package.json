@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
-    "zustand": "^4.0.0",
+    "@plantitas/types": "workspace:*",
+    "flexsearch": "^0.8.212",
     "i18next": "^23.0.0",
     "react-i18next": "^13.0.0",
-    "@plantitas/types": "workspace:*"
+    "zustand": "^4.0.0"
   }
 }

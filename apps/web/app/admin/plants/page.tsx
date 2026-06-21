@@ -1,40 +1,43 @@
+"use client";
 import React from 'react';
-import { mockPlants } from '@plantitas/core';
+import { usePlantStore } from '@plantitas/core';
 import Link from 'next/link';
 
 export default function AdminPlantsPage() {
+  const { plants } = usePlantStore();
+
   return (
-    <main className="container mx-auto px-4 py-8">
-      <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold text-leafGreen11">Gestionar Plantas</h1>
-        <button className="bg-leafGreen9 text-white px-4 py-2 rounded-md hover:bg-leafGreen11 transition-colors">
+    <main className="container mx-auto px-6 py-12">
+      <div className="flex justify-between items-center mb-12">
+        <h1 className="text-5xl font-black text-[#1b4332] tracking-tighter">Gestionar Plantas</h1>
+        <button className="bg-[#2d6a4f] text-white px-8 py-4 rounded-2xl font-black hover:bg-[#1b4332] transition-all shadow-lg">
           + Nueva Planta
         </button>
       </div>
 
-      <div className="bg-white rounded-lg shadow overflow-hidden">
-        <table className="min-w-full divide-y divide-gray-200">
+      <div className="bg-white rounded-[2rem] shadow-sm border border-gray-100 overflow-hidden">
+        <table className="min-w-full divide-y divide-gray-100">
           <thead className="bg-gray-50">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nombre</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Científico</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Estado</th>
-              <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Acciones</th>
+              <th className="px-8 py-6 text-left text-[10px] font-black text-[#2d6a4f] uppercase tracking-[0.2em]">Nombre</th>
+              <th className="px-8 py-6 text-left text-[10px] font-black text-[#2d6a4f] uppercase tracking-[0.2em]">Científico</th>
+              <th className="px-8 py-6 text-left text-[10px] font-black text-[#2d6a4f] uppercase tracking-[0.2em]">Estado</th>
+              <th className="px-8 py-6 text-right text-[10px] font-black text-[#2d6a4f] uppercase tracking-[0.2em]">Acciones</th>
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
-            {mockPlants.map((plant) => (
-              <tr key={plant.slug}>
-                <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">{plant.labelES}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-gray-500 italic">{plant.scientificName}</td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+          <tbody className="bg-white divide-y divide-gray-100">
+            {plants.map((plant) => (
+              <tr key={plant.slug} className="hover:bg-gray-50/50 transition-colors">
+                <td className="px-8 py-6 whitespace-nowrap font-black text-[#1b4332]">{plant.labelES}</td>
+                <td className="px-8 py-6 whitespace-nowrap text-gray-400 italic font-medium">{plant.scientificName}</td>
+                <td className="px-8 py-6 whitespace-nowrap">
+                  <span className="px-3 py-1 text-[9px] font-black tracking-widest uppercase rounded-full bg-[#f0f7ee] text-[#2d6a4f]">
                     Publicado
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                  <Link href={`/admin/plants/${plant.slug}/edit`} className="text-leafGreen9 hover:text-leafGreen11 mr-4">Editar</Link>
-                  <button className="text-red-600 hover:text-red-900">Eliminar</button>
+                <td className="px-8 py-6 whitespace-nowrap text-right text-sm font-black">
+                  <Link href={`/admin/plants/${plant.slug}/edit`} className="text-[#2d6a4f] hover:text-[#1b4332] mr-6">EDITAR</Link>
+                  <button className="text-[#c0392b] hover:text-red-900">ELIMINAR</button>
                 </td>
               </tr>
             ))}
