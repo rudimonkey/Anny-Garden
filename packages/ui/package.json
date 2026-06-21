@@ -1,0 +1,19 @@
+{
+  "name": "@plantitas/ui",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "tamagui": "latest",
+    "@tamagui/config": "latest",
+    "lucide-react-native": "latest"
+  },
+  "devDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.4"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-native": "*"
+  }
+}

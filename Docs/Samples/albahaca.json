@@ -1,0 +1,183 @@
+{
+  "slug": "albahaca",
+  "commonName": "Sweet Basil",
+  "scientificName": "Ocimum basilicum",
+  "botanicalFamily": "Lamiaceae",
+  "labelES": "Albahaca",
+  "labelEN": "Sweet Basil",
+  "featured": true,
+  "growthRate": "Fast",
+  "growthHeight": "30-60 cm",
+  "growthWidth": "30-45 cm",
+  "bloomColor": "White/Purple",
+  "bloomTime": "Summer",
+  "bloomSeason": "summer",
+  "waterNeeds": "moderate",
+  "lightNeeds": "direct",
+  "sunlightHoursMin": 6,
+  "sunlightHoursMax": 8,
+  "temperatureRange": "10-35°C",
+  "humidityNeeds": "Medium",
+  "relativeHumidityNeeds": "40-60%",
+  "fertilizerNeeds": "Every 2-4 weeks",
+  "soilNeeds": "Well-drained, fertile",
+  "nativeRegion": "Central Africa to Southeast Asia",
+  "predominantCRRegions": "All regions, especially Central Valley",
+  "droughtTolerance": "Low",
+  "hardinessZone": "10-12",
+  "localNames": "Albahaca",
+  "culturalUses": "Culinary, medicinal, ceremonial",
+  "culturalUsesES": "Culinario, medicinal, ceremonial",
+  "toxicityPets": "Non-toxic to dogs and cats",
+  "toxicityHumans": "Safe",
+  "propagationMethods": ["Seeds", "Cuttings"],
+  "economicImportance": "High (essential oils, culinary herb)",
+  "localSeasonality": "Year-round in Costa Rica",
+  "warnings": ["Sensitive to frost"],
+  "warningsES": ["Sensible a las heladas"],
+  "careTips": ["Pinch back to encourage bushy growth", "Do not allow to flower if used for leaves"],
+  "careTipsES": ["Pellizcar para fomentar el crecimiento tupido", "No permita que florezca si se usa por las hojas"],
+  "facets": {
+    "habitat": ["exterior", "garden", "huerto", "maceta"],
+    "growthHabit": ["herbaceous", "bushy", "annual"],
+    "use": ["culinary", "medicinal", "aromatic"],
+    "difficulty": ["beginner"],
+    "pollinator": ["bees", "butterflies"],
+    "companion": true,
+    "maintenance": ["medium"]
+  },
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/plantitas/image/upload/v1/plants/albahaca-1.jpg",
+      "width": 1200,
+      "height": 800,
+      "caption": "Fresh basil leaves",
+      "isPrimary": true,
+      "attribution": "Plantitas Internal",
+      "altText": "Albahaca fresca en maceta"
+    }
+  ],
+  "genus": "Ocimum",
+  "cultivar": "Genovese",
+  "lifeCycle": "annual",
+  "bloomStart": "July",
+  "bloomEnd": "September",
+  "phenologyRecords": [
+    {
+      "stage": "Vegetative",
+      "startMonth": "May",
+      "endMonth": "October",
+      "crSpecific": true
+    }
+  ],
+  "companionPlants": [
+    {
+      "slug": "tomate",
+      "benefit": "Improves flavor and repels pests",
+      "benefitES": "Mejora el sabor y repele plagas"
+    }
+  ],
+  "companionInfo": {
+    "goodWith": ["Tomato", "Peppers", "Asparagus"],
+    "avoidWith": ["Rue", "Sage"]
+  },
+  "pollinatorValue": {
+    "attracts": ["Bees", "Butterflies"],
+    "nectarRating": "High"
+  },
+  "beneficialInsects": ["Hoverflies"],
+  "pestRepellent": ["Mosquitoes", "Flies"],
+  "harvestInfo": {
+    "firstHarvestDays": 60,
+    "daysToMaturity": 90,
+    "yieldPerPlant": "200g per season",
+    "yieldPerPlantES": "200g por temporada",
+    "expectedYieldPerSqMeter": "1.5kg",
+    "frequency": "Weekly",
+    "frequencyES": "Semanal",
+    "edibleParts": ["Leaves"],
+    "ediblePartsES": ["Hojas"]
+  },
+  "culinaryUses": [
+    {
+      "part": "Leaves",
+      "recipes": ["Pesto", "Caprese Salad"],
+      "tips": ["Add at the end of cooking to preserve flavor"]
+    }
+  ],
+  "commonPests": [
+    {
+      "name": "Aphids",
+      "nameES": "Pulgones",
+      "symptoms": "Curled leaves, sticky residue",
+      "symptomsES": "Hojas rizadas, residuo pegajoso",
+      "organicControls": ["Neem oil", "Soap spray"],
+      "organicControlsES": ["Aceite de neem", "Jabón potásico"]
+    }
+  ],
+  "diseaseResistance": "Moderate",
+  "soilPreferences": {
+    "phRange": "6.0-7.5",
+    "preferredType": "Loamy",
+    "nutrientNotes": "Requires nitrogen-rich soil",
+    "nutrientNotesES": "Requiere suelo rico en nitrógeno"
+  },
+  "climateSuitability": {
+    "heatTolerance": "High",
+    "frostSensitivity": "High",
+    "drought": "Low",
+    "rainfallPreference": "Moderate",
+    "windTolerance": "Low",
+    "heatToleranceES": "Alta",
+    "frostSensitivityES": "Alta",
+    "droughtES": "Baja",
+    "rainfallPreferenceES": "Moderada",
+    "windToleranceES": "Baja"
+  },
+  "carbonSequestration": "Low",
+  "biodiversityScore": 7,
+  "invasivePotential": "Low",
+  "regionalAdaptations": [
+    {
+      "region": "Guanacaste",
+      "adaptation": "Needs more frequent watering",
+      "notes": "Protect from extreme midday sun"
+    }
+  ],
+  "relatedPlants": [
+    {
+      "slug": "albahaca-morada",
+      "benefit": "Similar care, different color"
+    }
+  ],
+  "seedSources": [
+    {
+      "supplier": "Seed Savers Exchange",
+      "url": "https://www.seedsavers.org"
+    }
+  ],
+  "organicCertification": "N/A",
+  "externalIds": {
+    "Wikidata": "Q38859"
+  },
+  "synonyms": ["Ocimum gratissimum"],
+  "etymology": "From Greek 'okimon'",
+  "tags": ["herb", "culinary", "aromatic"],
+  "searchKeywords": ["basil", "albahaca", "pesto"],
+  "metaDescription": "Learn how to grow and care for Sweet Basil (Albahaca) in Costa Rica.",
+  "difficultyLevel": "Beginner",
+  "maintenanceLevel": "Medium",
+  "popularityScore": 95,
+  "published": true,
+  "source": {
+    "api": "manual",
+    "lastSyncedAt": "2026-06-20T00:00:00Z",
+    "enrichmentLevel": 5
+  },
+  "changeLog": [],
+  "version": 1,
+  "createdAt": "2026-06-20T00:00:00Z",
+  "updatedAt": "2026-06-20T00:00:00Z",
+  "createdBy": "admin-id",
+  "updatedBy": "admin-id"
+}

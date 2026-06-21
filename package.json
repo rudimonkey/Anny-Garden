@@ -1,0 +1,19 @@
+{
+  "name": "plantitas-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "prettier": "latest",
+    "ts-jest": "^29.4.11",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@10.30.3"
+}
