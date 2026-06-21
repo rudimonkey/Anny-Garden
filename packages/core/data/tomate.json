@@ -48,12 +48,12 @@
   },
   "images": [
     {
-      "url": "https://res.cloudinary.com/plantitas/image/upload/v1/plants/tomate-1.jpg",
+      "url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=1200&h=900&fit=crop",
       "width": 1200,
       "height": 900,
       "caption": "Ripening tomatoes on the vine",
       "isPrimary": true,
-      "attribution": "Plantitas Internal",
+      "attribution": "Unsplash",
       "altText": "Tomates madurando en la mata"
     }
   ],

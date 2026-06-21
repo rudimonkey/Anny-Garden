@@ -48,12 +48,12 @@
   },
   "images": [
     {
-      "url": "https://res.cloudinary.com/plantitas/image/upload/v1/plants/monstera-1.jpg",
+      "url": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=1000&h=1500&fit=crop",
       "width": 1000,
       "height": 1500,
       "caption": "Large Monstera leaf with fenestrations",
       "isPrimary": true,
-      "attribution": "Plantitas Internal",
+      "attribution": "Unsplash",
       "altText": "Hoja grande de Monstera"
     }
   ],
