@@ -1,0 +1,522 @@
+{
+  "_id": "65f1c2b3a4f5e6d7c8b9a012",
+  "slug": "albahaca",
+  "commonName": "Sweet Basil",
+  "scientificName": "Ocimum basilicum",
+  "botanicalFamily": "Lamiaceae",
+  "labelES": "Albahaca",
+  "labelPT": "Manjericão",
+  "labelEN": "Sweet Basil",
+  "featured": true,
+  "growthRate": "Fast",
+  "growthHeight": "30–60 cm",
+  "growthWidth": "30–45 cm",
+  "bloomColor": "White or purple",
+  "bloomTime": "Late spring to early fall",
+  "bloomSeason": "summer",
+  "waterNeeds": "moderate",
+  "lightNeeds": "direct",
+  "sunlightHoursMin": 6,
+  "sunlightHoursMax": 8,
+  "temperatureRange": "20–35°C",
+  "humidityNeeds": "Moderate to high humidity",
+  "relativeHumidityNeeds": "60-80%",
+  "fertilizerNeeds": "Monthly feeding with balanced fertilizer during growing season",
+  "soilNeeds": "Moist, well-draining, nutrient-rich soil",
+  "nativeRegion": "Tropical regions of Central Africa to Southeast Asia",
+  "predominantCRRegions": "Central Valley, Caribbean coast",
+  "droughtTolerance": "Low",
+  "hardinessZone": "USDA 10-11",
+  "localNames": "Albahaca, Albahaca de castilla",
+  "culturalUses": "Widely used in traditional medicine, culinary dishes, and home gardens across Costa Rica.",
+  "culturalUsesES": "Ampliamente utilizado en medicina tradicional, platos culinarios y jardines hogareños en toda Costa Rica.",
+  "toxicityPets": "Non-toxic to cats and dogs",
+  "toxicityHumans": "Generally recognized as safe (GRAS) for culinary use",
+  "propagationMethods": [
+    "Seed",
+    "Stem cuttings"
+  ],
+  "economicImportance": "Highly significant in culinary commercial markets and essential oil extraction.",
+  "localSeasonality": "Thrives heavily during the rainy season; offers continuous harvest with proper pruning.",
+  "warnings": [
+    "Extremely sensitive to frost and cold drafts",
+    "Bolts rapidly if left unpruned in high heat"
+  ],
+  "warningsES": [
+    "Extremadamente sensible a las heladas y corrientes de aire frío",
+    "Florece rápidamente si se deja sin podar en calor intenso"
+  ],
+  "careTips": [
+    "Water regularly when top 2 centimeters of soil feel dry to the touch.",
+    "Requires full sun exposure for at least 6 hours daily.",
+    "Pinch off the top pairs of leaves regularly to encourage bushy branching and delay flowering."
+  ],
+  "careTipsES": [
+    "Riegue regularmente cuando los 2 centímetros superiores del suelo se sientan secos al tacto.",
+    "Requiere exposición a sol completo durante al menos 6 horas diarias.",
+    "Pellizque regularmente los pares de hojas superiores para fomentar un crecimiento frondoso y retrasar la floración."
+  ],
+  "facets": {
+    "habitat": [
+      "exterior",
+      "garden",
+      "huerto"
+    ],
+    "growthHabit": [
+      "bushy",
+      "herbaceous",
+      "annual"
+    ],
+    "use": [
+      "culinary",
+      "medicinal",
+      "aromatic"
+    ],
+    "difficulty": [
+      "beginner"
+    ],
+    "pollinator": [
+      "bees",
+      "butterflies"
+    ],
+    "companion": true,
+    "maintenance": [
+      "medium"
+    ]
+  },
+  "images": [
+    {
+      "_id": "65f1c2b3a4f5e6d7c8b9a099",
+      "url": "https://res.cloudinary.com/plantitas/image/upload/v1718800000/albahaca_1.jpg",
+      "width": 1200,
+      "height": 800,
+      "caption": "Fresh sweet basil growing in a tropical outdoor herb garden",
+      "isPrimary": true,
+      "attribution": "Photo: Wikimedia Commons contributor",
+      "uploadedAt": "2026-06-19T07:00:00.000Z",
+      "altText": "Lush green sweet basil plants with broad aromatic leaves growing in a tropical garden setting",
+      "seasonalVariants": []
+    }
+  ],
+  "genus": "Ocimum",
+  "cultivar": null,
+  "cultivarSynonyms": [],
+  "accessionId": "BAS-001-CR",
+  "instanceId": null,
+  "plantedAt": null,
+  "ownerId": null,
+  "locationGeo": null,
+  "containerType": null,
+  "substrateId": null,
+  "externalIds": {
+    "GBIF": "312698",
+    "POWO": "822000-2",
+    "IPNI": "299001-1",
+    "Wikidata": "Q157365",
+    "Trefle": "ocimum-basilicum",
+    "Perenual": null,
+    "USDA": "OCBA",
+    "iNaturalist": "52287"
+  },
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Basil",
+  "pfafUrl": "http://www.pfaf.org/user/Plant.aspx?LatinName=Ocimum+basilicum",
+  "phenologyRecords": [
+    {
+      "stage": "flowering",
+      "startMonth": "May",
+      "endMonth": "October",
+      "crSpecific": true
+    },
+    {
+      "stage": "vegetative",
+      "startMonth": "January",
+      "endMonth": "April",
+      "crSpecific": true
+    }
+  ],
+  "lifeCycle": "annual",
+  "bloomStart": "May",
+  "bloomEnd": "October",
+  "lastPrunedAt": null,
+  "careLog": [],
+  "pesticideApplications": [],
+  "fertilizationSchedule": {
+    "frequency": "monthly",
+    "type": "balanced NPK",
+    "season": "growing season"
+  },
+  "pruningSchedule": {
+    "frequency": "weekly",
+    "method": "pinching top leaves",
+    "season": "growing season"
+  },
+  "repottingSchedule": {
+    "frequency": "as needed",
+    "indicator": "root bound"
+  },
+  "sensorStreams": [],
+  "soilMoistureAvg": null,
+  "lightLux": null,
+  "tempC": null,
+  "humidityPct": null,
+  "nurseryId": null,
+  "seedLot": null,
+  "purchaseDate": null,
+  "price": null,
+  "cultivarPatent": null,
+  "createdBy": "65f1c2b3a4f5e6d7c8b9a001",
+  "version": 2,
+  "changeLog": [
+    {
+      "date": "2026-06-20T00:00:00.000Z",
+      "changes": "Added comprehensive schema enhancements including companion planting, pollinator value, harvest info, pests/diseases, soil preferences, multimedia, phenology, climate resilience, taxonomy, and app-specific fields",
+      "updatedBy": "65f1c2b3a4f5e6d7c8b9a001"
+    },
+    {
+      "date": "2026-06-20T10:41:00.000Z",
+      "changes": "Implemented all 6 improvement categories: (1) Populated null fields (carbonSequestration, biodiversityScore, invasivePotential, organicCertification), (2) Added CR-specific regionalAdaptations, (3) Expanded facets with difficulty, pollinator, companion, maintenance, (4) Added comprehensive Spanish i18n translations for pests, harvestInfo, culturalUses, careTips, and soilPreferences, (5) Added enrichmentLevel to source object, (6) Added nice-to-have fields (sunlightHoursMin, toxicityPets/toxicityHumans split, daysToMaturity, relatedPlants)",
+      "updatedBy": "65f1c2b3a4f5e6d7c8b9a001"
+    },
+    {
+      "date": "2026-06-20T10:47:00.000Z",
+      "changes": "Addressed minor gaps: Added Spanish translations for warnings, companionPlants.benefit/notes, pollinatorValue.specificNotes, and climateSuitability descriptions. Added sunlightHoursMax, enhanced relatedPlants to objects with benefit, populated etymology field, added expectedYieldPerSqMeter to harvestInfo",
+      "updatedBy": "65f1c2b3a4f5e6d7c8b9a001"
+    }
+  ],
+  "published": true,
+  "iucnStatus": "Not Evaluated",
+  "protectedStatus": false,
+  "exportRestrictions": null,
+  "imageVariants": [],
+  "videoRefs": [
+    {
+      "url": "https://www.youtube.com/watch?v=example1",
+      "type": "youtube",
+      "title": "How to Prune Basil for Bushy Growth",
+      "duration": 180
+    },
+    {
+      "url": "https://res.cloudinary.com/plantitas/video/upload/v1718800000/basil_timelapse.mp4",
+      "type": "cloudinary",
+      "title": "Basil Growth Timelapse - 30 Days",
+      "duration": 60
+    }
+  ],
+  "audioRefs": [
+    {
+      "url": "https://res.cloudinary.com/plantitas/audio/upload/v1718800000/albahaca_es.mp3",
+      "language": "ES",
+      "type": "pronunciation"
+    },
+    {
+      "url": "https://res.cloudinary.com/plantitas/audio/upload/v1718800000/basil_en.mp3",
+      "language": "EN",
+      "type": "pronunciation"
+    }
+  ],
+  "docRefs": [],
+  "license": "CC BY-SA 4.0",
+  "tags": [
+    "culinary",
+    "herb",
+    "aromatic",
+    "medicinal",
+    "tropical",
+    "fast-growing"
+  ],
+  "synonyms": [
+    "Ocimum basilicum var. basilicum",
+    "Sweet basil",
+    "Common basil"
+  ],
+  "variety": null,
+  "subspecies": null,
+  "etymology": "From Greek 'basilikos' meaning 'royal' or 'kingly', referring to the plant's royal status in ancient cultures. Spanish 'albahaca' from Arabic 'al-habaqa'",
+  "popularityScore": 95,
+  "popularitySources": {
+    "viewCount": null,
+    "pinCount": null,
+    "searchFrequency": null
+  },
+  "indexedFields": [
+    "slug",
+    "scientificName",
+    "commonName",
+    "botanicalFamily",
+    "genus"
+  ],
+  "searchKeywords": [
+    "albahaca",
+    "basil",
+    "sweet basil",
+    "hierba buena",
+    "culinary herb",
+    "aromatic",
+    "medicinal plant",
+    "easy to grow",
+    "fast growing",
+    "tropical herb"
+  ],
+  "metaDescription": "Sweet Basil (Ocimum basilicum) - A fast-growing aromatic herb perfect for Costa Rican gardens. Learn about care, harvesting, companion planting, and culinary uses.",
+  "difficultyLevel": "beginner",
+  "maintenanceLevel": "medium",
+  "createdAt": "2026-06-19T07:25:37.000Z",
+  "updatedAt": "2026-06-20T00:00:00.000Z",
+  "updatedBy": "65f1c2b3a4f5e6d7c8b9a001",
+  "source": {
+    "api": null,
+    "lastSyncedAt": null,
+    "enrichmentLevel": "manual"
+  },
+  "companionPlants": [
+    {
+      "slug": "tomate",
+      "benefit": "Improves flavor and growth, repels hornworms and aphids",
+      "benefitES": "Mejora el sabor y el crecimiento, repele gusanos cornudos y pulgones",
+      "notes": "Classic companion planting combination for huertos",
+      "notesES": "Combinación clásica de plantación compañera para huertos"
+    },
+    {
+      "slug": "pimiento",
+      "benefit": "Mutually beneficial growth enhancement and pest deterrence",
+      "benefitES": "Mejora del crecimiento mutuamente beneficiosa y disuasión de plagas",
+      "notes": "Both thrive in similar warm conditions",
+      "notesES": "Ambos prosperan en condiciones cálidas similares"
+    },
+    {
+      "slug": "oregano",
+      "benefit": "General garden pest repellent, similar water needs",
+      "benefitES": "Repelente general de plagas de jardín, necesidades de agua similares",
+      "notes": "Creates aromatic barrier against pests",
+      "notesES": "Crea barrera aromática contra las plagas"
+    }
+  ],
+  "companionInfo": {
+    "goodWith": [
+      "tomatoes",
+      "peppers",
+      "oregano",
+      "marigolds",
+      "lettuce",
+      "spinach"
+    ],
+    "avoidWith": [
+      "rue",
+      "sage",
+      "thyme"
+    ]
+  },
+  "pollinatorValue": {
+    "attracts": [
+      "bees",
+      "butterflies",
+      "hoverflies"
+    ],
+    "nectarRating": "high",
+    "specificNotes": "Small white flowers are particularly attractive to native Costa Rican bee species",
+    "specificNotesES": "Las pequeñas flores blancas son particularmente atractivas para las especies nativas de abejas costarricenses"
+  },
+  "beneficialInsects": [
+    "bees",
+    "butterflies",
+    "hoverflies",
+    "parasitic wasps"
+  ],
+  "pestRepellent": [
+    "mosquitoes",
+    "thrips",
+    "flies",
+    "asparagus beetles"
+  ],
+  "harvestInfo": {
+    "labelES": "Información de cosecha",
+    "firstHarvestDays": 60,
+    "daysToMaturity": 60,
+    "yieldPerPlant": "Approximately 20-30 cups of leaves per season",
+    "yieldPerPlantES": "Aproximadamente 20-30 tazas de hojas por temporada",
+    "expectedYieldPerSqMeter": "2-3 kg per season",
+    "frequency": "Weekly during growing season",
+    "frequencyES": "Semanalmente durante la temporada de crecimiento",
+    "edibleParts": [
+      "leaves",
+      "flowers",
+      "stems (young)"
+    ],
+    "ediblePartsES": [
+      "hojas",
+      "flores",
+      "tallos (jóvenes)"
+    ]
+  },
+  "culinaryUses": [
+    {
+      "part": "leaves",
+      "recipes": [
+        "Pesto albahaca",
+        "Caprese salad",
+        "Thai basil curry",
+        "Bruschetta topping"
+      ],
+      "tips": [
+        "Add fresh leaves at the end of cooking to preserve flavor",
+        "Pinch flowers to encourage leaf production",
+        "Store stems in water like fresh flowers"
+      ]
+    },
+    {
+      "part": "flowers",
+      "recipes": [
+        "Herbal garnish",
+        "Salad decoration",
+        "Infused oils"
+      ],
+      "tips": [
+        "Flowers are edible with milder flavor than leaves",
+        "Use as decorative garnish for dishes"
+      ]
+    }
+  ],
+  "commonPests": [
+    {
+      "name": "Aphids",
+      "nameES": "Pulgones",
+      "symptoms": "Sticky residue on leaves, curled or distorted new growth, yellowing leaves",
+      "symptomsES": "Residuo pegajoso en las hojas, crecimiento nuevo curvado o distorsionado, hojas amarillentas",
+      "organicControls": [
+        "Spray with neem oil solution",
+        "Introduce ladybugs or lacewings",
+        "Wash off with strong water spray",
+        "Apply insecticidal soap"
+      ],
+      "organicControlsES": [
+        "Rocíar con solución de aceite de neem",
+        "Introducir mariquitas o crisopas",
+        "Lavar con rociadora de agua fuerte",
+        "Aplicar jabón insecticida"
+      ]
+    },
+    {
+      "name": "Japanese beetles",
+      "nameES": "Escarabajos japoneses",
+      "symptoms": "Skeletonized leaves, visible beetles on plant",
+      "symptomsES": "Hojas esqueletizadas, escarabajos visibles en la planta",
+      "organicControls": [
+        "Hand pick beetles early morning",
+        "Use row covers during peak beetle season",
+        "Plant trap crops like four o'clocks nearby",
+        "Apply kaolin clay spray"
+      ],
+      "organicControlsES": [
+        "Recoger escarabajos a mano temprano en la mañana",
+        "Usar cubiertas de hileras durante la temporada pico de escarabajos",
+        "Plantar cultivos trampa como las bellas de noche cerca",
+        "Aplicar rocío de arcilla caolín"
+      ]
+    },
+    {
+      "name": "Slugs",
+      "nameES": "Babosas",
+      "symptoms": "Irregular holes in leaves, slime trails on plant and soil",
+      "symptomsES": "Agujeros irregulares en las hojas, rastros de babosa en la planta y el suelo",
+      "organicControls": [
+        "Use copper barriers around plants",
+        "Apply diatomaceous earth around base",
+        "Set beer traps",
+        "Hand pick at night with flashlight"
+      ],
+      "organicControlsES": [
+        "Usar barreras de cobre alrededor de las plantas",
+        "Aplicar tierra de diatomeas alrededor de la base",
+        "Colocar trampas de cerveza",
+        "Recoger a mano en la noche con linterna"
+      ]
+    },
+    {
+      "name": "Downy mildew",
+      "nameES": "Mildiu velloso",
+      "symptoms": "Yellowing leaves with gray-purple fuzz on underside, leaf drop",
+      "symptomsES": "Hojas amarillentas con pelusa gris-púrpura en el envés, caída de hojas",
+      "organicControls": [
+        "Improve air circulation around plants",
+        "Water at base not on leaves",
+        "Remove affected leaves immediately",
+        "Apply copper fungicide preventatively"
+      ],
+      "organicControlsES": [
+        "Mejorar la circulación de aire alrededor de las plantas",
+        "Regar en la base, no en las hojas",
+        "Eliminar las hojas afectadas inmediatamente",
+        "Aplicar fungicida de cobre preventivamente"
+      ]
+    }
+  ],
+  "diseaseResistance": "Moderate to downy mildew, susceptible to fusarium wilt",
+  "soilPreferences": {
+    "phRange": "6.0-7.5",
+    "preferredType": [
+      "loamy",
+      "sandy loam",
+      "well-draining"
+    ],
+    "nutrientNotes": "Requires nitrogen-rich soil; supplement with compost or balanced organic fertilizer monthly during growing season",
+    "nutrientNotesES": "Requiere suelo rico en nitrógeno; suplementar con compost o fertilizante orgánico equilibrado mensualmente durante la temporada de crecimiento"
+  },
+  "climateSuitability": {
+    "heatTolerance": "high",
+    "heatToleranceES": "alta",
+    "frostSensitivity": "extreme",
+    "frostSensitivityES": "extrema",
+    "drought": "low",
+    "droughtES": "baja",
+    "rainfallPreference": "moderate to high",
+    "rainfallPreferenceES": "moderada a alta",
+    "windTolerance": "moderate",
+    "windToleranceES": "moderada"
+  },
+  "carbonSequestration": "low",
+  "biodiversityScore": 7,
+  "invasivePotential": "low",
+  "seedSources": [
+    {
+      "supplier": "Local Costa Rican seed banks",
+      "url": null
+    },
+    {
+      "supplier": "Baker Creek Heirloom Seeds",
+      "url": "https://www.rareseeds.com/sweet-basil-ocimum-basilicum/"
+    }
+  ],
+  "organicCertification": "commonly available",
+  "relatedPlants": [
+    {
+      "slug": "oregano",
+      "benefit": "Similar Mediterranean herb, complementary flavors"
+    },
+    {
+      "slug": "tomillo",
+      "benefit": "Thyme - similar growing conditions and culinary uses"
+    },
+    {
+      "slug": "menta",
+      "benefit": "Mint - aromatic herb for teas and garnishes"
+    },
+    {
+      "slug": "perejil",
+      "benefit": "Parsley - classic herb combination for cooking"
+    }
+  ],
+  "regionalAdaptations": [
+    {
+      "region": "Central Valley",
+      "adaptation": "Thrives in highland elevations (1000-1500m) with moderate temperatures",
+      "notes": "Benefits from afternoon shade during peak dry season months"
+    },
+    {
+      "region": "Caribbean coast",
+      "adaptation": "Adapts well to high humidity and consistent rainfall",
+      "notes": "Requires improved drainage to prevent root rot in heavy rains"
+    }
+  ],
+  "healthStatus": null,
+  "notes": null
+}

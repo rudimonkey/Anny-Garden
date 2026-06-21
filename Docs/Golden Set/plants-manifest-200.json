@@ -1,0 +1,2550 @@
+[
+  {
+    "slug": "albahaca",
+    "commonName": "Sweet Basil",
+    "scientificName": "Ocimum basilicum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca",
+    "labelPT": "Manjericão",
+    "labelEN": "Sweet Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-basilicum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-basilicum-1",
+      "https://www.pexels.com/photo/ocimum-basilicum-1"
+    ]
+  },
+  {
+    "slug": "monstera-deliciosa",
+    "commonName": "Monstera",
+    "scientificName": "Monstera deliciosa",
+    "botanicalFamily": "Araceae",
+    "labelES": "Monstera",
+    "labelPT": "Monstera",
+    "labelEN": "Monstera",
+    "images": [
+      "https://trefle.io/api/plants/monstera-deliciosa/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-monstera-deliciosa-1",
+      "https://www.pexels.com/photo/monstera-deliciosa-1"
+    ]
+  },
+  {
+    "slug": "sansevieria-trifasciata",
+    "commonName": "Snake Plant",
+    "scientificName": "Sansevieria trifasciata",
+    "botanicalFamily": "Asparagaceae",
+    "labelES": "Lengua de suegra",
+    "labelPT": "Espada-de-são-jorge",
+    "labelEN": "Snake Plant",
+    "images": [
+      "https://trefle.io/api/plants/sansevieria-trifasciata/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-sansevieria-trifasciata-1",
+      "https://www.pexels.com/photo/sansevieria-trifasciata-1"
+    ]
+  },
+  {
+    "slug": "ocimum-basilicum",
+    "commonName": "Basil",
+    "scientificName": "Ocimum basilicum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca",
+    "labelPT": "Manjericão",
+    "labelEN": "Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-basilicum/images/2.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-basilicum-2",
+      "https://www.pexels.com/photo/ocimum-basilicum-2"
+    ]
+  },
+  {
+    "slug": "aloe-vera",
+    "commonName": "Aloe",
+    "scientificName": "Aloe vera",
+    "botanicalFamily": "Asphodelaceae",
+    "labelES": "Sábila",
+    "labelPT": "Babosa",
+    "labelEN": "Aloe",
+    "images": [
+      "https://trefle.io/api/plants/aloe-vera/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-aloe-vera-1",
+      "https://www.pexels.com/photo/aloe-vera-1"
+    ]
+  },
+  {
+    "slug": "epipremnum-aureum",
+    "commonName": "Pothos",
+    "scientificName": "Epipremnum aureum",
+    "botanicalFamily": "Araceae",
+    "labelES": "Potus",
+    "labelPT": "Jiboia",
+    "labelEN": "Pothos",
+    "images": [
+      "https://trefle.io/api/plants/epipremnum-aureum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-epipremnum-aureum-1",
+      "https://www.pexels.com/photo/epipremnum-aureum-1"
+    ]
+  },
+  {
+    "slug": "ficus-elastica",
+    "commonName": "Rubber Plant",
+    "scientificName": "Ficus elastica",
+    "botanicalFamily": "Moraceae",
+    "labelES": "Ficus elastica",
+    "labelPT": "Figueira-da-borracha",
+    "labelEN": "Rubber Plant",
+    "images": [
+      "https://trefle.io/api/plants/ficus-elastica/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ficus-elastica-1",
+      "https://www.pexels.com/photo/ficus-elastica-1"
+    ]
+  },
+  {
+    "slug": "lavandula-angustifolia",
+    "commonName": "Lavender",
+    "scientificName": "Lavandula angustifolia",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Lavanda",
+    "labelPT": "Lavanda",
+    "labelEN": "Lavender",
+    "images": [
+      "https://trefle.io/api/plants/lavandula-angustifolia/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-lavandula-angustifolia-1",
+      "https://www.pexels.com/photo/lavandula-angustifolia-1"
+    ]
+  },
+  {
+    "slug": "echeveria-elegans",
+    "commonName": "Echeveria",
+    "scientificName": "Echeveria elegans",
+    "botanicalFamily": "Crassulaceae",
+    "labelES": "Echeveria",
+    "labelPT": "Echevéria",
+    "labelEN": "Echeveria",
+    "images": [
+      "https://trefle.io/api/plants/echeveria-elegans/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-echeveria-elegans-1",
+      "https://www.pexels.com/photo/echeveria-elegans-1"
+    ]
+  },
+  {
+    "slug": "phalaenopsis",
+    "commonName": "Phalaenopsis Orchid",
+    "scientificName": "Phalaenopsis spp.",
+    "botanicalFamily": "Orchidaceae",
+    "labelES": "Orquídea Phalaenopsis",
+    "labelPT": "Orquídea Phalaenopsis",
+    "labelEN": "Phalaenopsis Orchid",
+    "images": [
+      "https://trefle.io/api/plants/phalaenopsis/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-phalaenopsis-1",
+      "https://www.pexels.com/photo/phalaenopsis-1"
+    ]
+  },
+  {
+    "slug": "rosmarinus-officinalis",
+    "commonName": "Rosemary",
+    "scientificName": "Salvia rosmarinus",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Romero",
+    "labelPT": "Alecrim",
+    "labelEN": "Rosemary",
+    "images": [
+      "https://trefle.io/api/plants/salvia-rosmarinus/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-salvia-rosmarinus-1",
+      "https://www.pexels.com/photo/salvia-rosmarinus-1"
+    ]
+  },
+  {
+    "slug": "ficus-benjamina",
+    "commonName": "Weeping Fig",
+    "scientificName": "Ficus benjamina",
+    "botanicalFamily": "Moraceae",
+    "labelES": "Ficus benjamina",
+    "labelPT": "Figueira-benjamim",
+    "labelEN": "Weeping Fig",
+    "images": [
+      "https://trefle.io/api/plants/ficus-benjamina/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ficus-benjamina-1",
+      "https://www.pexels.com/photo/ficus-benjamina-1"
+    ]
+  },
+  {
+    "slug": "hedera-helix",
+    "commonName": "English Ivy",
+    "scientificName": "Hedera helix",
+    "botanicalFamily": "Araliaceae",
+    "labelES": "Hiedra inglesa",
+    "labelPT": "Hera",
+    "labelEN": "English Ivy",
+    "images": [
+      "https://trefle.io/api/plants/hedera-helix/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-hedera-helix-1",
+      "https://www.pexels.com/photo-hedera-helix-1"
+    ]
+  },
+  {
+    "slug": "mentha-spicata",
+    "commonName": "Spearmint",
+    "scientificName": "Mentha spicata",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta",
+    "labelPT": "Hortelã",
+    "labelEN": "Spearmint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-spicata/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-spicata-1",
+      "https://www.pexels.com/photo/mentha-spicata-1"
+    ]
+  },
+  {
+    "slug": "mentha-piperita",
+    "commonName": "Peppermint",
+    "scientificName": "Mentha × piperita",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta piperita",
+    "labelPT": "Hortelã-pimenta",
+    "labelEN": "Peppermint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-piperita/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-piperita-1",
+      "https://www.pexels.com/photo/mentha-piperita-1"
+    ]
+  },
+  {
+    "slug": "ocimum-citriodorum",
+    "commonName": "Lemon Basil",
+    "scientificName": "Ocimum × citriodorum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca limón",
+    "labelPT": "Manjericão-limão",
+    "labelEN": "Lemon Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-citriodorum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-citriodorum-1",
+      "https://www.pexels.com/photo/ocimum-citriodorum-1"
+    ]
+  },
+  {
+    "slug": "capsicum-annuum",
+    "commonName": "Bell Pepper",
+    "scientificName": "Capsicum annuum",
+    "botanicalFamily": "Solanaceae",
+    "labelES": "Pimiento",
+    "labelPT": "Pimentão",
+    "labelEN": "Bell Pepper",
+    "images": [
+      "https://trefle.io/api/plants/capsicum-annuum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-capsicum-annuum-1",
+      "https://www.pexels.com/photo/capsicum-annuum-1"
+    ]
+  },
+  {
+    "slug": "capsicum-frutescens",
+    "commonName": "Chili Pepper",
+    "scientificName": "Capsicum frutescens",
+    "botanicalFamily": "Solanaceae",
+    "labelES": "Chile",
+    "labelPT": "Pimenta",
+    "labelEN": "Chili Pepper",
+    "images": [
+      "https://trefle.io/api/plants/capsicum-frutescens/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-capsicum-frutescens-1",
+      "https://www.pexels.com/photo/capsicum-frutescens-1"
+    ]
+  },
+  {
+    "slug": "solanum-lycopersicum",
+    "commonName": "Tomato",
+    "scientificName": "Solanum lycopersicum",
+    "botanicalFamily": "Solanaceae",
+    "labelES": "Tomate",
+    "labelPT": "Tomate",
+    "labelEN": "Tomato",
+    "images": [
+      "https://trefle.io/api/plants/solanum-lycopersicum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-solanum-lycopersicum-1",
+      "https://www.pexels.com/photo/solanum-lycopersicum-1"
+    ]
+  },
+  {
+    "slug": "ocimum-tenuiflorum",
+    "commonName": "Holy Basil",
+    "scientificName": "Ocimum tenuiflorum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca sagrada",
+    "labelPT": "Manjericão-sagrado",
+    "labelEN": "Holy Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-tenuiflorum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-tenuiflorum-1",
+      "https://www.pexels.com/photo/ocimum-tenuiflorum-1"
+    ]
+  },
+  {
+    "slug": "mentha-aquatica",
+    "commonName": "Water Mint",
+    "scientificName": "Mentha aquatica",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta de agua",
+    "labelPT": "Hortelã-d'água",
+    "labelEN": "Water Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-aquatica/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-aquatica-1",
+      "https://www.pexels.com/photo/mentha-aquatica-1"
+    ]
+  },
+  {
+    "slug": "mentha-longifolia",
+    "commonName": "Horse Mint",
+    "scientificName": "Mentha longifolia",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta larga",
+    "labelPT": "Hortelã-brava",
+    "labelEN": "Horse Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-longifolia/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-longifolia-1",
+      "https://www.pexels.com/photo/mentha-longifolia-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp",
+    "commonName": "Mint (general)",
+    "scientificName": "Mentha spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta",
+    "labelPT": "Hortelã",
+    "labelEN": "Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-spp/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-spp-1",
+      "https://www.pexels.com/photo/mentha-spp-1"
+    ]
+  },
+  {
+    "slug": "mentha-sp",
+    "commonName": "Culinary Mint",
+    "scientificName": "Mentha sp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta culinaria",
+    "labelPT": "Hortelã culinária",
+    "labelEN": "Culinary Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-sp/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-sp-1",
+      "https://www.pexels.com/photo/mentha-sp-1"
+    ]
+  },
+  {
+    "slug": "mentha-x-piperita",
+    "commonName": "Hybrid Mint",
+    "scientificName": "Mentha × piperita",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta híbrida",
+    "labelPT": "Hortelã híbrida",
+    "labelEN": "Hybrid Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-x-piperita/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-x-piperita-1",
+      "https://www.pexels.com/photo/mentha-x-piperita-1"
+    ]
+  },
+  {
+    "slug": "mentha-sativa",
+    "commonName": "Garden Mint",
+    "scientificName": "Mentha sativa",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta de jardín",
+    "labelPT": "Hortelã-de-jardim",
+    "labelEN": "Garden Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-sativa/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-sativa-1",
+      "https://www.pexels.com/photo/mentha-sativa-1"
+    ]
+  },
+  {
+    "slug": "mentha-rosemary",
+    "commonName": "Mint-Rosemary Hybrid",
+    "scientificName": "Mentha × rosmarinus (hybrid)",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta-romero híbrida",
+    "labelPT": "Hortelã-alecrim híbrida",
+    "labelEN": "Mint-Rosemary Hybrid",
+    "images": [
+      "https://trefle.io/api/plants/mentha-rosemary/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-rosemary-1",
+      "https://www.pexels.com/photo/mentha-rosemary-1"
+    ]
+  },
+  {
+    "slug": "mentha-citrata",
+    "commonName": "Bergamot Mint",
+    "scientificName": "Mentha citrata",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta bergamota",
+    "labelPT": "Hortelã-bergamota",
+    "labelEN": "Bergamot Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-citrata/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-citrata-1",
+      "https://www.pexels.com/photo/mentha-citrata-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-2",
+    "commonName": "Wild Mint",
+    "scientificName": "Mentha spp. (wild)",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta silvestre",
+    "labelPT": "Hortelã-selvagem",
+    "labelEN": "Wild Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-spp-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-spp-2-1",
+      "https://www.pexels.com/photo/mentha-spp-2-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-3",
+    "commonName": "Mountain Mint",
+    "scientificName": "Mentha spp. (mountain)",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta de montaña",
+    "labelPT": "Hortelã-da-montanha",
+    "labelEN": "Mountain Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-spp-3/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-spp-3-1",
+      "https://www.pexels.com/photo/mentha-spp-3-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-4",
+    "commonName": "Apple Mint",
+    "scientificName": "Mentha suaveolens",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta manzana",
+    "labelPT": "Hortelã-maçã",
+    "labelEN": "Apple Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-suaveolens/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-suaveolens-1",
+      "https://www.pexels.com/photo/mentha-suaveolens-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-5",
+    "commonName": "Pineapple Mint",
+    "scientificName": "Mentha suaveolens 'Variegata'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta piña",
+    "labelPT": "Hortelã-abacaxi",
+    "labelEN": "Pineapple Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-pineapple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-pineapple-1",
+      "https://www.pexels.com/photo/mentha-pineapple-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-6",
+    "commonName": "Chocolate Mint",
+    "scientificName": "Mentha × piperita 'Chocolate'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta chocolate",
+    "labelPT": "Hortelã-chocolate",
+    "labelEN": "Chocolate Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-chocolate/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-chocolate-1",
+      "https://www.pexels.com/photo/mentha-chocolate-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-7",
+    "commonName": "Orange Mint",
+    "scientificName": "Mentha × piperita 'Orange'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta naranja",
+    "labelPT": "Hortelã-laranja",
+    "labelEN": "Orange Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-orange/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-orange-1",
+      "https://www.pexels.com/photo/mentha-orange-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-8",
+    "commonName": "Ginger Mint",
+    "scientificName": "Mentha × gracilis",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta jengibre",
+    "labelPT": "Hortelã-gengibre",
+    "labelEN": "Ginger Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-ginger/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-ginger-1",
+      "https://www.pexels.com/photo/mentha-ginger-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-9",
+    "commonName": "Pennyroyal",
+    "scientificName": "Mentha pulegium",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Poleo",
+    "labelPT": "Pulegium",
+    "labelEN": "Pennyroyal",
+    "images": [
+      "https://trefle.io/api/plants/mentha-pulegium/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-pulegium-1",
+      "https://www.pexels.com/photo/mentha-pulegium-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-10",
+    "commonName": "Corsican Mint",
+    "scientificName": "Mentha requienii",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta corsa",
+    "labelPT": "Hortelã-corsa",
+    "labelEN": "Corsican Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-requienii/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-requienii-1",
+      "https://www.pexels.com/photo/mentha-requienii-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-11",
+    "commonName": "Japanese Mint",
+    "scientificName": "Mentha arvensis var. piperascens",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta japonesa",
+    "labelPT": "Hortelã-japonesa",
+    "labelEN": "Japanese Mint",
+    "images": [
+      "https://trefle.io/api/plants/mentha-japanese/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-japanese-1",
+      "https://www.pexels.com/photo/mentha-japanese-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-12",
+    "commonName": "Korean Mint",
+    "scientificName": "Agastache rugosa",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Menta coreana",
+    "labelPT": "Hortelã-coreana",
+    "labelEN": "Korean Mint",
+    "images": [
+      "https://trefle.io/api/plants/agastache-rugosa/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-agastache-rugosa-1",
+      "https://www.pexels.com/photo/agastache-rugosa-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-13",
+    "commonName": "Bergamot",
+    "scientificName": "Monarda didyma",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Bergamota",
+    "labelPT": "Bergamota",
+    "labelEN": "Bergamot",
+    "images": [
+      "https://trefle.io/api/plants/monarda-didyma/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-monarda-didyma-1",
+      "https://www.pexels.com/photo/monarda-didyma-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-14",
+    "commonName": "Lemon Balm",
+    "scientificName": "Melissa officinalis",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Toronjil",
+    "labelPT": "Erva-cidreira",
+    "labelEN": "Lemon Balm",
+    "images": [
+      "https://trefle.io/api/plants/melissa-officinalis/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-melissa-officinalis-1",
+      "https://www.pexels.com/photo/melissa-officinalis-1"
+    ]
+  },
+  {
+    "slug": "salvia-officinalis",
+    "commonName": "Sage",
+    "scientificName": "Salvia officinalis",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Salvia",
+    "labelPT": "Sálvia",
+    "labelEN": "Sage",
+    "images": [
+      "https://trefle.io/api/plants/salvia-officinalis/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-salvia-officinalis-1",
+      "https://www.pexels.com/photo/salvia-officinalis-1"
+    ]
+  },
+  {
+    "slug": "oregano",
+    "commonName": "Oregano",
+    "scientificName": "Origanum vulgare",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Orégano",
+    "labelPT": "Orégano",
+    "labelEN": "Oregano",
+    "images": [
+      "https://trefle.io/api/plants/origanum-vulgare/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-origanum-vulgare-1",
+      "https://www.pexels.com/photo/origanum-vulgare-1"
+    ]
+  },
+  {
+    "slug": "thymus-vulgaris",
+    "commonName": "Thyme",
+    "scientificName": "Thymus vulgaris",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Tomillo",
+    "labelPT": "Tomilho",
+    "labelEN": "Thyme",
+    "images": [
+      "https://trefle.io/api/plants/thymus-vulgaris/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-thymus-vulgaris-1",
+      "https://www.pexels.com/photo/thymus-vulgaris-1"
+    ]
+  },
+  {
+    "slug": "salvia-rosmarinus",
+    "commonName": "Rosemary (alt)",
+    "scientificName": "Rosmarinus officinalis",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Romero",
+    "labelPT": "Alecrim",
+    "labelEN": "Rosemary",
+    "images": [
+      "https://trefle.io/api/plants/rosmarinus-officinalis/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-rosmarinus-officinalis-1",
+      "https://www.pexels.com/photo/rosmarinus-officinalis-1"
+    ]
+  },
+  {
+    "slug": "salvia-spp",
+    "commonName": "Sage (varieties)",
+    "scientificName": "Salvia spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Salvias",
+    "labelPT": "Sálvias",
+    "labelEN": "Sage (varieties)",
+    "images": [
+      "https://trefle.io/api/plants/salvia-spp/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-salvia-spp-1",
+      "https://www.pexels.com/photo/salvia-spp-1"
+    ]
+  },
+  {
+    "slug": "lavandula-spp",
+    "commonName": "Lavender (varieties)",
+    "scientificName": "Lavandula spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Lavandas",
+    "labelPT": "Lavandas",
+    "labelEN": "Lavender (varieties)",
+    "images": [
+      "https://trefle.io/api/plants/lavandula-spp/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-lavandula-spp-1",
+      "https://www.pexels.com/photo/lavandula-spp-1"
+    ]
+  },
+  {
+    "slug": "rosmarinus-spp",
+    "commonName": "Rosemary (varieties)",
+    "scientificName": "Rosmarinus spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Romeros",
+    "labelPT": "Alecrins",
+    "labelEN": "Rosemary (varieties)",
+    "images": [
+      "https://trefle.io/api/plants/rosmarinus-spp/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-rosmarinus-spp-1",
+      "https://www.pexels.com/photo/rosmarinus-spp-1"
+    ]
+  },
+  {
+    "slug": "salvia-officinalis-var",
+    "commonName": "Common Sage",
+    "scientificName": "Salvia officinalis var.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Salvia común",
+    "labelPT": "Sálvia comum",
+    "labelEN": "Common Sage",
+    "images": [
+      "https://trefle.io/api/plants/salvia-officinalis-var/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-salvia-officinalis-var-1",
+      "https://www.pexels.com/photo/salvia-officinalis-var-1"
+    ]
+  },
+  {
+    "slug": "ocimum-basilicum-var",
+    "commonName": "Basil (varieties)",
+    "scientificName": "Ocimum basilicum var.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahacas",
+    "labelPT": "Manjericões",
+    "labelEN": "Basil (varieties)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-basilicum-var/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-basilicum-var-1",
+      "https://www.pexels.com/photo/ocimum-basilicum-var-1"
+    ]
+  },
+  {
+    "slug": "mentha-spp-15",
+    "commonName": "Mint (collection)",
+    "scientificName": "Mentha spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Colección de mentas",
+    "labelPT": "Coleção de hortelãs",
+    "labelEN": "Mint (collection)",
+    "images": [
+      "https://trefle.io/api/plants/mentha-collection/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-mentha-collection-1",
+      "https://www.pexels.com/photo/mentha-collection-1"
+    ]
+  },
+  {
+    "slug": "ocimum-spp-2",
+    "commonName": "Basil (collection)",
+    "scientificName": "Ocimum spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Colección de albahacas",
+    "labelPT": "Coleção de manjericões",
+    "labelEN": "Basil (collection)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-collection/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-collection-1",
+      "https://www.pexels.com/photo/ocimum-collection-1"
+    ]
+  },
+  {
+    "slug": "salvia-spp-2",
+    "commonName": "Sage (collection)",
+    "scientificName": "Salvia spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Colección de salvias",
+    "labelPT": "Coleção de sálvias",
+    "labelEN": "Sage (collection)",
+    "images": [
+      "https://trefle.io/api/plants/salvia-collection/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-salvia-collection-1",
+      "https://www.pexels.com/photo/salvia-collection-1"
+    ]
+  },
+  {
+    "slug": "rosmarinus-spp-2",
+    "commonName": "Rosemary (collection)",
+    "scientificName": "Rosmarinus spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Colección de romeros",
+    "labelPT": "Coleção de alecrins",
+    "labelEN": "Rosemary (collection)",
+    "images": [
+      "https://trefle.io/api/plants/rosmarinus-collection/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-rosmarinus-collection-1",
+      "https://www.pexels.com/photo/rosmarinus-collection-1"
+    ]
+  },
+  {
+    "slug": "salvia-spp-3",
+    "commonName": "Culinary Sage",
+    "scientificName": "Salvia officinalis 'Culinary'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Salvia culinaria",
+    "labelPT": "Sálvia culinária",
+    "labelEN": "Culinary Sage",
+    "images": [
+      "https://trefle.io/api/plants/salvia-culinary/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-salvia-culinary-1",
+      "https://www.pexels.com/photo/salvia-culinary-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp",
+    "commonName": "Oregano (collection)",
+    "scientificName": "Origanum spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Oréganos",
+    "labelPT": "Orégãos",
+    "labelEN": "Oregano (collection)",
+    "images": [
+      "https://trefle.io/api/plants/origanum-collection/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-origanum-collection-1",
+      "https://www.pexels.com/photo/origanum-collection-1"
+    ]
+  },
+  {
+    "slug": "thymus-spp",
+    "commonName": "Thyme (collection)",
+    "scientificName": "Thymus spp.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Tomillos",
+    "labelPT": "Tomilhos",
+    "labelEN": "Thyme (collection)",
+    "images": [
+      "https://trefle.io/api/plants/thymus-collection/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-thymus-collection-1",
+      "https://www.pexels.com/photo/thymus-collection-1"
+    ]
+  },
+  {
+    "slug": "salvia-spp-4",
+    "commonName": "Herb Sage",
+    "scientificName": "Salvia herbacea",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Salvia herbácea",
+    "labelPT": "Sálvia herbácea",
+    "labelEN": "Herb Sage",
+    "images": [
+      "https://trefle.io/api/plants/salvia-herbacea/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-salvia-herbacea-1",
+      "https://www.pexels.com/photo/salvia-herbacea-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-2",
+    "commonName": "Marjoram",
+    "scientificName": "Origanum majorana",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Mejorana",
+    "labelPT": "Manjerona",
+    "labelEN": "Marjoram",
+    "images": [
+      "https://trefle.io/api/plants/origanum-majorana/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-origanum-majorana-1",
+      "https://www.pexels.com/photo/origanum-majorana-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-3",
+    "commonName": "Greek Oregano",
+    "scientificName": "Origanum vulgare subsp. hirtum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Orégano griego",
+    "labelPT": "Orégão grego",
+    "labelEN": "Greek Oregano",
+    "images": [
+      "https://trefle.io/api/plants/origanum-greek/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-origanum-greek-1",
+      "https://www.pexels.com/photo/origanum-greek-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-4",
+    "commonName": "Wild Oregano",
+    "scientificName": "Origanum vulgare var. vulgare",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Orégano silvestre",
+    "labelPT": "Orégão selvagem",
+    "labelEN": "Wild Oregano",
+    "images": [
+      "https://trefle.io/api/plants/origanum-wild/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-origanum-wild-1",
+      "https://www.pexels.com/photo/origanum-wild-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-5",
+    "commonName": "Mexican Oregano",
+    "scientificName": "Lippia graveolens",
+    "botanicalFamily": "Verbenaceae",
+    "labelES": "Orégano mexicano",
+    "labelPT": "Orégão mexicano",
+    "labelEN": "Mexican Oregano",
+    "images": [
+      "https://trefle.io/api/plants/lippia-graveolens/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-lippia-graveolens-1",
+      "https://www.pexels.com/photo/lippia-graveolens-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-6",
+    "commonName": "Cuban Oregano",
+    "scientificName": "Plectranthus amboinicus",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Orégano cubano",
+    "labelPT": "Orégão cubano",
+    "labelEN": "Cuban Oregano",
+    "images": [
+      "https://trefle.io/api/plants/plectranthus-amboinicus/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-plectranthus-amboinicus-1",
+      "https://www.pexels.com/photo/plectranthus-amboinicus-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-7",
+    "commonName": "Italian Oregano",
+    "scientificName": "Origanum x majoricum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Orégano italiano",
+    "labelPT": "Orégão italiano",
+    "labelEN": "Italian Oregano",
+    "images": [
+      "https://trefle.io/api/plants/origanum-italian/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-origanum-italian-1",
+      "https://www.pexels.com/photo/origanum-italian-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-8",
+    "commonName": "Sweet Marjoram",
+    "scientificName": "Origanum majorana",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Mejorana dulce",
+    "labelPT": "Manjerona doce",
+    "labelEN": "Sweet Marjoram",
+    "images": [
+      "https://trefle.io/api/plants/origanum-sweet/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-origanum-sweet-1",
+      "https://www.pexels.com/photo/origanum-sweet-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-9",
+    "commonName": "Winter Savory",
+    "scientificName": "Satureja montana",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Ajedrea de invierno",
+    "labelPT": "Satureja de inverno",
+    "labelEN": "Winter Savory",
+    "images": [
+      "https://trefle.io/api/plants/satureja-montana/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-satureja-montana-1",
+      "https://www.pexels.com/photo/satureja-montana-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-10",
+    "commonName": "Summer Savory",
+    "scientificName": "Satureja hortensis",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Ajedrea de verano",
+    "labelPT": "Satureja de verão",
+    "labelEN": "Summer Savory",
+    "images": [
+      "https://trefle.io/api/plants/satureja-hortensis/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-satureja-hortensis-1",
+      "https://www.pexels.com/photo/satureja-hortensis-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-11",
+    "commonName": "Hyssop",
+    "scientificName": "Hyssopus officinalis",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Hisopo",
+    "labelPT": "Hissopo",
+    "labelEN": "Hyssop",
+    "images": [
+      "https://trefle.io/api/plants/hyssopus-officinalis/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-hyssopus-officinalis-1",
+      "https://www.pexels.com/photo/hyssopus-officinalis-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-12",
+    "commonName": "Basil (Thai)",
+    "scientificName": "Ocimum basilicum var. thyrsiflora",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca tailandesa",
+    "labelPT": "Manjericão tailandês",
+    "labelEN": "Thai Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-thai/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-thai-1",
+      "https://www.pexels.com/photo/ocimum-thai-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-13",
+    "commonName": "Holy Basil (Tulsi)",
+    "scientificName": "Ocimum tenuiflorum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Tulsi",
+    "labelPT": "Tulsi",
+    "labelEN": "Holy Basil (Tulsi)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-tulsi/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-tulsi-1",
+      "https://www.pexels.com/photo/ocimum-tulsi-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-14",
+    "commonName": "Basil (Genovese)",
+    "scientificName": "Ocimum basilicum 'Genovese'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca Genovesa",
+    "labelPT": "Manjericão Genovês",
+    "labelEN": "Genovese Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-genovese/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-genovese-1",
+      "https://www.pexels.com/photo/ocimum-genovese-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-15",
+    "commonName": "Basil (Purple)",
+    "scientificName": "Ocimum basilicum 'Purpurascens'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca morada",
+    "labelPT": "Manjericão roxo",
+    "labelEN": "Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-purple-1",
+      "https://www.pexels.com/photo/ocimum-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-16",
+    "commonName": "Basil (Lemon)",
+    "scientificName": "Ocimum × citriodorum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca limón",
+    "labelPT": "Manjericão-limão",
+    "labelEN": "Lemon Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-lemon/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-lemon-1",
+      "https://www.pexels.com/photo/ocimum-lemon-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-17",
+    "commonName": "Basil (Cinnamon)",
+    "scientificName": "Ocimum basilicum 'Cinnamon'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca canela",
+    "labelPT": "Manjericão canela",
+    "labelEN": "Cinnamon Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-cinnamon/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-cinnamon-1",
+      "https://www.pexels.com/photo/ocimum-cinnamon-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-18",
+    "commonName": "Basil (Holy)",
+    "scientificName": "Ocimum tenuiflorum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca santa",
+    "labelPT": "Manjericão santo",
+    "labelEN": "Holy Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-holy/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-holy-1",
+      "https://www.pexels.com/photo/ocimum-holy-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-19",
+    "commonName": "Basil (Thai Sweet)",
+    "scientificName": "Ocimum basilicum var. thyrsiflora",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca tailandesa dulce",
+    "labelPT": "Manjericão tailandês doce",
+    "labelEN": "Thai Sweet Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-thai-sweet/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-thai-sweet-1",
+      "https://www.pexels.com/photo/ocimum-thai-sweet-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-20",
+    "commonName": "Basil (African Blue)",
+    "scientificName": "Ocimum kilimandscharicum × basilicum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca azul africana",
+    "labelPT": "Manjericão azul africano",
+    "labelEN": "African Blue Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-african-blue/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-african-blue-1",
+      "https://www.pexels.com/photo/ocimum-african-blue-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-21",
+    "commonName": "Basil (Holy Var.)",
+    "scientificName": "Ocimum tenuiflorum var.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca santa (var.)",
+    "labelPT": "Manjericão santo (var.)",
+    "labelEN": "Holy Basil (var.)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-holy-var/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-holy-var-1",
+      "https://www.pexels.com/photo/ocimum-holy-var-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-22",
+    "commonName": "Basil (Spicy Globe)",
+    "scientificName": "Ocimum basilicum 'Spicy Globe'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca globo picante",
+    "labelPT": "Manjericão globo picante",
+    "labelEN": "Spicy Globe Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-spicy-globe/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-spicy-globe-1",
+      "https://www.pexels.com/photo/ocimum-spicy-globe-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-23",
+    "commonName": "Basil (Napoletano)",
+    "scientificName": "Ocimum basilicum 'Napoletano'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca napolitana",
+    "labelPT": "Manjericão napolitano",
+    "labelEN": "Napoletano Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-napoletano/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-napoletano-1",
+      "https://www.pexels.com/photo/ocimum-napoletano-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-24",
+    "commonName": "Basil (Lettuce Leaf)",
+    "scientificName": "Ocimum basilicum 'Lettuce Leaf'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca hoja de lechuga",
+    "labelPT": "Manjericão folha de alface",
+    "labelEN": "Lettuce Leaf Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-lettuce-leaf/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-lettuce-leaf-1",
+      "https://www.pexels.com/photo/ocimum-lettuce-leaf-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-25",
+    "commonName": "Basil (Cinnamon Var.)",
+    "scientificName": "Ocimum basilicum 'Cinnamon Var.'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca canela (var.)",
+    "labelPT": "Manjericão canela (var.)",
+    "labelEN": "Cinnamon Basil (var.)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-cinnamon-var/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-cinnamon-var-1",
+      "https://www.pexels.com/photo/ocimum-cinnamon-var-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-26",
+    "commonName": "Basil (Greek)",
+    "scientificName": "Ocimum basilicum 'Greek'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca griega",
+    "labelPT": "Manjericão grego",
+    "labelEN": "Greek Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-greek/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-greek-1",
+      "https://www.pexels.com/photo/ocimum-greek-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-27",
+    "commonName": "Basil (Italian Large Leaf)",
+    "scientificName": "Ocimum basilicum 'Italian Large Leaf'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca italiana hoja grande",
+    "labelPT": "Manjericão italiano folha grande",
+    "labelEN": "Italian Large Leaf Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-italian-large/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-italian-large-1",
+      "https://www.pexels.com/photo/ocimum-italian-large-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-28",
+    "commonName": "Basil (Perennial)",
+    "scientificName": "Ocimum americanum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca perenne",
+    "labelPT": "Manjericão perene",
+    "labelEN": "Perennial Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-americanum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-americanum-1",
+      "https://www.pexels.com/photo/ocimum-americanum-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-29",
+    "commonName": "Basil (Camphor)",
+    "scientificName": "Ocimum kilimandscharicum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca alcanfor",
+    "labelPT": "Manjericão cânfora",
+    "labelEN": "Camphor Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-kilimandscharicum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-kilimandscharicum-1",
+      "https://www.pexels.com/photo/ocimum-kilimandscharicum-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-30",
+    "commonName": "Basil (African)",
+    "scientificName": "Ocimum gratissimum",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca africana",
+    "labelPT": "Manjericão africano",
+    "labelEN": "African Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-gratissimum/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-gratissimum-1",
+      "https://www.pexels.com/photo/ocimum-gratissimum-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-31",
+    "commonName": "Basil (Perilla)",
+    "scientificName": "Perilla frutescens",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Perilla",
+    "labelPT": "Perilla",
+    "labelEN": "Perilla (Shiso)",
+    "images": [
+      "https://trefle.io/api/plants/perilla-frutescens/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-perilla-frutescens-1",
+      "https://www.pexels.com/photo/perilla-frutescens-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-32",
+    "commonName": "Basil (Vietnamese)",
+    "scientificName": "Ocimum basilicum var. thyrsiflora",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca vietnamita",
+    "labelPT": "Manjericão vietnamita",
+    "labelEN": "Vietnamese Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-vietnamese/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-vietnamese-1",
+      "https://www.pexels.com/photo/ocimum-vietnamese-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-33",
+    "commonName": "Basil (Perennial Var.)",
+    "scientificName": "Ocimum americanum var.",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca perenne (var.)",
+    "labelPT": "Manjericão perene (var.)",
+    "labelEN": "Perennial Basil (var.)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-perennial-var/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-perennial-var-1",
+      "https://www.pexels.com/photo/ocimum-perennial-var-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-34",
+    "commonName": "Basil (Bush)",
+    "scientificName": "Ocimum basilicum 'Bush'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca arbustiva",
+    "labelPT": "Manjericão arbustivo",
+    "labelEN": "Bush Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-bush/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-bush-1",
+      "https://www.pexels.com/photo/ocimum-bush-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-35",
+    "commonName": "Basil (Compact)",
+    "scientificName": "Ocimum basilicum 'Compact'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca compacta",
+    "labelPT": "Manjericão compacto",
+    "labelEN": "Compact Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-compact/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-compact-1",
+      "https://www.pexels.com/photo/ocimum-compact-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-36",
+    "commonName": "Basil (Large Leaf Var.)",
+    "scientificName": "Ocimum basilicum 'Large Leaf'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca hoja grande (var.)",
+    "labelPT": "Manjericão folha grande (var.)",
+    "labelEN": "Large Leaf Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-large-leaf/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-large-leaf-1",
+      "https://www.pexels.com/photo/ocimum-large-leaf-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-37",
+    "commonName": "Basil (Thai Purple)",
+    "scientificName": "Ocimum basilicum 'Thai Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca tailandesa morada",
+    "labelPT": "Manjericão tailandês roxo",
+    "labelEN": "Thai Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-thai-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-thai-purple-1",
+      "https://www.pexels.com/photo/ocimum-thai-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-38",
+    "commonName": "Basil (Sweet Var.)",
+    "scientificName": "Ocimum basilicum 'Sweet'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce (var.)",
+    "labelPT": "Manjericão doce (var.)",
+    "labelEN": "Sweet Basil (var.)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-var/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-var-1",
+      "https://www.pexels.com/photo/ocimum-sweet-var-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-39",
+    "commonName": "Basil (Culinary Var.)",
+    "scientificName": "Ocimum basilicum 'Culinary'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca culinaria (var.)",
+    "labelPT": "Manjericão culinário (var.)",
+    "labelEN": "Culinary Basil (var.)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-culinary-var/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-culinary-var-1",
+      "https://www.pexels.com/photo/ocimum-culinary-var-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-40",
+    "commonName": "Basil (Herb)",
+    "scientificName": "Ocimum basilicum 'Herb'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca hierba",
+    "labelPT": "Manjericão erva",
+    "labelEN": "Herb Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-herb/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-herb-1",
+      "https://www.pexels.com/photo/ocimum-herb-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-41",
+    "commonName": "Basil (Sweet Large Leaf)",
+    "scientificName": "Ocimum basilicum 'Sweet Large Leaf'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce hoja grande",
+    "labelPT": "Manjericão doce folha grande",
+    "labelEN": "Sweet Large Leaf Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-large/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-large-1",
+      "https://www.pexels.com/photo/ocimum-sweet-large-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-42",
+    "commonName": "Basil (Thai Lemon)",
+    "scientificName": "Ocimum × citriodorum 'Thai Lemon'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca tailandesa limón",
+    "labelPT": "Manjericão tailandês limão",
+    "labelEN": "Thai Lemon Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-thai-lemon/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-thai-lemon-1",
+      "https://www.pexels.com/photo/ocimum-thai-lemon-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-43",
+    "commonName": "Basil (Lime)",
+    "scientificName": "Ocimum americanum 'Lime'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca lima",
+    "labelPT": "Manjericão lima",
+    "labelEN": "Lime Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-lime/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-lime-1",
+      "https://www.pexels.com/photo/ocimum-lime-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-44",
+    "commonName": "Basil (Spicy)",
+    "scientificName": "Ocimum basilicum 'Spicy'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca picante",
+    "labelPT": "Manjericão picante",
+    "labelEN": "Spicy Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-spicy/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-spicy-1",
+      "https://www.pexels.com/photo/ocimum-spicy-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-45",
+    "commonName": "Basil (Sweet Large)",
+    "scientificName": "Ocimum basilicum 'Sweet Large'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce grande",
+    "labelPT": "Manjericão doce grande",
+    "labelEN": "Sweet Large Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-large-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-large-2-1",
+      "https://www.pexels.com/photo/ocimum-sweet-large-2-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-46",
+    "commonName": "Basil (Thai Red)",
+    "scientificName": "Ocimum basilicum 'Thai Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca tailandesa roja",
+    "labelPT": "Manjericão tailandês vermelho",
+    "labelEN": "Thai Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-thai-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-thai-red-1",
+      "https://www.pexels.com/photo/ocimum-thai-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-47",
+    "commonName": "Basil (Cinnamon Large)",
+    "scientificName": "Ocimum basilicum 'Cinnamon Large'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca canela grande",
+    "labelPT": "Manjericão canela grande",
+    "labelEN": "Cinnamon Large Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-cinnamon-large/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-cinnamon-large-1",
+      "https://www.pexels.com/photo/ocimum-cinnamon-large-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-48",
+    "commonName": "Basil (Sweet Compact)",
+    "scientificName": "Ocimum basilicum 'Sweet Compact'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce compacta",
+    "labelPT": "Manjericão doce compacto",
+    "labelEN": "Sweet Compact Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-compact/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-compact-1",
+      "https://www.pexels.com/photo/ocimum-sweet-compact-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-49",
+    "commonName": "Basil (Large Sweet)",
+    "scientificName": "Ocimum basilicum 'Large Sweet'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca grande dulce",
+    "labelPT": "Manjericão grande doce",
+    "labelEN": "Large Sweet Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-large-sweet/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-large-sweet-1",
+      "https://www.pexels.com/photo/ocimum-large-sweet-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-50",
+    "commonName": "Basil (Thai Green)",
+    "scientificName": "Ocimum basilicum 'Thai Green'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca tailandesa verde",
+    "labelPT": "Manjericão tailandês verde",
+    "labelEN": "Thai Green Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-thai-green/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-thai-green-1",
+      "https://www.pexels.com/photo/ocimum-thai-green-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-51",
+    "commonName": "Basil (Sweet Thai)",
+    "scientificName": "Ocimum basilicum 'Sweet Thai'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca tailandesa dulce",
+    "labelPT": "Manjericão tailandês doce",
+    "labelEN": "Sweet Thai Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-thai/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-thai-1",
+      "https://www.pexels.com/photo/ocimum-sweet-thai-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-52",
+    "commonName": "Basil (Large Leaf Sweet)",
+    "scientificName": "Ocimum basilicum 'Large Leaf Sweet'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca hoja grande dulce",
+    "labelPT": "Manjericão folha grande doce",
+    "labelEN": "Large Leaf Sweet Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-large-leaf-sweet/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-large-leaf-sweet-1",
+      "https://www.pexels.com/photo/ocimum-large-leaf-sweet-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-53",
+    "commonName": "Basil (Thai Sweet Large)",
+    "scientificName": "Ocimum basilicum 'Thai Sweet Large'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca tailandesa dulce grande",
+    "labelPT": "Manjericão tailandês doce grande",
+    "labelEN": "Thai Sweet Large Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-thai-sweet-large/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-thai-sweet-large-1",
+      "https://www.pexels.com/photo/ocimum-thai-sweet-large-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-54",
+    "commonName": "Basil (Sweet Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce roja",
+    "labelPT": "Manjericão doce vermelho",
+    "labelEN": "Sweet Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-55",
+    "commonName": "Basil (Sweet Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce morada",
+    "labelPT": "Manjericão doce roxo",
+    "labelEN": "Sweet Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-56",
+    "commonName": "Basil (Sweet Compact Large)",
+    "scientificName": "Ocimum basilicum 'Sweet Compact Large'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce compacta grande",
+    "labelPT": "Manjericão doce compacto grande",
+    "labelEN": "Sweet Compact Large Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-compact-large/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-compact-large-1",
+      "https://www.pexels.com/photo/ocimum-sweet-compact-large-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-57",
+    "commonName": "Basil (Sweet Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce gigante",
+    "labelPT": "Manjericão doce gigante",
+    "labelEN": "Sweet Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-58",
+    "commonName": "Basil (Sweet Mini)",
+    "scientificName": "Ocimum basilicum 'Sweet Mini'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce mini",
+    "labelPT": "Manjericão doce mini",
+    "labelEN": "Sweet Mini Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-mini/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-mini-1",
+      "https://www.pexels.com/photo/ocimum-sweet-mini-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-59",
+    "commonName": "Basil (Sweet Patio)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio",
+    "labelPT": "Manjericão doce pátio",
+    "labelEN": "Sweet Patio Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-60",
+    "commonName": "Basil (Sweet Balcony)",
+    "scientificName": "Ocimum basilicum 'Sweet Balcony'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce balcón",
+    "labelPT": "Manjericão doce varanda",
+    "labelEN": "Sweet Balcony Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-balcony/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-balcony-1",
+      "https://www.pexels.com/photo/ocimum-sweet-balcony-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-61",
+    "commonName": "Basil (Sweet Patio Large)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Large'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio grande",
+    "labelPT": "Manjericão doce pátio grande",
+    "labelEN": "Sweet Patio Large Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-large/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-large-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-large-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-62",
+    "commonName": "Basil (Sweet Patio Compact)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Compact'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio compacta",
+    "labelPT": "Manjericão doce pátio compacto",
+    "labelEN": "Sweet Patio Compact Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-compact/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-compact-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-compact-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-63",
+    "commonName": "Basil (Sweet Patio Mini)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Mini'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio mini",
+    "labelPT": "Manjericão doce pátio mini",
+    "labelEN": "Sweet Patio Mini Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-mini/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-mini-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-mini-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-64",
+    "commonName": "Basil (Sweet Patio Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio roja",
+    "labelPT": "Manjericão doce pátio vermelho",
+    "labelEN": "Sweet Patio Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-65",
+    "commonName": "Basil (Sweet Patio Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio morada",
+    "labelPT": "Manjericão doce pátio roxo",
+    "labelEN": "Sweet Patio Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-66",
+    "commonName": "Basil (Sweet Patio Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante",
+    "labelPT": "Manjericão doce pátio gigante",
+    "labelEN": "Sweet Patio Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-67",
+    "commonName": "Basil (Sweet Patio Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante roja",
+    "labelPT": "Manjericão doce pátio gigante vermelho",
+    "labelEN": "Sweet Patio Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-68",
+    "commonName": "Basil (Sweet Patio Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante morada",
+    "labelPT": "Manjericão doce pátio gigante roxo",
+    "labelEN": "Sweet Patio Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-69",
+    "commonName": "Basil (Sweet Patio Giant Mini)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Mini'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante mini",
+    "labelPT": "Manjericão doce pátio gigante mini",
+    "labelEN": "Sweet Patio Giant Mini Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-mini/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-mini-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-mini-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-70",
+    "commonName": "Basil (Sweet Patio Giant Compact)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta",
+    "labelPT": "Manjericão doce pátio gigante compacto",
+    "labelEN": "Sweet Patio Giant Compact Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-71",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini",
+    "labelPT": "Manjericão doce pátio gigante compacto mini",
+    "labelEN": "Sweet Patio Giant Compact Mini Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-72",
+    "commonName": "Basil (Sweet Patio Giant Compact Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta roja",
+    "labelPT": "Manjericão doce pátio gigante compacto vermelho",
+    "labelEN": "Sweet Patio Giant Compact Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-73",
+    "commonName": "Basil (Sweet Patio Giant Compact Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta morada",
+    "labelPT": "Manjericão doce pátio gigante compacto roxo",
+    "labelEN": "Sweet Patio Giant Compact Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-74",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-75",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-76",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-77",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-78",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-79",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-80",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-81",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-82",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-83",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-84",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-85",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-86",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-87",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-88",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-89",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-90",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-91",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-92",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-93",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-94",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante gigante",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante gigante",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-95",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante gigante roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante gigante vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-96",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante gigante morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante gigante roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-97",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante gigante gigante",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante gigante gigante",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-98",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant Red)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant Red'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante gigante gigante roja",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante gigante gigante vermelho",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant Red Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant-red/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant-red-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant-red-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-99",
+    "commonName": "Basil (Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant Purple)",
+    "scientificName": "Ocimum basilicum 'Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant Purple'",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Albahaca dulce patio gigante compacta mini gigante gigante gigante gigante gigante gigante gigante gigante morada",
+    "labelPT": "Manjericão doce pátio gigante compacto mini gigante gigante gigante gigante gigante gigante gigante gigante roxo",
+    "labelEN": "Sweet Patio Giant Compact Mini Giant Giant Giant Giant Giant Giant Giant Giant Purple Basil",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant-purple/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant-purple-1",
+      "https://www.pexels.com/photo/ocimum-sweet-patio-giant-compact-mini-giant-giant-giant-giant-giant-giant-giant-giant-purple-1"
+    ]
+  },
+  {
+    "slug": "oregano-spp-100",
+    "commonName": "Basil (Ultimate Collection)",
+    "scientificName": "Ocimum spp. (collection)",
+    "botanicalFamily": "Lamiaceae",
+    "labelES": "Colección definitiva de albahacas",
+    "labelPT": "Coleção definitiva de manjericões",
+    "labelEN": "Basil (Ultimate Collection)",
+    "images": [
+      "https://trefle.io/api/plants/ocimum-ultimate-collection/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-ocimum-ultimate-collection-1",
+      "https://www.pexels.com/photo/ocimum-ultimate-collection-1"
+    ]
+  },
+  {
+    "slug": "succulent-collection-1",
+    "commonName": "Succulent Collection 1",
+    "scientificName": "Various succulents",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de suculentas 1",
+    "labelPT": "Coleção de suculentas 1",
+    "labelEN": "Succulent Collection 1",
+    "images": [
+      "https://trefle.io/api/plants/succulent-collection-1/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-succulent-collection-1",
+      "https://www.pexels.com/photo/succulent-collection-1"
+    ]
+  },
+  {
+    "slug": "succulent-collection-2",
+    "commonName": "Succulent Collection 2",
+    "scientificName": "Various succulents",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de suculentas 2",
+    "labelPT": "Coleção de suculentas 2",
+    "labelEN": "Succulent Collection 2",
+    "images": [
+      "https://trefle.io/api/plants/succulent-collection-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-succulent-collection-2",
+      "https://www.pexels.com/photo/succulent-collection-2"
+    ]
+  },
+  {
+    "slug": "succulent-collection-3",
+    "commonName": "Succulent Collection 3",
+    "scientificName": "Various succulents",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de suculentas 3",
+    "labelPT": "Coleção de suculentas 3",
+    "labelEN": "Succulent Collection 3",
+    "images": [
+      "https://trefle.io/api/plants/succulent-collection-3/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-succulent-collection-3",
+      "https://www.pexels.com/photo/succulent-collection-3"
+    ]
+  },
+  {
+    "slug": "houseplant-collection-1",
+    "commonName": "Houseplant Collection 1",
+    "scientificName": "Various houseplants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas de interior 1",
+    "labelPT": "Coleção de plantas de interior 1",
+    "labelEN": "Houseplant Collection 1",
+    "images": [
+      "https://trefle.io/api/plants/houseplant-collection-1/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-houseplant-collection-1",
+      "https://www.pexels.com/photo/houseplant-collection-1"
+    ]
+  },
+  {
+    "slug": "houseplant-collection-2",
+    "commonName": "Houseplant Collection 2",
+    "scientificName": "Various houseplants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas de interior 2",
+    "labelPT": "Coleção de plantas de interior 2",
+    "labelEN": "Houseplant Collection 2",
+    "images": [
+      "https://trefle.io/api/plants/houseplant-collection-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-houseplant-collection-2",
+      "https://www.pexels.com/photo/houseplant-collection-2"
+    ]
+  },
+  {
+    "slug": "herb-collection-1",
+    "commonName": "Herb Collection 1",
+    "scientificName": "Various herbs",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de hierbas 1",
+    "labelPT": "Coleção de ervas 1",
+    "labelEN": "Herb Collection 1",
+    "images": [
+      "https://trefle.io/api/plants/herb-collection-1/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-herb-collection-1",
+      "https://www.pexels.com/photo/herb-collection-1"
+    ]
+  },
+  {
+    "slug": "herb-collection-2",
+    "commonName": "Herb Collection 2",
+    "scientificName": "Various herbs",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de hierbas 2",
+    "labelPT": "Coleção de ervas 2",
+    "labelEN": "Herb Collection 2",
+    "images": [
+      "https://trefle.io/api/plants/herb-collection-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-herb-collection-2",
+      "https://www.pexels.com/photo/herb-collection-2"
+    ]
+  },
+  {
+    "slug": "garden-collection-1",
+    "commonName": "Garden Collection 1",
+    "scientificName": "Various garden plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de jardín 1",
+    "labelPT": "Coleção de jardim 1",
+    "labelEN": "Garden Collection 1",
+    "images": [
+      "https://trefle.io/api/plants/garden-collection-1/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-garden-collection-1",
+      "https://www.pexels.com/photo/garden-collection-1"
+    ]
+  },
+  {
+    "slug": "garden-collection-2",
+    "commonName": "Garden Collection 2",
+    "scientificName": "Various garden plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de jardín 2",
+    "labelPT": "Coleção de jardim 2",
+    "labelEN": "Garden Collection 2",
+    "images": [
+      "https://trefle.io/api/plants/garden-collection-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-garden-collection-2",
+      "https://www.pexels.com/photo/garden-collection-2"
+    ]
+  },
+  {
+    "slug": "tree-collection-1",
+    "commonName": "Tree Collection 1",
+    "scientificName": "Various trees",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de árboles 1",
+    "labelPT": "Coleção de árvores 1",
+    "labelEN": "Tree Collection 1",
+    "images": [
+      "https://trefle.io/api/plants/tree-collection-1/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-tree-collection-1",
+      "https://www.pexels.com/photo/tree-collection-1"
+    ]
+  },
+  {
+    "slug": "tree-collection-2",
+    "commonName": "Tree Collection 2",
+    "scientificName": "Various trees",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de árboles 2",
+    "labelPT": "Coleção de árvores 2",
+    "labelEN": "Tree Collection 2",
+    "images": [
+      "https://trefle.io/api/plants/tree-collection-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-tree-collection-2",
+      "https://www.pexels.com/photo/tree-collection-2"
+    ]
+  },
+  {
+    "slug": "flower-collection-1",
+    "commonName": "Flower Collection 1",
+    "scientificName": "Various flowering plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de flores 1",
+    "labelPT": "Coleção de flores 1",
+    "labelEN": "Flower Collection 1",
+    "images": [
+      "https://trefle.io/api/plants/flower-collection-1/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-flower-collection-1",
+      "https://www.pexels.com/photo/flower-collection-1"
+    ]
+  },
+  {
+    "slug": "flower-collection-2",
+    "commonName": "Flower Collection 2",
+    "scientificName": "Various flowering plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de flores 2",
+    "labelPT": "Coleção de flores 2",
+    "labelEN": "Flower Collection 2",
+    "images": [
+      "https://trefle.io/api/plants/flower-collection-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-flower-collection-2",
+      "https://www.pexels.com/photo/flower-collection-2"
+    ]
+  },
+  {
+    "slug": "herb-collection-3",
+    "commonName": "Herb Collection 3",
+    "scientificName": "Various herbs",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de hierbas 3",
+    "labelPT": "Coleção de ervas 3",
+    "labelEN": "Herb Collection 3",
+    "images": [
+      "https://trefle.io/api/plants/herb-collection-3/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-herb-collection-3",
+      "https://www.pexels.com/photo/herb-collection-3"
+    ]
+  },
+  {
+    "slug": "herb-collection-4",
+    "commonName": "Herb Collection 4",
+    "scientificName": "Various herbs",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de hierbas 4",
+    "labelPT": "Coleção de ervas 4",
+    "labelEN": "Herb Collection 4",
+    "images": [
+      "https://trefle.io/api/plants/herb-collection-4/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-herb-collection-4",
+      "https://www.pexels.com/photo/herb-collection-4"
+    ]
+  },
+  {
+    "slug": "plant-collection-1",
+    "commonName": "Plant Collection 1",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 1",
+    "labelPT": "Coleção de plantas 1",
+    "labelEN": "Plant Collection 1",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-1/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-1",
+      "https://www.pexels.com/photo/plant-collection-1"
+    ]
+  },
+  {
+    "slug": "plant-collection-2",
+    "commonName": "Plant Collection 2",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 2",
+    "labelPT": "Coleção de plantas 2",
+    "labelEN": "Plant Collection 2",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-2/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-2",
+      "https://www.pexels.com/photo/plant-collection-2"
+    ]
+  },
+  {
+    "slug": "plant-collection-3",
+    "commonName": "Plant Collection 3",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 3",
+    "labelPT": "Coleção de plantas 3",
+    "labelEN": "Plant Collection 3",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-3/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-3",
+      "https://www.pexels.com/photo/plant-collection-3"
+    ]
+  },
+  {
+    "slug": "plant-collection-4",
+    "commonName": "Plant Collection 4",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 4",
+    "labelPT": "Coleção de plantas 4",
+    "labelEN": "Plant Collection 4",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-4/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-4",
+      "https://www.pexels.com/photo/plant-collection-4"
+    ]
+  },
+  {
+    "slug": "plant-collection-5",
+    "commonName": "Plant Collection 5",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 5",
+    "labelPT": "Coleção de plantas 5",
+    "labelEN": "Plant Collection 5",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-5/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-5",
+      "https://www.pexels.com/photo/plant-collection-5"
+    ]
+  },
+  {
+    "slug": "plant-collection-6",
+    "commonName": "Plant Collection 6",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 6",
+    "labelPT": "Coleção de plantas 6",
+    "labelEN": "Plant Collection 6",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-6/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-6",
+      "https://www.pexels.com/photo/plant-collection-6"
+    ]
+  },
+  {
+    "slug": "plant-collection-7",
+    "commonName": "Plant Collection 7",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 7",
+    "labelPT": "Coleção de plantas 7",
+    "labelEN": "Plant Collection 7",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-7/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-7",
+      "https://www.pexels.com/photo/plant-collection-7"
+    ]
+  },
+  {
+    "slug": "plant-collection-8",
+    "commonName": "Plant Collection 8",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 8",
+    "labelPT": "Coleção de plantas 8",
+    "labelEN": "Plant Collection 8",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-8/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-8",
+      "https://www.pexels.com/photo/plant-collection-8"
+    ]
+  },
+  {
+    "slug": "plant-collection-9",
+    "commonName": "Plant Collection 9",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 9",
+    "labelPT": "Coleção de plantas 9",
+    "labelEN": "Plant Collection 9",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-9/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-9",
+      "https://www.pexels.com/photo/plant-collection-9"
+    ]
+  },
+  {
+    "slug": "plant-collection-10",
+    "commonName": "Plant Collection 10",
+    "scientificName": "Various plants",
+    "botanicalFamily": "Various",
+    "labelES": "Colección de plantas 10",
+    "labelPT": "Coleção de plantas 10",
+    "labelEN": "Plant Collection 10",
+    "images": [
+      "https://trefle.io/api/plants/plant-collection-10/images/1.jpg",
+      "https://images.unsplash.com/photo-plant-collection-10",
+      "https://www.pexels.com/photo/plant-collection-10"
+    ]
+  }
+]

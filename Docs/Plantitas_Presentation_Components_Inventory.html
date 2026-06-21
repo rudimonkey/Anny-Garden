@@ -1,0 +1,549 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans);color:var(--color-text-primary)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;padding:1rem 0 1.25rem}
+.filter-btn{font-size:13px;padding:5px 12px;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-secondary);background:transparent;color:var(--color-text-secondary);cursor:pointer;transition:all .15s}
+.filter-btn.active{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary)}
+.search-row{display:flex;gap:8px;align-items:center;margin-bottom:1.25rem}
+.search-row input{flex:1;font-size:14px}
+.stats-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:1.5rem}
+.stat-card{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px 16px;min-width:120px}
+.stat-label{font-size:12px;color:var(--color-text-secondary);margin-bottom:2px}
+.stat-val{font-size:20px;font-weight:500}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead th{font-size:11px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:.04em;padding:8px 10px;border-bottom:0.5px solid var(--color-border-tertiary);text-align:left;white-space:nowrap}
+tbody tr{border-bottom:0.5px solid var(--color-border-tertiary);transition:background .1s}
+tbody tr:hover{background:var(--color-background-secondary)}
+tbody td{padding:9px 10px;vertical-align:top;line-height:1.45}
+.comp-name{font-weight:500;color:var(--color-text-primary);font-size:13px}
+.comp-path{font-size:11px;color:var(--color-text-tertiary);font-family:var(--font-mono);margin-top:2px}
+.badge{display:inline-flex;align-items:center;font-size:11px;padding:2px 7px;border-radius:999px;white-space:nowrap;font-weight:400}
+.b-shared{background:#E1F5EE;color:#085041}
+.b-native{background:#EEEDFE;color:#3C3489}
+.b-web{background:#E6F1FB;color:#0C447C}
+.b-admin{background:#FAEEDA;color:#633806}
+.b-auth{background:#FBEAF0;color:#72243E}
+.scope-badges{display:flex;gap:4px;flex-wrap:wrap}
+.storybook-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#F77F52;margin-right:5px;vertical-align:middle}
+.test-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#1D9E75;margin-right:5px;vertical-align:middle}
+.no-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--color-border-secondary);margin-right:5px;vertical-align:middle}
+.tags-cell{display:flex;gap:4px;flex-wrap:wrap}
+.tag{font-size:11px;padding:1px 6px;border-radius:4px;border:0.5px solid var(--color-border-tertiary);color:var(--color-text-secondary)}
+.empty{text-align:center;padding:2.5rem;color:var(--color-text-tertiary);font-size:14px}
+.group-header{background:var(--color-background-secondary);font-size:11px;font-weight:500;color:var(--color-text-secondary);padding:6px 10px;letter-spacing:.05em;text-transform:uppercase}
+.legend{display:flex;gap:16px;flex-wrap:wrap;padding:.75rem 0;border-top:0.5px solid var(--color-border-tertiary);margin-top:.5rem}
+.legend-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--color-text-secondary)}
+</style>
+
+<h2 class="sr-only">Anny's Plantitas — Presentation Components Inventory showing all UI components across native, web, and shared packages</h2>
+
+<div class="stats-row" id="stats-row"></div>
+
+<div class="toolbar" id="layer-filters"></div>
+
+<div class="search-row">
+  <input type="text" id="search" placeholder="Search components, paths, tags…" oninput="render()">
+  <select id="story-filter" onchange="render()" style="font-size:13px;padding:5px 10px;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-secondary)">
+    <option value="">All coverage</option>
+    <option value="storybook">Has Storybook</option>
+    <option value="test">Has unit test</option>
+    <option value="both">Both</option>
+    <option value="none">No coverage</option>
+  </select>
+</div>
+
+<div style="overflow-x:auto">
+<table id="table">
+<thead>
+<tr>
+  <th style="width:220px">Component</th>
+  <th style="width:90px">Layer</th>
+  <th style="width:130px">Scope / Consumers</th>
+  <th>Props / key data</th>
+  <th style="width:130px">Responsibilities</th>
+  <th style="width:80px">Storybook</th>
+  <th style="width:80px">Unit test</th>
+  <th style="width:110px">Tags</th>
+</tr>
+</thead>
+<tbody id="tbody"></tbody>
+</table>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><span class="badge b-shared">shared</span> packages/ui</div>
+  <div class="legend-item"><span class="badge b-native">native</span> apps/native</div>
+  <div class="legend-item"><span class="badge b-web">web</span> apps/web</div>
+  <div class="legend-item"><span class="badge b-admin">admin</span> admin panel</div>
+  <div class="legend-item"><span class="badge b-auth">auth</span> auth flows</div>
+  <div class="legend-item"><span class="storybook-dot"></span>Storybook story</div>
+  <div class="legend-item"><span class="test-dot"></span>Unit test</div>
+  <div class="legend-item"><span class="no-dot"></span>None / TBD</div>
+</div>
+
+<script>
+const ALL = [
+  {
+    group:"packages/ui — shared primitives",
+    items:[
+      {
+        name:"PlantCard",path:"packages/ui/components/PlantCard/PlantCard.tsx",
+        layer:"shared",scope:["native","web","admin"],
+        props:"slug, commonName, imageUrl, primaryBadge, offline, width?, height?",
+        resp:"Plant thumbnail with image, name, badge, offline indicator",
+        story:true,test:true,
+        tags:["ISR","offline","CDN"]
+      },
+      {
+        name:"CategoryBadge",path:"packages/ui/components/CategoryBadge/CategoryBadge.tsx",
+        layer:"shared",scope:["native","web"],
+        props:"slug, labelES, labelEN, locale, color?, size?",
+        resp:"Facet chip color-coded by category type",
+        story:true,test:true,
+        tags:["i18n","facets"]
+      },
+      {
+        name:"SearchBar",path:"packages/ui/components/SearchBar/SearchBar.tsx",
+        layer:"shared",scope:["native","web"],
+        props:"value, onChangeText, placeholder?, onClear?, debounceMs?",
+        resp:"Controlled input with 300ms debounce, clear button",
+        story:true,test:true,
+        tags:["debounce","controlled"]
+      },
+      {
+        name:"OfflineBadge",path:"packages/ui/components/OfflineBadge/OfflineBadge.tsx",
+        layer:"shared",scope:["native"],
+        props:"visible: boolean",
+        resp:"Inline indicator shown when plant served from MMKV cache",
+        story:false,test:true,
+        tags:["offline","MMKV"]
+      },
+      {
+        name:"LoadingShimmer",path:"packages/ui/components/LoadingShimmer/LoadingShimmer.tsx",
+        layer:"shared",scope:["native","web"],
+        props:"count?, variant: 'card'|'list'|'detail'",
+        resp:"Skeleton animation while React Query fetches",
+        story:false,test:false,
+        tags:["loading","skeleton"]
+      },
+      {
+        name:"ErrorBoundaryFallback",path:"packages/ui/components/ErrorBoundaryFallback/ErrorBoundaryFallback.tsx",
+        layer:"shared",scope:["native","web"],
+        props:"onRetry: () => void, message?, level: 'screen'|'widget'",
+        resp:"Inline error state for screen and widget boundaries",
+        story:false,test:true,
+        tags:["error","boundary","Sentry"]
+      },
+    ]
+  },
+  {
+    group:"apps/native — screens (Expo Router)",
+    items:[
+      {
+        name:"SC_Home (index.tsx)",path:"apps/native/app/(tabs)/index.tsx",
+        layer:"native",scope:["native"],
+        props:"— (reads plantsSlice, localeSlice via Zustand)",
+        resp:"Discovery feed, featured plants, quick-access categories",
+        story:false,test:false,
+        tags:["Zustand","React Query","tab-1"]
+      },
+      {
+        name:"SC_Browse (browse.tsx)",path:"apps/native/app/(tabs)/browse.tsx",
+        layer:"native",scope:["native"],
+        props:"— (reads plantsSlice; BL_Filter builds query)",
+        resp:"Category grid + facet-filtered plant list; multi-select chips",
+        story:false,test:false,
+        tags:["BL_Filter","facets","tab-2"]
+      },
+      {
+        name:"SC_Search (search.tsx)",path:"apps/native/app/(tabs)/search.tsx",
+        layer:"native",scope:["native"],
+        props:"— (query param via Expo Router searchParams)",
+        resp:"Full-text + tag search, ranked results list",
+        story:false,test:false,
+        tags:["BL_Search","text-index","tab-3"]
+      },
+      {
+        name:"SC_Collection (collection.tsx)",path:"apps/native/app/(tabs)/collection.tsx",
+        layer:"native",scope:["native"],
+        props:"— (reads collectionSlice; auth-gated)",
+        resp:"Pinned + owned plants; offline-available plants with OfflineBadge",
+        story:false,test:false,
+        tags:["auth","MMKV","BL_Offline","tab-4"]
+      },
+      {
+        name:"SC_Detail ([slug].tsx)",path:"apps/native/app/plants/[slug].tsx",
+        layer:"native",scope:["native"],
+        props:"slug: string (Expo Router param)",
+        resp:"Full plant detail, photo gallery, care tips, pin/collect CTA",
+        story:false,test:false,
+        tags:["BL_Pin","BL_Collection","deep-link"]
+      },
+      {
+        name:"SC_Profile (profile/index.tsx)",path:"apps/native/app/profile/index.tsx",
+        layer:"native",scope:["native"],
+        props:"— (reads userSlice)",
+        resp:"Display name, avatar, locale picker, account actions",
+        story:false,test:false,
+        tags:["BL_I18n","locale","auth"]
+      },
+      {
+        name:"SC_Notif (notifications.tsx)",path:"apps/native/app/profile/notifications.tsx",
+        layer:"native",scope:["native"],
+        props:"— (reads userSlice.notificationEnabled)",
+        resp:"Toggle push notifications, per-plant reminder frequency",
+        story:false,test:false,
+        tags:["BL_Notif","Expo Push","auth"]
+      },
+      {
+        name:"Login screen",path:"apps/native/app/auth/login.tsx",
+        layer:"auth",scope:["native"],
+        props:"redirect?: string (replay pending action after login)",
+        resp:"Email + password form, Google OAuth button, guest entry",
+        story:false,test:false,
+        tags:["BL_Auth","JWT","react-hook-form"]
+      },
+      {
+        name:"Register screen",path:"apps/native/app/auth/register.tsx",
+        layer:"auth",scope:["native"],
+        props:"—",
+        resp:"New account form with Zod validation",
+        story:false,test:false,
+        tags:["BL_Auth","Zod","react-hook-form"]
+      },
+      {
+        name:"Guest entry screen",path:"apps/native/app/auth/guest.tsx",
+        layer:"auth",scope:["native"],
+        props:"—",
+        resp:"Skip login entry point; sets isGuest=true in userSlice",
+        story:false,test:false,
+        tags:["BL_Auth","guest"]
+      },
+      {
+        name:"Root layout (_layout.tsx)",path:"apps/native/app/_layout.tsx",
+        layer:"native",scope:["native"],
+        props:"— (wraps entire tree)",
+        resp:"TamaguiProvider, auth guard, locale bootstrap, Sentry init, push token registration",
+        story:false,test:false,
+        tags:["Tamagui","Sentry","BL_Notif","BL_I18n"]
+      },
+    ]
+  },
+  {
+    group:"apps/native — screen-local components",
+    items:[
+      {
+        name:"PlantPhotoGallery",path:"apps/native/components/PlantPhotoGallery.tsx",
+        layer:"native",scope:["native"],
+        props:"images: {url,width,height}[], primaryIndex?",
+        resp:"Swipeable + zoomable gallery using Expo Image; aspect-ratio aware layout",
+        story:false,test:false,
+        tags:["Expo Image","CDN","gallery"]
+      },
+      {
+        name:"FacetFilterChips",path:"apps/native/components/FacetFilterChips.tsx",
+        layer:"native",scope:["native"],
+        props:"facets: FacetGroup[], selected: string[], onToggle",
+        resp:"Horizontal scrollable multi-select chip row per facet group",
+        story:false,test:false,
+        tags:["BL_Filter","facets"]
+      },
+      {
+        name:"PinButton",path:"apps/native/components/PinButton.tsx",
+        layer:"native",scope:["native"],
+        props:"plantId, isPinned, onPress, isGuest",
+        resp:"Toggle pin with optimistic update; redirects guest to login",
+        story:false,test:false,
+        tags:["BL_Pin","optimistic","auth-gate"]
+      },
+      {
+        name:"CollectionToggle",path:"apps/native/components/CollectionToggle.tsx",
+        layer:"native",scope:["native"],
+        props:"plantId, isOwned, onPress",
+        resp:"Add/remove plant from owned collection",
+        story:false,test:false,
+        tags:["BL_Collection","auth"]
+      },
+      {
+        name:"PlantListRow",path:"apps/native/components/PlantListRow.tsx",
+        layer:"native",scope:["native"],
+        props:"slug, commonName, imageUrl, badgeLabel, offline?, onPress",
+        resp:"Compact list item for search results and browse views",
+        story:false,test:false,
+        tags:["FlatList","navigation"]
+      },
+      {
+        name:"CareTipsSection",path:"apps/native/components/CareTipsSection.tsx",
+        layer:"native",scope:["native"],
+        props:"careTips: string[], warnings: string[], waterNeeds, lightNeeds",
+        resp:"Structured care info block with icons and severity indicators",
+        story:false,test:false,
+        tags:["detail","icons"]
+      },
+      {
+        name:"ReminderFrequencyPicker",path:"apps/native/components/ReminderFrequencyPicker.tsx",
+        layer:"native",scope:["native"],
+        props:"plantId, currentFreqDays: number, onSave",
+        resp:"Picker for reminder interval; calls PATCH /users/:id/notifications",
+        story:false,test:false,
+        tags:["BL_Notif","picker"]
+      },
+      {
+        name:"LocalePicker",path:"apps/native/components/LocalePicker.tsx",
+        layer:"native",scope:["native"],
+        props:"current: 'es'|'en', onChange",
+        resp:"Language toggle in profile settings; updates localeSlice + users.profile.locale",
+        story:false,test:false,
+        tags:["BL_I18n","i18n","locale"]
+      },
+    ]
+  },
+  {
+    group:"apps/web — public catalog (Next.js)",
+    items:[
+      {
+        name:"HomePage",path:"apps/web/app/page.tsx",
+        layer:"web",scope:["web"],
+        props:"— (SSR; direct Mongoose read)",
+        resp:"Hero, featured plants grid, category entry points",
+        story:false,test:false,
+        tags:["SSR","SEO"]
+      },
+      {
+        name:"PlantDetailPage",path:"apps/web/app/plants/[slug]/page.tsx",
+        layer:"web",scope:["web"],
+        props:"params: {slug}, ISR generateStaticParams",
+        resp:"Pre-rendered plant detail; zero DB query on guest hit; revalidated on admin edit",
+        story:false,test:false,
+        tags:["ISR","generateStaticParams","SEO"]
+      },
+      {
+        name:"CategoryPage",path:"apps/web/app/categories/[slug]/page.tsx",
+        layer:"web",scope:["web"],
+        props:"params: {slug}, ISR",
+        resp:"Facet-filtered plant list for a given category slug",
+        story:false,test:false,
+        tags:["ISR","facets","SEO"]
+      },
+      {
+        name:"SearchPage",path:"apps/web/app/search/page.tsx",
+        layer:"web",scope:["web"],
+        props:"searchParams: {q, habitat?, use?, page?}",
+        resp:"SSR search results with pagination; query params in URL for shareability",
+        story:false,test:false,
+        tags:["SSR","SearchService","pagination"]
+      },
+      {
+        name:"WebPlantCard",path:"apps/web/components/WebPlantCard.tsx",
+        layer:"web",scope:["web"],
+        props:"slug, commonName, imageUrl, badge, locale",
+        resp:"HTML img + Next.js Link wrapper; Tailwind-styled card for catalog grids",
+        story:false,test:false,
+        tags:["Tailwind","Next/Image","Link"]
+      },
+      {
+        name:"WebSearchBar",path:"apps/web/components/WebSearchBar.tsx",
+        layer:"web",scope:["web"],
+        props:"defaultValue?, action (form action for SSR submit)",
+        resp:"Search input that submits to /search via GET form (no JS required)",
+        story:false,test:false,
+        tags:["SSR","progressive-enhancement"]
+      },
+      {
+        name:"WebCategoryBadge",path:"apps/web/components/WebCategoryBadge.tsx",
+        layer:"web",scope:["web"],
+        props:"slug, labelES, labelEN, locale",
+        resp:"Anchor-linked facet chip in Tailwind; links to /categories/[slug]",
+        story:false,test:false,
+        tags:["Tailwind","Link","i18n"]
+      },
+      {
+        name:"PlantDetailGallery",path:"apps/web/components/PlantDetailGallery.tsx",
+        layer:"web",scope:["web"],
+        props:"images: {url,width,height,caption}[], primaryIndex",
+        resp:"CSS-based lightbox gallery; aspect-ratio boxes from stored dimensions",
+        story:false,test:false,
+        tags:["Next/Image","CLS","gallery"]
+      },
+    ]
+  },
+  {
+    group:"apps/web — admin panel (/admin/*)",
+    items:[
+      {
+        name:"AdminLayout",path:"apps/web/app/admin/layout.tsx",
+        layer:"admin",scope:["admin"],
+        props:"— (Next.js middleware checks session role)",
+        resp:"Sidebar nav, breadcrumb, session guard; wraps all /admin/* routes",
+        story:false,test:false,
+        tags:["NextAuth","role","middleware"]
+      },
+      {
+        name:"PlantListPage (/admin/plants)",path:"apps/web/app/admin/plants/page.tsx",
+        layer:"admin",scope:["admin"],
+        props:"searchParams: {q?, page?}",
+        resp:"Paginated plant table with inline edit triggers and bulk import button",
+        story:false,test:false,
+        tags:["CRUD","pagination","WK_Import"]
+      },
+      {
+        name:"PlantFormPage (/admin/plants/new)",path:"apps/web/app/admin/plants/new/page.tsx",
+        layer:"admin",scope:["admin"],
+        props:"—",
+        resp:"Full plant creation form; Zod + react-hook-form; triggers ISR revalidation on save",
+        story:false,test:false,
+        tags:["Zod","react-hook-form","ISR"]
+      },
+      {
+        name:"PlantEditPage (/admin/plants/[slug]/edit)",path:"apps/web/app/admin/plants/[slug]/edit/page.tsx",
+        layer:"admin",scope:["admin"],
+        props:"params: {slug}",
+        resp:"Pre-filled edit form; on save triggers revalidatePath for that slug",
+        story:false,test:false,
+        tags:["ISR","audit-log","changelog"]
+      },
+      {
+        name:"BulkImportPage (/admin/import)",path:"apps/web/app/admin/import/page.tsx",
+        layer:"admin",scope:["admin"],
+        props:"—",
+        resp:"CSV/JSON upload; enqueues WK_Import; polls job status; shows per-row validation errors",
+        story:false,test:false,
+        tags:["BullMQ","WK_Import","Zod"]
+      },
+      {
+        name:"MediaManagerPage (/admin/media)",path:"apps/web/app/admin/media/page.tsx",
+        layer:"admin",scope:["admin"],
+        props:"—",
+        resp:"CDN media browser; set primary image; delete media records",
+        story:false,test:false,
+        tags:["Cloudinary","MediaService","plant_media"]
+      },
+      {
+        name:"TaxonomyPage (/admin/categories)",path:"apps/web/app/admin/categories/page.tsx",
+        layer:"admin",scope:["admin"],
+        props:"—",
+        resp:"Facet + category tree editor; add/edit labelES/labelEN, iconUrl, sortOrder",
+        story:false,test:false,
+        tags:["i18n","taxonomy","categories"]
+      },
+      {
+        name:"UserManagementPage (/admin/users)",path:"apps/web/app/admin/users/page.tsx",
+        layer:"admin",scope:["admin"],
+        props:"—",
+        resp:"User list with role toggle (user ↔ admin); soft delete",
+        story:false,test:false,
+        tags:["RBAC","role","UserService"]
+      },
+      {
+        name:"AdminPlantCard",path:"apps/web/app/admin/components/AdminPlantCard.tsx",
+        layer:"admin",scope:["admin"],
+        props:"slug, commonName, imageUrl, updatedAt, onEdit, onDelete",
+        resp:"Compact card in admin plant list with action buttons; uses shared PlantCard base",
+        story:false,test:false,
+        tags:["CRUD","audit-log"]
+      },
+    ]
+  },
+  {
+    group:"apps/web — auth (NextAuth)",
+    items:[
+      {
+        name:"LoginPage (web)",path:"apps/web/app/auth/login/page.tsx",
+        layer:"auth",scope:["web"],
+        props:"callbackUrl? (from middleware redirect)",
+        resp:"Credential login form; NextAuth signIn; HttpOnly cookie issued",
+        story:false,test:false,
+        tags:["NextAuth","HttpOnly","credential"]
+      },
+    ]
+  },
+];
+
+let activeLayer = "all";
+
+function scopeBadge(s){
+  const map={native:"b-native",web:"b-web",admin:"b-admin",auth:"b-auth",shared:"b-shared"};
+  return`<span class="badge ${map[s]||'b-shared'}">${s}</span>`;
+}
+
+function dot(yes){
+  return yes
+    ?`<span class="storybook-dot" title="exists"></span><span style="font-size:12px;color:var(--color-text-secondary)">Yes</span>`
+    :`<span class="no-dot"></span><span style="font-size:12px;color:var(--color-text-tertiary)">—</span>`;
+}
+
+function render(){
+  const q=(document.getElementById('search').value||'').toLowerCase();
+  const sf=document.getElementById('story-filter').value;
+  const tbody=document.getElementById('tbody');
+  let rows='';
+  let total=0,vis=0;
+
+  ALL.forEach(group=>{
+    let groupRows='';
+    group.items.forEach(c=>{
+      total++;
+      const layerOk=activeLayer==='all'||c.layer===activeLayer;
+      const searchOk=!q||(c.name+c.path+c.tags.join(' ')+c.props+c.resp).toLowerCase().includes(q);
+      let coverageOk=true;
+      if(sf==='storybook') coverageOk=c.story;
+      else if(sf==='test') coverageOk=c.test;
+      else if(sf==='both') coverageOk=c.story&&c.test;
+      else if(sf==='none') coverageOk=!c.story&&!c.test;
+      if(!layerOk||!searchOk||!coverageOk) return;
+      vis++;
+      const scopeHtml=c.scope.map(scopeBadge).join(' ');
+      const tagsHtml=c.tags.map(t=>`<span class="tag">${t}</span>`).join('');
+      groupRows+=`<tr>
+        <td><div class="comp-name">${c.name}</div><div class="comp-path">${c.path}</div></td>
+        <td><span class="badge ${c.layer==='shared'?'b-shared':c.layer==='native'?'b-native':c.layer==='web'?'b-web':c.layer==='admin'?'b-admin':'b-auth'}">${c.layer}</span></td>
+        <td><div class="scope-badges">${scopeHtml}</div></td>
+        <td style="font-size:12px;color:var(--color-text-secondary);font-family:var(--font-mono)">${c.props}</td>
+        <td style="font-size:12px;color:var(--color-text-secondary)">${c.resp}</td>
+        <td>${dot(c.story)}</td>
+        <td>${dot(c.test)}</td>
+        <td><div class="tags-cell">${tagsHtml}</div></td>
+      </tr>`;
+    });
+    if(groupRows){
+      rows+=`<tr><td colspan="8" class="group-header">${group.group}</td></tr>${groupRows}`;
+    }
+  });
+
+  tbody.innerHTML=rows||`<tr><td colspan="8" class="empty"><i class="ti ti-search-off" style="font-size:24px;display:block;margin-bottom:8px"></i>No components match — try adjusting the filters</td></tr>`;
+
+  const storyCount=ALL.flatMap(g=>g.items).filter(c=>c.story).length;
+  const testCount=ALL.flatMap(g=>g.items).filter(c=>c.test).length;
+  document.getElementById('stats-row').innerHTML=`
+    <div class="stat-card"><div class="stat-label">Total components</div><div class="stat-val">${total}</div></div>
+    <div class="stat-card"><div class="stat-label">Showing</div><div class="stat-val">${vis}</div></div>
+    <div class="stat-card"><div class="stat-label">Storybook stories</div><div class="stat-val">${storyCount}</div></div>
+    <div class="stat-card"><div class="stat-label">Unit tested</div><div class="stat-val">${testCount}</div></div>
+    <div class="stat-card"><div class="stat-label">Coverage gap</div><div class="stat-val">${total-testCount}</div></div>
+  `;
+}
+
+function buildFilters(){
+  const layers=[
+    {k:'all',label:'All layers'},
+    {k:'shared',label:'Shared (packages/ui)'},
+    {k:'native',label:'Native (Expo)'},
+    {k:'web',label:'Web (Next.js)'},
+    {k:'admin',label:'Admin panel'},
+    {k:'auth',label:'Auth'},
+  ];
+  const el=document.getElementById('layer-filters');
+  el.innerHTML=layers.map(l=>`<button class="filter-btn${l.k===activeLayer?' active':''}" onclick="setLayer('${l.k}')">${l.label}</button>`).join('');
+}
+
+function setLayer(k){
+  activeLayer=k;
+  buildFilters();
+  render();
+}
+
+buildFilters();
+render();
+</script>
