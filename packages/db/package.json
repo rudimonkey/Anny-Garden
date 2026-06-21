@@ -1,0 +1,9 @@
+{
+  "name": "@plantitas/db",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "@plantitas/types": "workspace:*"
+  }
+}

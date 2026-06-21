@@ -1,0 +1,11 @@
+{
+  "name": "@plantitas/core",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "zustand": "^4.0.0",
+    "i18next": "^23.0.0",
+    "react-i18next": "^13.0.0",
+    "@plantitas/types": "workspace:*"
+  }
+}

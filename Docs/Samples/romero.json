@@ -1,0 +1,167 @@
+{
+  "slug": "romero",
+  "commonName": "Rosemary",
+  "scientificName": "Salvia rosmarinus",
+  "botanicalFamily": "Lamiaceae",
+  "labelES": "Romero",
+  "labelEN": "Rosemary",
+  "featured": false,
+  "growthRate": "Slow to Moderate",
+  "growthHeight": "1-2 m",
+  "growthWidth": "1-1.5 m",
+  "bloomColor": "Blue/White",
+  "bloomTime": "Spring/Summer",
+  "bloomSeason": "spring",
+  "waterNeeds": "low",
+  "lightNeeds": "direct",
+  "sunlightHoursMin": 6,
+  "sunlightHoursMax": 12,
+  "temperatureRange": "5-40°C",
+  "humidityNeeds": "Low",
+  "relativeHumidityNeeds": "30-50%",
+  "fertilizerNeeds": "Rarely",
+  "soilNeeds": "Well-drained, sandy, alkaline preferred",
+  "nativeRegion": "Mediterranean Region",
+  "predominantCRRegions": "Higher elevations, Central Valley",
+  "droughtTolerance": "High",
+  "hardinessZone": "8-11",
+  "localNames": "Romero",
+  "culturalUses": "Culinary, medicinal, ornamental, aromatic",
+  "culturalUsesES": "Culinario, medicinal, ornamental, aromático",
+  "toxicityPets": "Non-toxic",
+  "toxicityHumans": "Safe",
+  "propagationMethods": ["Cuttings", "Layering"],
+  "economicImportance": "Medium (essential oils, herbs)",
+  "localSeasonality": "Year-round",
+  "warnings": ["Sensitive to root rot if overwatered"],
+  "warningsES": ["Sensible a la pudrición de la raíz si se riega en exceso"],
+  "careTips": ["Prune regularly to maintain shape", "Ensure excellent drainage"],
+  "careTipsES": ["Podar regularmente para mantener la forma", "Asegurar un drenaje excelente"],
+  "facets": {
+    "habitat": ["exterior", "garden", "huerto", "maceta"],
+    "growthHabit": ["shrub", "perennial"],
+    "use": ["culinary", "medicinal", "aromatic", "ornamental"],
+    "difficulty": ["beginner"],
+    "pollinator": ["bees", "butterflies"],
+    "companion": true,
+    "maintenance": ["low"]
+  },
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/plantitas/image/upload/v1/plants/romero-1.jpg",
+      "width": 1200,
+      "height": 800,
+      "caption": "Rosemary bush in bloom",
+      "isPrimary": true,
+      "attribution": "Plantitas Internal",
+      "altText": "Arbusto de romero floreciendo"
+    }
+  ],
+  "genus": "Salvia",
+  "cultivar": null,
+  "lifeCycle": "perennial",
+  "bloomStart": "March",
+  "bloomEnd": "July",
+  "phenologyRecords": [
+    {
+      "stage": "Growth",
+      "startMonth": "January",
+      "endMonth": "December",
+      "crSpecific": true
+    }
+  ],
+  "companionPlants": [
+    {
+      "slug": "frijol",
+      "benefit": "Repels bean beetles",
+      "benefitES": "Repele escarabajos del frijol"
+    }
+  ],
+  "companionInfo": {
+    "goodWith": ["Beans", "Cabbage", "Sage"],
+    "avoidWith": ["Mint"]
+  },
+  "pollinatorValue": {
+    "attracts": ["Bees"],
+    "nectarRating": "High"
+  },
+  "beneficialInsects": [],
+  "pestRepellent": ["Cabbage moths", "Bean beetles"],
+  "harvestInfo": {
+    "firstHarvestDays": 180,
+    "daysToMaturity": 365,
+    "yieldPerPlant": "Continuous small harvests",
+    "yieldPerPlantES": "Cosechas pequeñas continuas",
+    "expectedYieldPerSqMeter": "N/A",
+    "frequency": "As needed",
+    "frequencyES": "Según sea necesario",
+    "edibleParts": ["Leaves", "Flowers"],
+    "ediblePartsES": ["Hojas", "Flores"]
+  },
+  "culinaryUses": [
+    {
+      "part": "Leaves",
+      "recipes": ["Roasted potatoes", "Meat seasoning"],
+      "tips": ["Use fresh or dried"]
+    }
+  ],
+  "commonPests": [
+    {
+      "name": "Spider mites",
+      "nameES": "Araña roja",
+      "symptoms": "Fine webbing, yellow speckling",
+      "symptomsES": "Telarañas finas, moteado amarillo",
+      "organicControls": ["Increase humidity", "Water blast"],
+      "organicControlsES": ["Aumentar la humedad", "Chorro de agua"]
+    }
+  ],
+  "diseaseResistance": "High",
+  "soilPreferences": {
+    "phRange": "6.0-8.5",
+    "preferredType": "Sandy, well-draining",
+    "nutrientNotes": "Requires very little fertilizer",
+    "nutrientNotesES": "Requiere muy poco fertilizante"
+  },
+  "climateSuitability": {
+    "heatTolerance": "High",
+    "frostSensitivity": "Low",
+    "drought": "Very High",
+    "rainfallPreference": "Low",
+    "windTolerance": "High",
+    "heatToleranceES": "Alta",
+    "frostSensitivityES": "Baja",
+    "droughtES": "Muy Alta",
+    "rainfallPreferenceES": "Baja",
+    "windToleranceES": "Alta"
+  },
+  "carbonSequestration": "Medium",
+  "biodiversityScore": 8,
+  "invasivePotential": "Low",
+  "regionalAdaptations": [],
+  "relatedPlants": [],
+  "seedSources": [],
+  "organicCertification": "N/A",
+  "externalIds": {
+    "Wikidata": "Q23192"
+  },
+  "synonyms": ["Rosmarinus officinalis"],
+  "etymology": "From Latin 'ros' (dew) and 'marinus' (sea).",
+  "tags": ["herb", "aromatic", "hardy"],
+  "searchKeywords": ["romero", "rosemary", "mediterranean"],
+  "metaDescription": "Rosemary (Romero) grows beautifully in Costa Rica's Central Valley. Learn how to grow it.",
+  "difficultyLevel": "Beginner",
+  "maintenanceLevel": "Low",
+  "popularityScore": 92,
+  "published": true,
+  "source": {
+    "api": "manual",
+    "lastSyncedAt": "2026-06-20T00:00:00Z",
+    "enrichmentLevel": 5
+  },
+  "changeLog": [],
+  "version": 1,
+  "createdAt": "2026-06-20T00:00:00Z",
+  "updatedAt": "2026-06-20T00:00:00Z",
+  "createdBy": "admin-id",
+  "updatedBy": "admin-id"
+}
