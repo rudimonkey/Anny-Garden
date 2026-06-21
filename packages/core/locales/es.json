@@ -1,0 +1,48 @@
+{
+  "common": {
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior"
+  },
+  "nav": {
+    "home": "Inicio",
+    "browse": "Explorar",
+    "search": "Buscar",
+    "collection": "Colección",
+    "profile": "Perfil",
+    "admin": "Admin"
+  },
+  "plant": {
+    "scientificName": "Nombre científico",
+    "family": "Familia",
+    "habitat": "Hábitat",
+    "care": "Cuidados",
+    "water": "Riego",
+    "light": "Luz",
+    "difficulty": "Dificultad",
+    "maintenance": "Mantenimiento",
+    "featured": "Destacado",
+    "nativeTo": "Nativo de",
+    "toxicity": "Toxicidad",
+    "propagation": "Propagación",
+    "tips": "Consejos de cuidado",
+    "warnings": "Advertencias",
+    "companion": "Plantas compañeras"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña"
+  }
+}

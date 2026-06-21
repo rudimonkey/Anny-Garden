@@ -1,3 +1,12 @@
 export * from 'tamagui'
 export { default as config } from './tamagui.config'
-// Export components here as they are created
+
+export * from './components/PlantCard'
+export * from './components/CategoryBadge'
+export * from './components/SearchBar'
+export * from './components/OfflineBadge'
+export * from './components/LoadingShimmer'
+export * from './components/ErrorBoundaryFallback'
+export * from './components/Pagination'
+export * from './components/Toast'
+export * from './components/FeaturedBadge'
