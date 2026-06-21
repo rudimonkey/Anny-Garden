@@ -1,126 +1,65 @@
 "use client";
-import React, { useEffect, useState } from 'react';
-import { usePlantStore, useUIStore } from '@plantitas/core';
+import React from 'react';
+import { usePlantStore } from '@plantitas/core';
 import { PlantCard } from '../../components/PlantCard';
-import { SearchBar } from '../../components/SearchBar';
 import { useTranslation } from 'react-i18next';
-import { useRouter, useSearchParams } from 'next/navigation';
 
 export default function SearchPage() {
-  const { t, i18n } = useTranslation();
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  const query = searchParams.get('q') || '';
-
   const {
-    paginatedPlants,
+    searchQuery,
     setSearchQuery,
+    paginatedPlants,
     activeFilters,
     toggleFilter,
     currentPage,
     totalPages,
     setPage,
-    togglePin,
-    isPinned
+    language
   } = usePlantStore();
+  const { t } = useTranslation();
 
-  const { isOffline, isLoading, error, setError } = useUIStore();
-  const [showToast, setShowToast] = useState<string | null>(null);
-
-  useEffect(() => {
-    setSearchQuery(query);
-  }, [query, setSearchQuery]);
-
-  useEffect(() => {
-    if (showToast) {
-      const timer = setTimeout(() => setShowToast(null), 3000);
-      return () => clearTimeout(timer);
-    }
-  }, [showToast]);
-
-  const handleSearch = (text: string) => {
-    const params = new URLSearchParams(searchParams);
-    if (text) {
-      params.set('q', text);
-    } else {
-      params.delete('q');
-    }
-    router.push(`/search?${params.toString()}`);
-  };
-
-  const handlePin = (slug: string) => {
-    togglePin(slug);
-    const pinned = isPinned(slug);
-    setShowToast(pinned ? 'Eliminado de favoritos' : 'Añadido a favoritos');
-  };
-
-  if (error) {
-    return (
-      <div className="container mx-auto px-4 py-20 text-center">
-        <h2 className="text-2xl font-bold text-alertRed9 mb-4">Error</h2>
-        <p className="text-gray-600 mb-8">{error}</p>
-        <button onClick={() => setError(null)} className="bg-leafGreen9 text-white px-6 py-2 rounded">
-          Reintentar
-        </button>
-      </div>
-    );
-  }
-
-  const habitats = ['exterior', 'interior', 'garden', 'huerto'];
-  const uses = ['culinary', 'medicinal', 'aromatic', 'ornamental'];
+  const habitats = ['Exterior', 'Interior', 'Garden', 'Huerto'];
+  const uses = ['Culinary', 'Medicinal', 'Aromatic', 'Ornamental'];
 
   return (
-    <main className="container mx-auto px-4 py-8 relative">
-      {showToast && (
-        <div className="fixed bottom-8 right-8 bg-leafGreen11 text-white px-6 py-3 rounded-lg shadow-2xl z-50 animate-bounce">
-          {showToast}
-        </div>
-      )}
+    <div className="container mx-auto px-6 py-12">
+      <h1 className="text-5xl font-black text-[#1b4332] mb-12 tracking-tighter">{t('nav.search', 'Buscar')}</h1>
 
-      <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold text-leafGreen11">{t('nav.search')}</h1>
-        {isOffline && (
-          <div className="flex items-center gap-2 bg-alertRed9 text-white px-4 py-1 rounded-full text-xs font-bold">
-            <span className="w-2 h-2 bg-white rounded-full animate-ping"></span>
-            OFFLINE
-          </div>
-        )}
-      </div>
+      <div className="flex flex-col lg:flex-row gap-12">
+        {/* Sidebar Filters */}
+        <aside className="w-full lg:w-64 shrink-0">
+          <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 sticky top-24">
+            <h3 className="font-black text-[#1b4332] mb-6 uppercase tracking-widest text-sm">{t('browse.categories', 'Categorías')}</h3>
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-        <aside className="lg:col-span-1">
-          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-            <h2 className="font-bold text-lg mb-4 text-leafGreen11">{t('browse.categories')}</h2>
-
-            <div className="mb-6">
-              <h3 className="text-sm font-semibold text-gray-500 uppercase mb-2">Habitat</h3>
-              <div className="flex flex-col gap-2">
+            <div className="mb-8">
+              <h4 className="font-extrabold text-[10px] text-[#2d6a4f] mb-4 uppercase tracking-widest">Habitat</h4>
+              <div className="space-y-3">
                 {habitats.map(h => (
-                  <label key={h} className="flex items-center gap-2 cursor-pointer">
+                  <label key={h} className="flex items-center gap-3 cursor-pointer group">
                     <input
                       type="checkbox"
                       checked={activeFilters.habitat.includes(h)}
                       onChange={() => toggleFilter('habitat', h)}
-                      className="rounded text-leafGreen9 focus:ring-leafGreen9"
+                      className="w-5 h-5 rounded border-gray-300 text-[#2d6a4f] focus:ring-[#2d6a4f]"
                     />
-                    <span className="text-sm capitalize">{h}</span>
+                    <span className="text-sm font-bold text-gray-600 group-hover:text-[#1b4332] transition-colors">{h}</span>
                   </label>
                 ))}
               </div>
             </div>
 
             <div>
-              <h3 className="text-sm font-semibold text-gray-500 uppercase mb-2">Uso</h3>
-              <div className="flex flex-col gap-2">
+              <h4 className="font-extrabold text-[10px] text-[#2d6a4f] mb-4 uppercase tracking-widest">Uso</h4>
+              <div className="space-y-3">
                 {uses.map(u => (
-                  <label key={u} className="flex items-center gap-2 cursor-pointer">
+                  <label key={u} className="flex items-center gap-3 cursor-pointer group">
                     <input
                       type="checkbox"
                       checked={activeFilters.use.includes(u)}
                       onChange={() => toggleFilter('use', u)}
-                      className="rounded text-leafGreen9 focus:ring-leafGreen9"
+                      className="w-5 h-5 rounded border-gray-300 text-[#2d6a4f] focus:ring-[#2d6a4f]"
                     />
-                    <span className="text-sm capitalize">{u}</span>
+                    <span className="text-sm font-bold text-gray-600 group-hover:text-[#1b4332] transition-colors">{u}</span>
                   </label>
                 ))}
               </div>
@@ -128,71 +67,61 @@ export default function SearchPage() {
           </div>
         </aside>
 
-        <div className="lg:col-span-3">
-          <div className="mb-8">
-            <SearchBar
-              value={query}
-              onChangeText={handleSearch}
-              placeholder={t('common.search') + "..."}
+        {/* Main Search Area */}
+        <div className="flex-1">
+          <div className="flex gap-4 mb-12">
+            <input
+              type="text"
+              placeholder={t('common.searchPlaceholder', 'Buscar...')}
+              className="flex-1 bg-white border-2 border-gray-100 rounded-2xl px-6 py-4 text-lg font-medium focus:border-[#2d6a4f] focus:outline-none shadow-sm transition-all"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
             />
+            <button className="bg-[#2d6a4f] text-white px-8 py-4 rounded-2xl font-black hover:bg-[#1b4332] transition-all shadow-lg">
+              {t('common.search', 'Buscar')}
+            </button>
           </div>
 
-          {isLoading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[...Array(6)].map((_, i) => (
-                <div key={i} className="bg-gray-100 animate-pulse h-[350px] rounded-lg"></div>
-              ))}
-            </div>
-          ) : paginatedPlants.length > 0 ? (
-            <>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {paginatedPlants.map(plant => (
-                  <PlantCard
-                    key={plant.id}
-                    plant={plant}
-                    isPinned={isPinned(plant.slug)}
-                    onPinPress={() => handlePin(plant.slug)}
-                  />
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+            {paginatedPlants.map(plant => (
+              <div key={plant.slug} className="animate-in zoom-in-95 duration-500">
+                <PlantCard plant={plant} />
+              </div>
+            ))}
+          </div>
+
+          {/* Pagination */}
+          {totalPages > 1 && (
+            <div className="mt-16 flex justify-center items-center gap-4">
+              <button
+                onClick={() => setPage(currentPage - 1)}
+                disabled={currentPage === 1}
+                className="w-12 h-12 rounded-full border-2 border-[#2d6a4f] flex items-center justify-center text-[#2d6a4f] disabled:opacity-30 hover:bg-[#2d6a4f] hover:text-white transition-all font-bold"
+              >
+                ←
+              </button>
+              <div className="flex gap-2">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
+                  <button
+                    key={p}
+                    onClick={() => setPage(p)}
+                    className={`w-12 h-12 rounded-full font-black transition-all ${p === currentPage ? 'bg-[#2d6a4f] text-white shadow-lg' : 'bg-white text-[#1b4332] border-2 border-gray-100 hover:border-[#2d6a4f]'}`}
+                  >
+                    {p}
+                  </button>
                 ))}
               </div>
-
-              <div className="mt-12 flex justify-center items-center gap-4">
-                <button
-                  disabled={currentPage === 1}
-                  onClick={() => setPage(currentPage - 1)}
-                  className="p-3 border rounded-full disabled:opacity-30 hover:bg-leafGreen1 transition-colors"
-                >
-                  ←
-                </button>
-                <div className="flex gap-2">
-                    {[...Array(totalPages)].map((_, i) => (
-                        <button
-                            key={i}
-                            onClick={() => setPage(i + 1)}
-                            className={`w-10 h-10 rounded-full font-bold transition-colors ${currentPage === i + 1 ? 'bg-leafGreen9 text-white' : 'border hover:bg-leafGreen1'}`}
-                        >
-                            {i + 1}
-                        </button>
-                    ))}
-                </div>
-                <button
-                  disabled={currentPage === totalPages}
-                  onClick={() => setPage(currentPage + 1)}
-                  className="p-3 border rounded-full disabled:opacity-30 hover:bg-leafGreen1 transition-colors"
-                >
-                  →
-                </button>
-              </div>
-            </>
-          ) : (
-            <div className="text-center py-20 bg-gray-50 rounded-lg border-2 border-dashed border-gray-200">
-              <p className="text-xl text-gray-500">
-                {t('common.noResults')} "{query}"
-              </p>
+              <button
+                onClick={() => setPage(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className="w-12 h-12 rounded-full border-2 border-[#2d6a4f] flex items-center justify-center text-[#2d6a4f] disabled:opacity-30 hover:bg-[#2d6a4f] hover:text-white transition-all font-bold"
+              >
+                →
+              </button>
             </div>
           )}
         </div>
       </div>
-    </main>
+    </div>
   );
 }

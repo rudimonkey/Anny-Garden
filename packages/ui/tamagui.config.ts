@@ -23,6 +23,12 @@ const appConfig = createTamagui({
   tokens,
   themes: {
     ...config.themes,
+    light: {
+      ...config.themes.light,
+      background: tokens.color.leafGreen1,
+      color: tokens.color.leafGreen11,
+      primary: tokens.color.leafGreen9,
+    }
   },
 })
 
