@@ -1,10 +1,10 @@
 {
-  "slug": "romero",
-  "commonName": "Rosemary",
-  "scientificName": "Salvia rosmarinus",
-  "botanicalFamily": "Lamiaceae",
-  "labelES": "Romero",
-  "labelEN": "Rosemary",
+  "slug": "pothos",
+  "commonName": "Golden Pothos",
+  "scientificName": "Epipremnum aureum",
+  "botanicalFamily": "Araceae",
+  "labelES": "Potus",
+  "labelEN": "Pothos",
   "featured": false,
   "growthRate": "Moderate",
   "growthHeight": "Varies",
@@ -12,23 +12,23 @@
   "bloomColor": "Varies",
   "bloomTime": "Varies",
   "bloomSeason": "summer",
-  "waterNeeds": "low",
-  "lightNeeds": "direct",
-  "sunlightHoursMin": 6,
-  "sunlightHoursMax": 12,
+  "waterNeeds": "moderate",
+  "lightNeeds": "indirect",
+  "sunlightHoursMin": 2,
+  "sunlightHoursMax": 4,
   "temperatureRange": "15-25°C",
   "humidityNeeds": "Medium",
   "relativeHumidityNeeds": "40-60%",
   "fertilizerNeeds": "Monthly",
   "soilNeeds": "Well-draining",
-  "nativeRegion": "Mediterranean",
+  "nativeRegion": "French Polynesia",
   "predominantCRRegions": "All regions",
   "droughtTolerance": "Medium",
   "hardinessZone": "10-11",
   "localNames": "",
-  "culturalUses": "Culinary, medicinal, aromatic",
-  "culturalUsesES": "Culinario, medicinal, aromático",
-  "toxicityPets": "Safe",
+  "culturalUses": "Ornamental, very easy care",
+  "culturalUsesES": "Ornamental, cuidado muy fácil",
+  "toxicityPets": "Toxic",
   "toxicityHumans": "Safe",
   "propagationMethods": [
     "Cuttings"
@@ -36,83 +36,80 @@
   "economicImportance": "Low",
   "localSeasonality": "Year-round",
   "warnings": [
-    "Safe for pets"
+    "Toxic to pets (calcium oxalates)"
   ],
   "warningsES": [
-    "Seguro para mascotas"
+    "Tóxico para las mascotas"
   ],
   "careTips": [
-    "Needs excellent drainage",
-    "Hardy and drought tolerant"
+    "Easy to propagate in water",
+    "Avoid direct sun"
   ],
   "careTipsES": [
-    "Necesita un drenaje excelente",
-    "Resistente y tolerante a la sequía"
+    "Fácil de propagar en agua",
+    "Evitar el sol directo"
   ],
   "facets": {
     "habitat": [
-      "exterior",
-      "garden",
-      "huerto"
+      "interior",
+      "hanging-basket"
     ],
     "growthHabit": [
-      "shrub"
+      "climber"
     ],
     "use": [
-      "culinary",
-      "aromatic",
-      "medicinal",
-      "ornamental"
+      "ornamental",
+      "air-purifying"
     ],
     "difficulty": [
       "beginner"
     ],
     "pollinator": [
-      "bees"
+      "none"
     ],
-    "companion": true,
+    "companion": false,
     "maintenance": [
       "low"
     ]
   },
   "images": [
     {
-      "url": "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80&w=800",
+      "url": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": true,
-      "altText": "Romero - Perspective 1"
+      "altText": "Potus - Perspective 1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Potus - Perspective 2"
     },
     {
       "url": "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 2"
+      "altText": "Potus - Perspective 3"
     },
     {
       "url": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 3"
+      "altText": "Potus - Perspective 4"
     },
     {
       "url": "https://images.unsplash.com/photo-1502164980785-f8aa41d53611?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 4"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?auto=format&fit=crop&q=80&w=800",
-      "width": 800,
-      "height": 800,
-      "isPrimary": false,
-      "altText": "Romero - Perspective 5"
+      "altText": "Potus - Perspective 5"
     }
   ],
-  "genus": "Salvia",
+  "genus": "Epipremnum",
   "cultivar": null,
   "lifeCycle": "perennial",
   "bloomStart": "Spring",
@@ -206,11 +203,11 @@
     "houseplant"
   ],
   "searchKeywords": [
-    "romero",
-    "rosemary",
-    "salvia rosmarinus"
+    "potus",
+    "pothos",
+    "epipremnum aureum"
   ],
-  "metaDescription": "Aprende cómo cultivar y cuidar Romero (Rosemary) en Costa Rica.",
+  "metaDescription": "Aprende cómo cultivar y cuidar Potus (Pothos) en Costa Rica.",
   "difficultyLevel": "Beginner",
   "maintenanceLevel": "Low",
   "popularityScore": 80,

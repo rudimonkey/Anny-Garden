@@ -1,0 +1,136 @@
+{
+  "slug": "cacao",
+  "commonName": "Cacao Tree",
+  "scientificName": "Theobroma cacao",
+  "botanicalFamily": "Malvaceae",
+  "labelES": "Cacao",
+  "labelEN": "Cacao",
+  "featured": false,
+  "growthRate": "Slow",
+  "growthHeight": "4-8 m",
+  "growthWidth": "3-5 m",
+  "bloomColor": "White/Pink",
+  "bloomTime": "Year-round",
+  "bloomSeason": "all",
+  "waterNeeds": "high",
+  "lightNeeds": "shadow",
+  "sunlightHoursMin": 2,
+  "sunlightHoursMax": 4,
+  "temperatureRange": "20-30°C",
+  "humidityNeeds": "Very High",
+  "relativeHumidityNeeds": "70-90%",
+  "fertilizerNeeds": "Quarterly",
+  "soilNeeds": "Deep, fertile, well-draining",
+  "nativeRegion": "Amazon Basin",
+  "predominantCRRegions": "Caribbean coast, Northern plains",
+  "droughtTolerance": "None",
+  "hardinessZone": "11-12",
+  "localNames": "Cacao",
+  "culturalUses": "Production of chocolate, cultural significance",
+  "culturalUsesES": "Producción de chocolate, significado cultural",
+  "toxicityPets": "Toxic",
+  "toxicityHumans": "Safe",
+  "propagationMethods": [
+    "Seeds",
+    "Grafting"
+  ],
+  "economicImportance": "High",
+  "localSeasonality": "Year-round",
+  "warnings": [
+    "Toxic to pets (contains theobromine)"
+  ],
+  "warningsES": [
+    "Tóxico para las mascotas"
+  ],
+  "careTips": [
+    "Requires high humidity",
+    "Protect from direct hot sun"
+  ],
+  "careTipsES": [
+    "Requiere alta humedad",
+    "Proteger del sol directo fuerte"
+  ],
+  "facets": {
+    "habitat": [
+      "exterior",
+      "shadow"
+    ],
+    "growthHabit": [
+      "tree"
+    ],
+    "use": [
+      "culinary",
+      "medicinal"
+    ],
+    "difficulty": [
+      "intermediate"
+    ],
+    "pollinator": [
+      "midges"
+    ],
+    "companion": true,
+    "maintenance": [
+      "high"
+    ]
+  },
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": true,
+      "altText": "Cacao - Perspective 1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1464306208223-e0b4495a5553?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Cacao - Perspective 2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1473081556163-2a17de81fc97?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Cacao - Perspective 3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Cacao - Perspective 4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1491147334573-44cbb4602074?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Cacao - Perspective 5"
+    }
+  ],
+  "genus": "Theobroma",
+  "published": true,
+  "commonPests": [
+    {
+      "name": "Aphids",
+      "nameES": "Pulgones",
+      "symptoms": "Curled leaves",
+      "symptomsES": "Hojas rizadas",
+      "organicControls": [
+        "Neem oil"
+      ],
+      "organicControlsES": [
+        "Aceite de neem"
+      ]
+    }
+  ],
+  "version": 1,
+  "searchKeywords": [
+    "cacao",
+    "cacao",
+    "theobroma cacao"
+  ],
+  "metaDescription": "Aprende cómo cultivar y cuidar Cacao (Cacao) en Costa Rica."
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "guaria-morada",
+  "commonName": "National Orchid",
+  "scientificName": "Guarianthe skinneri",
+  "botanicalFamily": "Orchidaceae",
+  "labelES": "Guaria Morada",
+  "labelEN": "Guaria Morada",
+  "featured": true,
+  "growthRate": "Slow",
+  "growthHeight": "30-50 cm",
+  "growthWidth": "20-40 cm",
+  "bloomColor": "Purple",
+  "bloomTime": "February-March",
+  "bloomSeason": "spring",
+  "waterNeeds": "moderate",
+  "lightNeeds": "indirect",
+  "sunlightHoursMin": 4,
+  "sunlightHoursMax": 6,
+  "temperatureRange": "15-28°C",
+  "humidityNeeds": "Medium",
+  "relativeHumidityNeeds": "50-70%",
+  "fertilizerNeeds": "Specific orchid fertilizer bi-weekly",
+  "soilNeeds": "Epiphytic substrate (bark, moss)",
+  "nativeRegion": "Central America",
+  "predominantCRRegions": "Central Valley, Pacific slope",
+  "droughtTolerance": "Medium",
+  "hardinessZone": "11-12",
+  "localNames": "Guaria Morada",
+  "culturalUses": "National flower of Costa Rica, ornamental",
+  "culturalUsesES": "Flor nacional de Costa Rica, ornamental",
+  "toxicityPets": "Safe",
+  "toxicityHumans": "Safe",
+  "propagationMethods": [
+    "Division"
+  ],
+  "economicImportance": "Cultural",
+  "localSeasonality": "Blooms in dry season",
+  "warnings": [
+    "Safe for pets"
+  ],
+  "warningsES": [
+    "Seguro para mascotas"
+  ],
+  "careTips": [
+    "Good air circulation is vital",
+    "Water when substrate is dry"
+  ],
+  "careTipsES": [
+    "La buena circulación de aire es vital",
+    "Regar cuando el sustrato esté seco"
+  ],
+  "facets": {
+    "habitat": [
+      "exterior",
+      "shadow"
+    ],
+    "growthHabit": [
+      "epiphyte"
+    ],
+    "use": [
+      "ornamental"
+    ],
+    "difficulty": [
+      "intermediate"
+    ],
+    "pollinator": [
+      "bees"
+    ],
+    "companion": false,
+    "maintenance": [
+      "medium"
+    ]
+  },
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1491147334573-44cbb4602074?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": true,
+      "altText": "Guaria Morada - Perspective 1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Guaria Morada - Perspective 2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1494537176433-7a3c4ef2046f?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Guaria Morada - Perspective 3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Guaria Morada - Perspective 4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Guaria Morada - Perspective 5"
+    }
+  ],
+  "genus": "Guarianthe",
+  "published": true,
+  "commonPests": [
+    {
+      "name": "Aphids",
+      "nameES": "Pulgones",
+      "symptoms": "Curled leaves",
+      "symptomsES": "Hojas rizadas",
+      "organicControls": [
+        "Neem oil"
+      ],
+      "organicControlsES": [
+        "Aceite de neem"
+      ]
+    }
+  ],
+  "version": 1,
+  "searchKeywords": [
+    "guaria morada",
+    "guaria morada",
+    "guarianthe skinneri"
+  ],
+  "metaDescription": "Aprende cómo cultivar y cuidar Guaria Morada (Guaria Morada) en Costa Rica."
+}

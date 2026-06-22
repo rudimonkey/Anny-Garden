@@ -1,0 +1,134 @@
+{
+  "slug": "heliconia",
+  "commonName": "Lobster Claw",
+  "scientificName": "Heliconia spp.",
+  "botanicalFamily": "Heliconiaceae",
+  "labelES": "Heliconia",
+  "labelEN": "Heliconia",
+  "featured": true,
+  "growthRate": "Fast",
+  "growthHeight": "1.5-3 m",
+  "growthWidth": "1-2 m",
+  "bloomColor": "Red/Yellow",
+  "bloomTime": "Year-round",
+  "bloomSeason": "all",
+  "waterNeeds": "high",
+  "lightNeeds": "direct",
+  "sunlightHoursMin": 6,
+  "sunlightHoursMax": 8,
+  "temperatureRange": "18-35°C",
+  "humidityNeeds": "High",
+  "relativeHumidityNeeds": "60-90%",
+  "fertilizerNeeds": "Monthly",
+  "soilNeeds": "Rich, moist, well-draining",
+  "nativeRegion": "Tropical Americas",
+  "predominantCRRegions": "Lowlands, both coasts",
+  "droughtTolerance": "Low",
+  "hardinessZone": "10-12",
+  "localNames": "Platanillo",
+  "culturalUses": "Ornamental, cut flowers",
+  "culturalUsesES": "Ornamental, flores cortadas",
+  "toxicityPets": "Safe",
+  "toxicityHumans": "Safe",
+  "propagationMethods": [
+    "Rhizomes"
+  ],
+  "economicImportance": "Medium",
+  "localSeasonality": "Year-round",
+  "warnings": [
+    "Safe for pets"
+  ],
+  "warningsES": [
+    "Seguro para mascotas"
+  ],
+  "careTips": [
+    "Rich, well-draining soil",
+    "Heavy feeder"
+  ],
+  "careTipsES": [
+    "Suelo rico y bien drenado",
+    "Requiere mucho fertilizante"
+  ],
+  "facets": {
+    "habitat": [
+      "exterior",
+      "garden"
+    ],
+    "growthHabit": [
+      "herbaceous"
+    ],
+    "use": [
+      "ornamental"
+    ],
+    "difficulty": [
+      "beginner"
+    ],
+    "pollinator": [
+      "hummingbirds"
+    ],
+    "companion": true,
+    "maintenance": [
+      "low"
+    ]
+  },
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": true,
+      "altText": "Heliconia - Perspective 1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1494537176433-7a3c4ef2046f?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Heliconia - Perspective 2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Heliconia - Perspective 3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Heliconia - Perspective 4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Heliconia - Perspective 5"
+    }
+  ],
+  "genus": "Heliconia",
+  "published": true,
+  "commonPests": [
+    {
+      "name": "Aphids",
+      "nameES": "Pulgones",
+      "symptoms": "Curled leaves",
+      "symptomsES": "Hojas rizadas",
+      "organicControls": [
+        "Neem oil"
+      ],
+      "organicControlsES": [
+        "Aceite de neem"
+      ]
+    }
+  ],
+  "version": 1,
+  "searchKeywords": [
+    "heliconia",
+    "heliconia",
+    "heliconia spp."
+  ],
+  "metaDescription": "Aprende cómo cultivar y cuidar Heliconia (Heliconia) en Costa Rica."
+}

@@ -1,10 +1,10 @@
 {
-  "slug": "romero",
-  "commonName": "Rosemary",
-  "scientificName": "Salvia rosmarinus",
-  "botanicalFamily": "Lamiaceae",
-  "labelES": "Romero",
-  "labelEN": "Rosemary",
+  "slug": "boston-fern",
+  "commonName": "Boston Fern",
+  "scientificName": "Nephrolepis exaltata",
+  "botanicalFamily": "Nephrolepidaceae",
+  "labelES": "Helecho Boston",
+  "labelEN": "Boston Fern",
   "featured": false,
   "growthRate": "Moderate",
   "growthHeight": "Varies",
@@ -12,22 +12,22 @@
   "bloomColor": "Varies",
   "bloomTime": "Varies",
   "bloomSeason": "summer",
-  "waterNeeds": "low",
-  "lightNeeds": "direct",
-  "sunlightHoursMin": 6,
-  "sunlightHoursMax": 12,
+  "waterNeeds": "high",
+  "lightNeeds": "indirect",
+  "sunlightHoursMin": 2,
+  "sunlightHoursMax": 4,
   "temperatureRange": "15-25°C",
-  "humidityNeeds": "Medium",
+  "humidityNeeds": "High",
   "relativeHumidityNeeds": "40-60%",
   "fertilizerNeeds": "Monthly",
   "soilNeeds": "Well-draining",
-  "nativeRegion": "Mediterranean",
+  "nativeRegion": "Pantropical",
   "predominantCRRegions": "All regions",
   "droughtTolerance": "Medium",
   "hardinessZone": "10-11",
   "localNames": "",
-  "culturalUses": "Culinary, medicinal, aromatic",
-  "culturalUsesES": "Culinario, medicinal, aromático",
+  "culturalUses": "Ornamental, air purifier",
+  "culturalUsesES": "Ornamental, purificador de aire",
   "toxicityPets": "Safe",
   "toxicityHumans": "Safe",
   "propagationMethods": [
@@ -42,77 +42,74 @@
     "Seguro para mascotas"
   ],
   "careTips": [
-    "Needs excellent drainage",
-    "Hardy and drought tolerant"
+    "Maintain high humidity",
+    "Keep soil consistently moist"
   ],
   "careTipsES": [
-    "Necesita un drenaje excelente",
-    "Resistente y tolerante a la sequía"
+    "Mantener alta humedad",
+    "Mantener el suelo constantemente húmedo"
   ],
   "facets": {
     "habitat": [
-      "exterior",
-      "garden",
-      "huerto"
+      "interior",
+      "hanging-basket"
     ],
     "growthHabit": [
-      "shrub"
+      "fern"
     ],
     "use": [
-      "culinary",
-      "aromatic",
-      "medicinal",
-      "ornamental"
+      "ornamental",
+      "air-purifying"
     ],
     "difficulty": [
-      "beginner"
+      "intermediate"
     ],
     "pollinator": [
-      "bees"
+      "none"
     ],
-    "companion": true,
+    "companion": false,
     "maintenance": [
-      "low"
+      "medium"
     ]
   },
   "images": [
     {
-      "url": "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80&w=800",
+      "url": "https://images.unsplash.com/photo-1459156212016-c812468e2115?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": true,
-      "altText": "Romero - Perspective 1"
+      "altText": "Helecho Boston - Perspective 1"
     },
     {
-      "url": "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&q=80&w=800",
+      "url": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 2"
+      "altText": "Helecho Boston - Perspective 2"
     },
     {
-      "url": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=800",
+      "url": "https://images.unsplash.com/photo-1464306208223-e0b4495a5553?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 3"
+      "altText": "Helecho Boston - Perspective 3"
     },
     {
-      "url": "https://images.unsplash.com/photo-1502164980785-f8aa41d53611?auto=format&fit=crop&q=80&w=800",
+      "url": "https://images.unsplash.com/photo-1473081556163-2a17de81fc97?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 4"
+      "altText": "Helecho Boston - Perspective 4"
     },
     {
-      "url": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?auto=format&fit=crop&q=80&w=800",
+      "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 5"
+      "altText": "Helecho Boston - Perspective 5"
     }
   ],
-  "genus": "Salvia",
+  "genus": "Nephrolepis",
   "cultivar": null,
   "lifeCycle": "perennial",
   "bloomStart": "Spring",
@@ -206,11 +203,11 @@
     "houseplant"
   ],
   "searchKeywords": [
-    "romero",
-    "rosemary",
-    "salvia rosmarinus"
+    "helecho boston",
+    "boston fern",
+    "nephrolepis exaltata"
   ],
-  "metaDescription": "Aprende cómo cultivar y cuidar Romero (Rosemary) en Costa Rica.",
+  "metaDescription": "Aprende cómo cultivar y cuidar Helecho Boston (Boston Fern) en Costa Rica.",
   "difficultyLevel": "Beginner",
   "maintenanceLevel": "Low",
   "popularityScore": 80,

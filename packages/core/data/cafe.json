@@ -1,0 +1,136 @@
+{
+  "slug": "cafe",
+  "commonName": "Coffee Plant",
+  "scientificName": "Coffea arabica",
+  "botanicalFamily": "Rubiaceae",
+  "labelES": "Café",
+  "labelEN": "Coffee",
+  "featured": true,
+  "growthRate": "Moderate",
+  "growthHeight": "2-4 m",
+  "growthWidth": "1.5-2.5 m",
+  "bloomColor": "White",
+  "bloomTime": "Spring",
+  "bloomSeason": "spring",
+  "waterNeeds": "moderate",
+  "lightNeeds": "indirect",
+  "sunlightHoursMin": 4,
+  "sunlightHoursMax": 6,
+  "temperatureRange": "15-25°C",
+  "humidityNeeds": "High",
+  "relativeHumidityNeeds": "60-80%",
+  "fertilizerNeeds": "Monthly during growing season",
+  "soilNeeds": "Acidic, well-draining",
+  "nativeRegion": "Ethiopia and Sudan",
+  "predominantCRRegions": "Central Valley, Los Santos, Guanacaste (highlands)",
+  "droughtTolerance": "Low",
+  "hardinessZone": "10-11",
+  "localNames": "Cafeto",
+  "culturalUses": "Beverage production, economic staple",
+  "culturalUsesES": "Producción de bebidas, base económica",
+  "toxicityPets": "Toxic",
+  "toxicityHumans": "Safe (berries), caffeine content in seeds",
+  "propagationMethods": [
+    "Seeds",
+    "Cuttings"
+  ],
+  "economicImportance": "Extreme",
+  "localSeasonality": "Harvest October-March",
+  "warnings": [
+    "Toxic to pets (contains caffeine)"
+  ],
+  "warningsES": [
+    "Tóxico para las mascotas"
+  ],
+  "careTips": [
+    "Bright indirect light",
+    "Regular feeding during growth"
+  ],
+  "careTipsES": [
+    "Luz indirecta brillante",
+    "Alimentación regular durante el crecimiento"
+  ],
+  "facets": {
+    "habitat": [
+      "exterior",
+      "garden"
+    ],
+    "growthHabit": [
+      "shrub"
+    ],
+    "use": [
+      "culinary",
+      "ornamental"
+    ],
+    "difficulty": [
+      "intermediate"
+    ],
+    "pollinator": [
+      "bees"
+    ],
+    "companion": true,
+    "maintenance": [
+      "medium"
+    ]
+  },
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1464306208223-e0b4495a5553?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": true,
+      "altText": "Café - Perspective 1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1473081556163-2a17de81fc97?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Café - Perspective 2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Café - Perspective 3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1491147334573-44cbb4602074?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Café - Perspective 4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Café - Perspective 5"
+    }
+  ],
+  "genus": "Coffea",
+  "published": true,
+  "commonPests": [
+    {
+      "name": "Aphids",
+      "nameES": "Pulgones",
+      "symptoms": "Curled leaves",
+      "symptomsES": "Hojas rizadas",
+      "organicControls": [
+        "Neem oil"
+      ],
+      "organicControlsES": [
+        "Aceite de neem"
+      ]
+    }
+  ],
+  "version": 1,
+  "searchKeywords": [
+    "café",
+    "coffee",
+    "coffea arabica"
+  ],
+  "metaDescription": "Aprende cómo cultivar y cuidar Café (Coffee) en Costa Rica."
+}

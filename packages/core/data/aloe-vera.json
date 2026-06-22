@@ -5,147 +5,213 @@
   "botanicalFamily": "Asphodelaceae",
   "labelES": "Sábila",
   "labelEN": "Aloe Vera",
-  "featured": true,
-  "growthRate": "Slow to Moderate",
-  "growthHeight": "60-100 cm",
-  "growthWidth": "60-100 cm",
-  "bloomColor": "Yellow",
-  "bloomTime": "Summer",
+  "featured": false,
+  "growthRate": "Moderate",
+  "growthHeight": "Varies",
+  "growthWidth": "Varies",
+  "bloomColor": "Varies",
+  "bloomTime": "Varies",
   "bloomSeason": "summer",
   "waterNeeds": "low",
   "lightNeeds": "direct",
-  "sunlightHoursMin": 6,
-  "sunlightHoursMax": 10,
-  "temperatureRange": "15-45°C",
-  "humidityNeeds": "Low",
-  "relativeHumidityNeeds": "20-40%",
-  "fertilizerNeeds": "Rarely",
-  "soilNeeds": "Cactus mix, sandy, well-drained",
+  "sunlightHoursMin": 4,
+  "sunlightHoursMax": 8,
+  "temperatureRange": "15-25°C",
+  "humidityNeeds": "Medium",
+  "relativeHumidityNeeds": "40-60%",
+  "fertilizerNeeds": "Monthly",
+  "soilNeeds": "Well-draining",
   "nativeRegion": "Arabian Peninsula",
-  "predominantCRRegions": "Dry regions, Guanacaste, Coastal areas",
-  "droughtTolerance": "High",
-  "hardinessZone": "9-11",
-  "localNames": "Sábila",
-  "culturalUses": "Medicinal, cosmetic, ornamental",
-  "culturalUsesES": "Medicinal, cosmético, ornamental",
-  "toxicityPets": "Toxic to dogs and cats if ingested (leaves)",
-  "toxicityHumans": "Generally safe topically; purgative if ingested in large amounts",
-  "propagationMethods": ["Offsets (pups)", "Seeds"],
-  "economicImportance": "Very High (global skincare/health industry)",
+  "predominantCRRegions": "All regions",
+  "droughtTolerance": "Medium",
+  "hardinessZone": "10-11",
+  "localNames": "",
+  "culturalUses": "Medicinal for skin, ornamental",
+  "culturalUsesES": "Medicinal para la piel, ornamental",
+  "toxicityPets": "Toxic",
+  "toxicityHumans": "Safe",
+  "propagationMethods": [
+    "Cuttings"
+  ],
+  "economicImportance": "Low",
   "localSeasonality": "Year-round",
-  "warnings": ["Do not overwater", "Keep away from pets"],
-  "warningsES": ["No regar en exceso", "Mantener alejado de mascotas"],
-  "careTips": ["Wait for soil to dry completely before watering", "Provide bright, direct light"],
-  "careTipsES": ["Espere a que el suelo se seque por completo antes de regar", "Proporcionar luz brillante y directa"],
+  "warnings": [
+    "Toxic to pets if ingested"
+  ],
+  "warningsES": [
+    "Tóxico para las mascotas"
+  ],
+  "careTips": [
+    "Allow soil to dry completely",
+    "Avoid overwatering"
+  ],
+  "careTipsES": [
+    "Deje que el suelo se seque completamente",
+    "Evite el exceso de riego"
+  ],
   "facets": {
-    "habitat": ["exterior", "garden", "succulent-garden", "pot"],
-    "growthHabit": ["succulent", "perennial"],
-    "use": ["medicinal", "ornamental"],
-    "difficulty": ["beginner"],
-    "pollinator": ["birds", "bees"],
+    "habitat": [
+      "exterior",
+      "succulent-garden",
+      "pot"
+    ],
+    "growthHabit": [
+      "succulent"
+    ],
+    "use": [
+      "medicinal",
+      "ornamental"
+    ],
+    "difficulty": [
+      "beginner"
+    ],
+    "pollinator": [
+      "birds"
+    ],
     "companion": false,
-    "maintenance": ["low"]
+    "maintenance": [
+      "low"
+    ]
   },
   "images": [
     {
-      "url": "https://images.unsplash.com/photo-1509423355108-74d691412ae0?w=1200&h=1200&fit=crop",
-      "width": 1200,
-      "height": 1200,
-      "caption": "Aloe Vera plant in sunny garden",
+      "url": "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
       "isPrimary": true,
-      "attribution": "Unsplash",
-      "altText": "Planta de Sábila al sol"
+      "altText": "Sábila - Perspective 1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1459156212016-c812468e2115?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Sábila - Perspective 2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Sábila - Perspective 3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1464306208223-e0b4495a5553?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Sábila - Perspective 4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1473081556163-2a17de81fc97?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Sábila - Perspective 5"
     }
   ],
   "genus": "Aloe",
   "cultivar": null,
   "lifeCycle": "perennial",
-  "bloomStart": "March",
-  "bloomEnd": "May",
+  "bloomStart": "Spring",
+  "bloomEnd": "Summer",
   "phenologyRecords": [
     {
-      "stage": "Flowering",
-      "startMonth": "March",
-      "endMonth": "May",
+      "stage": "Vegetative",
+      "startMonth": "January",
+      "endMonth": "December",
       "crSpecific": true
     }
   ],
   "companionPlants": [],
   "companionInfo": {
-    "goodWith": ["Onions", "Geraniums"],
+    "goodWith": [],
     "avoidWith": []
   },
   "pollinatorValue": {
-    "attracts": ["Hummingbirds", "Bees"],
-    "nectarRating": "Medium"
+    "attracts": [
+      "none"
+    ],
+    "nectarRating": "Low"
   },
   "beneficialInsects": [],
   "pestRepellent": [],
   "harvestInfo": {
-    "firstHarvestDays": 365,
-    "daysToMaturity": 730,
-    "yieldPerPlant": "3-4 leaves per harvest",
-    "yieldPerPlantES": "3-4 hojas por cosecha",
+    "firstHarvestDays": 0,
+    "daysToMaturity": 0,
+    "yieldPerPlant": "N/A",
+    "yieldPerPlantES": "N/A",
     "expectedYieldPerSqMeter": "N/A",
-    "frequency": "Every few months",
-    "frequencyES": "Cada pocos meses",
-    "edibleParts": ["Gel (internal)"],
-    "ediblePartsES": ["Gel (interno)"]
+    "frequency": "N/A",
+    "frequencyES": "N/A",
+    "edibleParts": [],
+    "ediblePartsES": []
   },
-  "culinaryUses": [
-    {
-      "part": "Gel",
-      "recipes": ["Smoothies", "Aloe water"],
-      "tips": ["Rinse well to remove aloin (yellow bitter sap)"]
-    }
-  ],
+  "culinaryUses": [],
   "commonPests": [
     {
-      "name": "Scale insects",
-      "nameES": "Escamas",
-      "symptoms": "Bumpy brown spots",
-      "symptomsES": "Manchas marrones elevadas",
-      "organicControls": ["Scrape off", "Alcohol wipe"],
-      "organicControlsES": ["Raspado manual", "Limpieza con alcohol"]
+      "name": "Mealybugs",
+      "nameES": "Cochinillas",
+      "symptoms": "White cottony spots",
+      "symptomsES": "Manchas blancas algodonosas",
+      "organicControls": [
+        "Alcohol rub",
+        "Neem oil"
+      ],
+      "organicControlsES": [
+        "Frotar con alcohol",
+        "Aceite de neem"
+      ]
     }
   ],
   "diseaseResistance": "High",
   "soilPreferences": {
-    "phRange": "7.0-8.5",
-    "preferredType": "Sandy, well-draining",
-    "nutrientNotes": "Does not need frequent fertilization",
-    "nutrientNotesES": "No necesita fertilización frecuente"
+    "phRange": "6.0-7.0",
+    "preferredType": "Potting mix",
+    "nutrientNotes": "Standard indoor fertilizer",
+    "nutrientNotesES": "Fertilizante estándar para interiores"
   },
   "climateSuitability": {
-    "heatTolerance": "Very High",
+    "heatTolerance": "Medium",
     "frostSensitivity": "High",
-    "drought": "Very High",
+    "drought": "Medium",
     "rainfallPreference": "Low",
-    "windTolerance": "High",
-    "heatToleranceES": "Muy Alta",
+    "windTolerance": "Low",
+    "heatToleranceES": "Media",
     "frostSensitivityES": "Alta",
-    "droughtES": "Muy Alta",
+    "droughtES": "Media",
     "rainfallPreferenceES": "Baja",
-    "windToleranceES": "Alta"
+    "windToleranceES": "Baja"
   },
   "carbonSequestration": "Low",
   "biodiversityScore": 5,
   "invasivePotential": "Low",
   "regionalAdaptations": [],
   "relatedPlants": [],
-  "seedSources": [],
+  "seedSources": [
+    {
+      "supplier": "Local Nursery",
+      "url": "https://example.com"
+    }
+  ],
   "organicCertification": "N/A",
   "externalIds": {
-    "Wikidata": "Q80296"
+    "Wikidata": "Q0"
   },
-  "synonyms": ["Aloe barbadensis"],
-  "etymology": "Aloe from Arabic 'alloeh' (shining bitter substance), vera means 'true'.",
-  "tags": ["succulent", "medicinal", "sábila"],
-  "searchKeywords": ["aloe", "sábila", "burn relief"],
-  "metaDescription": "Discover the medicinal benefits and care tips for Aloe Vera (Sábila) in Costa Rica.",
+  "synonyms": [],
+  "etymology": "Unknown",
+  "tags": [
+    "houseplant"
+  ],
+  "searchKeywords": [
+    "sábila",
+    "aloe vera",
+    "aloe vera"
+  ],
+  "metaDescription": "Aprende cómo cultivar y cuidar Sábila (Aloe Vera) en Costa Rica.",
   "difficultyLevel": "Beginner",
   "maintenanceLevel": "Low",
-  "popularityScore": 96,
+  "popularityScore": 80,
   "published": true,
   "source": {
     "api": "manual",

@@ -1,70 +1,122 @@
 {
-  "slug": "monstera-deliciosa",
-  "commonName": "Monstera",
+  "slug": "monstera",
+  "commonName": "Swiss Cheese Plant",
   "scientificName": "Monstera deliciosa",
   "botanicalFamily": "Araceae",
-  "labelES": "Monstera",
+  "labelES": "Costilla de Adán",
   "labelEN": "Monstera",
-  "featured": true,
+  "featured": false,
   "growthRate": "Moderate",
-  "growthHeight": "2-3m (indoor), up to 9m (outdoor)",
-  "growthWidth": "1-2m",
-  "bloomColor": "Cream/White",
-  "bloomTime": "Rarely indoors",
+  "growthHeight": "Varies",
+  "growthWidth": "Varies",
+  "bloomColor": "Varies",
+  "bloomTime": "Varies",
   "bloomSeason": "summer",
   "waterNeeds": "moderate",
   "lightNeeds": "indirect",
   "sunlightHoursMin": 4,
   "sunlightHoursMax": 6,
-  "temperatureRange": "18-30°C",
-  "humidityNeeds": "High",
-  "relativeHumidityNeeds": "60-80%",
-  "fertilizerNeeds": "Monthly in spring/summer",
-  "soilNeeds": "Well-drained, peat-based",
+  "temperatureRange": "15-25°C",
+  "humidityNeeds": "Medium",
+  "relativeHumidityNeeds": "40-60%",
+  "fertilizerNeeds": "Monthly",
+  "soilNeeds": "Well-draining",
   "nativeRegion": "Mexico to Panama",
-  "predominantCRRegions": "Lowlands, rainforests",
-  "droughtTolerance": "Low",
-  "hardinessZone": "10-12",
-  "localNames": "Mano de tigre, Piñanona",
-  "culturalUses": "Ornamental, edible fruit (when ripe)",
-  "culturalUsesES": "Ornamental, fruto comestible (cuando está maduro)",
-  "toxicityPets": "Toxic (contains calcium oxalates)",
-  "toxicityHumans": "Toxic if leaves ingested; fruit safe when fully ripe",
-  "propagationMethods": ["Stem cuttings", "Air layering"],
-  "economicImportance": "High (ornamental plant industry)",
+  "predominantCRRegions": "All regions",
+  "droughtTolerance": "Medium",
+  "hardinessZone": "10-11",
+  "localNames": "",
+  "culturalUses": "Ornamental, edible fruit when mature",
+  "culturalUsesES": "Ornamental, fruto comestible cuando está maduro",
+  "toxicityPets": "Toxic",
+  "toxicityHumans": "Safe",
+  "propagationMethods": [
+    "Cuttings"
+  ],
+  "economicImportance": "Low",
   "localSeasonality": "Year-round",
-  "warnings": ["Keep away from pets"],
-  "warningsES": ["Mantener fuera del alcance de mascotas"],
-  "careTips": ["Wipe leaves with a damp cloth", "Provide a moss pole for climbing"],
-  "careTipsES": ["Limpiar las hojas con un paño húmedo", "Proporcionar un tutor de musgo para trepar"],
+  "warnings": [
+    "Toxic to pets (calcium oxalates)"
+  ],
+  "warningsES": [
+    "Tóxico para las mascotas"
+  ],
+  "careTips": [
+    "Needs support to climb",
+    "Provide bright indirect light"
+  ],
+  "careTipsES": [
+    "Necesita soporte para trepar",
+    "Proporcionar luz indirecta brillante"
+  ],
   "facets": {
-    "habitat": ["interior", "garden", "shadow"],
-    "growthHabit": ["climber", "herbaceous", "perennial"],
-    "use": ["ornamental"],
-    "difficulty": ["intermediate"],
-    "pollinator": ["beetles"],
+    "habitat": [
+      "interior",
+      "garden",
+      "shadow"
+    ],
+    "growthHabit": [
+      "climber"
+    ],
+    "use": [
+      "ornamental"
+    ],
+    "difficulty": [
+      "beginner"
+    ],
+    "pollinator": [
+      "beetles"
+    ],
     "companion": false,
-    "maintenance": ["medium"]
+    "maintenance": [
+      "medium"
+    ]
   },
   "images": [
     {
-      "url": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=1000&h=1500&fit=crop",
-      "width": 1000,
-      "height": 1500,
-      "caption": "Large Monstera leaf with fenestrations",
+      "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
       "isPrimary": true,
-      "attribution": "Unsplash",
-      "altText": "Hoja grande de Monstera"
+      "altText": "Costilla de Adán - Perspective 1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Costilla de Adán - Perspective 2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Costilla de Adán - Perspective 3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Costilla de Adán - Perspective 4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Costilla de Adán - Perspective 5"
     }
   ],
   "genus": "Monstera",
   "cultivar": null,
   "lifeCycle": "perennial",
-  "bloomStart": "June",
-  "bloomEnd": "August",
+  "bloomStart": "Spring",
+  "bloomEnd": "Summer",
   "phenologyRecords": [
     {
-      "stage": "Leaf Production",
+      "stage": "Vegetative",
       "startMonth": "January",
       "endMonth": "December",
       "crSpecific": true
@@ -76,21 +128,23 @@
     "avoidWith": []
   },
   "pollinatorValue": {
-    "attracts": ["Beetles"],
+    "attracts": [
+      "none"
+    ],
     "nectarRating": "Low"
   },
   "beneficialInsects": [],
   "pestRepellent": [],
   "harvestInfo": {
-    "firstHarvestDays": 1000,
-    "daysToMaturity": 1500,
-    "yieldPerPlant": "Few fruits per year",
-    "yieldPerPlantES": "Pocos frutos al año",
+    "firstHarvestDays": 0,
+    "daysToMaturity": 0,
+    "yieldPerPlant": "N/A",
+    "yieldPerPlantES": "N/A",
     "expectedYieldPerSqMeter": "N/A",
-    "frequency": "Occasional",
-    "frequencyES": "Ocasional",
-    "edibleParts": ["Fruit (ripe)"],
-    "ediblePartsES": ["Fruto (maduro)"]
+    "frequency": "N/A",
+    "frequencyES": "N/A",
+    "edibleParts": [],
+    "ediblePartsES": []
   },
   "culinaryUses": [],
   "commonPests": [
@@ -99,47 +153,64 @@
       "nameES": "Cochinillas",
       "symptoms": "White cottony spots",
       "symptomsES": "Manchas blancas algodonosas",
-      "organicControls": ["Alcohol wipe", "Neem oil"],
-      "organicControlsES": ["Limpieza con alcohol", "Aceite de neem"]
+      "organicControls": [
+        "Alcohol rub",
+        "Neem oil"
+      ],
+      "organicControlsES": [
+        "Frotar con alcohol",
+        "Aceite de neem"
+      ]
     }
   ],
   "diseaseResistance": "High",
   "soilPreferences": {
-    "phRange": "5.5-7.0",
-    "preferredType": "Rich, well-drained",
-    "nutrientNotes": "Needs organic matter",
-    "nutrientNotesES": "Necesita materia orgánica"
+    "phRange": "6.0-7.0",
+    "preferredType": "Potting mix",
+    "nutrientNotes": "Standard indoor fertilizer",
+    "nutrientNotesES": "Fertilizante estándar para interiores"
   },
   "climateSuitability": {
-    "heatTolerance": "Moderate",
+    "heatTolerance": "Medium",
     "frostSensitivity": "High",
-    "drought": "Moderate",
-    "rainfallPreference": "High",
+    "drought": "Medium",
+    "rainfallPreference": "Low",
     "windTolerance": "Low",
-    "heatToleranceES": "Moderada",
+    "heatToleranceES": "Media",
     "frostSensitivityES": "Alta",
-    "droughtES": "Moderada",
-    "rainfallPreferenceES": "Alta",
+    "droughtES": "Media",
+    "rainfallPreferenceES": "Baja",
     "windToleranceES": "Baja"
   },
-  "carbonSequestration": "Medium",
-  "biodiversityScore": 6,
+  "carbonSequestration": "Low",
+  "biodiversityScore": 5,
   "invasivePotential": "Low",
   "regionalAdaptations": [],
   "relatedPlants": [],
-  "seedSources": [],
+  "seedSources": [
+    {
+      "supplier": "Local Nursery",
+      "url": "https://example.com"
+    }
+  ],
   "organicCertification": "N/A",
   "externalIds": {
-    "Wikidata": "Q161077"
+    "Wikidata": "Q0"
   },
-  "synonyms": ["Philodendron pertusum"],
-  "etymology": "Monstera means 'monstrous' (referring to the leaves), deliciosa refers to the fruit.",
-  "tags": ["houseplant", "tropical", "ornamental"],
-  "searchKeywords": ["monstera", "mano de tigre", "swiss cheese plant"],
-  "metaDescription": "The ultimate guide to caring for Monstera deliciosa in Costa Rica.",
-  "difficultyLevel": "Intermediate",
-  "maintenanceLevel": "Medium",
-  "popularityScore": 98,
+  "synonyms": [],
+  "etymology": "Unknown",
+  "tags": [
+    "houseplant"
+  ],
+  "searchKeywords": [
+    "costilla de adán",
+    "monstera",
+    "monstera deliciosa"
+  ],
+  "metaDescription": "Aprende cómo cultivar y cuidar Costilla de Adán (Monstera) en Costa Rica.",
+  "difficultyLevel": "Beginner",
+  "maintenanceLevel": "Low",
+  "popularityScore": 80,
   "published": true,
   "source": {
     "api": "manual",

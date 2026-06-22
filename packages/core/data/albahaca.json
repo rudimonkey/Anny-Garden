@@ -4,7 +4,7 @@
   "scientificName": "Ocimum basilicum",
   "botanicalFamily": "Lamiaceae",
   "labelES": "Albahaca",
-  "labelEN": "Sweet Basil",
+  "labelEN": "Basil",
   "featured": true,
   "growthRate": "Fast",
   "growthHeight": "30-60 cm",
@@ -21,40 +21,99 @@
   "relativeHumidityNeeds": "40-60%",
   "fertilizerNeeds": "Every 2-4 weeks",
   "soilNeeds": "Well-drained, fertile",
-  "nativeRegion": "Central Africa to Southeast Asia",
+  "nativeRegion": "Africa and Asia",
   "predominantCRRegions": "All regions, especially Central Valley",
   "droughtTolerance": "Low",
   "hardinessZone": "10-12",
   "localNames": "Albahaca",
-  "culturalUses": "Culinary, medicinal, ceremonial",
-  "culturalUsesES": "Culinario, medicinal, ceremonial",
-  "toxicityPets": "Non-toxic to dogs and cats",
+  "culturalUses": "Culinary, medicinal, aromatic",
+  "culturalUsesES": "Culinario, medicinal, aromático",
+  "toxicityPets": "Safe",
   "toxicityHumans": "Safe",
-  "propagationMethods": ["Seeds", "Cuttings"],
+  "propagationMethods": [
+    "Seeds",
+    "Cuttings"
+  ],
   "economicImportance": "High (essential oils, culinary herb)",
   "localSeasonality": "Year-round in Costa Rica",
-  "warnings": ["Sensitive to frost"],
-  "warningsES": ["Sensible a las heladas"],
-  "careTips": ["Pinch back to encourage bushy growth", "Do not allow to flower if used for leaves"],
-  "careTipsES": ["Pellizcar para fomentar el crecimiento tupido", "No permita que florezca si se usa por las hojas"],
+  "warnings": [
+    "Safe for pets"
+  ],
+  "warningsES": [
+    "Seguro para mascotas"
+  ],
+  "careTips": [
+    "Keep soil moist",
+    "Pinch off flowers to encourage growth"
+  ],
+  "careTipsES": [
+    "Mantenga el suelo húmedo",
+    "Pellizque las flores para fomentar el crecimiento"
+  ],
   "facets": {
-    "habitat": ["exterior", "garden", "huerto", "maceta"],
-    "growthHabit": ["herbaceous", "bushy", "annual"],
-    "use": ["culinary", "medicinal", "aromatic"],
-    "difficulty": ["beginner"],
-    "pollinator": ["bees", "butterflies"],
+    "habitat": [
+      "exterior",
+      "garden",
+      "huerto",
+      "maceta"
+    ],
+    "growthHabit": [
+      "herbaceous",
+      "bushy",
+      "annual"
+    ],
+    "use": [
+      "culinary",
+      "medicinal",
+      "aromatic"
+    ],
+    "difficulty": [
+      "beginner"
+    ],
+    "pollinator": [
+      "bees",
+      "butterflies"
+    ],
     "companion": true,
-    "maintenance": ["medium"]
+    "maintenance": [
+      "medium"
+    ]
   },
   "images": [
     {
-      "url": "https://images.unsplash.com/photo-1629157239878-717ef7aa6e55?w=1200&h=800&fit=crop",
-      "width": 1200,
+      "url": "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
       "height": 800,
-      "caption": "Fresh basil leaves",
       "isPrimary": true,
-      "attribution": "Unsplash",
-      "altText": "Albahaca fresca en maceta"
+      "altText": "Albahaca - Perspective 1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Albahaca - Perspective 2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1459156212016-c812468e2115?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Albahaca - Perspective 3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Albahaca - Perspective 4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1464306208223-e0b4495a5553?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Albahaca - Perspective 5"
     }
   ],
   "genus": "Ocimum",
@@ -78,15 +137,30 @@
     }
   ],
   "companionInfo": {
-    "goodWith": ["Tomato", "Peppers", "Asparagus"],
-    "avoidWith": ["Rue", "Sage"]
+    "goodWith": [
+      "Tomato",
+      "Peppers",
+      "Asparagus"
+    ],
+    "avoidWith": [
+      "Rue",
+      "Sage"
+    ]
   },
   "pollinatorValue": {
-    "attracts": ["Bees", "Butterflies"],
+    "attracts": [
+      "Bees",
+      "Butterflies"
+    ],
     "nectarRating": "High"
   },
-  "beneficialInsects": ["Hoverflies"],
-  "pestRepellent": ["Mosquitoes", "Flies"],
+  "beneficialInsects": [
+    "Hoverflies"
+  ],
+  "pestRepellent": [
+    "Mosquitoes",
+    "Flies"
+  ],
   "harvestInfo": {
     "firstHarvestDays": 60,
     "daysToMaturity": 90,
@@ -95,14 +169,23 @@
     "expectedYieldPerSqMeter": "1.5kg",
     "frequency": "Weekly",
     "frequencyES": "Semanal",
-    "edibleParts": ["Leaves"],
-    "ediblePartsES": ["Hojas"]
+    "edibleParts": [
+      "Leaves"
+    ],
+    "ediblePartsES": [
+      "Hojas"
+    ]
   },
   "culinaryUses": [
     {
       "part": "Leaves",
-      "recipes": ["Pesto", "Caprese Salad"],
-      "tips": ["Add at the end of cooking to preserve flavor"]
+      "recipes": [
+        "Pesto",
+        "Caprese Salad"
+      ],
+      "tips": [
+        "Add at the end of cooking to preserve flavor"
+      ]
     }
   ],
   "commonPests": [
@@ -111,8 +194,14 @@
       "nameES": "Pulgones",
       "symptoms": "Curled leaves, sticky residue",
       "symptomsES": "Hojas rizadas, residuo pegajoso",
-      "organicControls": ["Neem oil", "Soap spray"],
-      "organicControlsES": ["Aceite de neem", "Jabón potásico"]
+      "organicControls": [
+        "Neem oil",
+        "Soap spray"
+      ],
+      "organicControlsES": [
+        "Aceite de neem",
+        "Jabón potásico"
+      ]
     }
   ],
   "diseaseResistance": "Moderate",
@@ -160,11 +249,21 @@
   "externalIds": {
     "Wikidata": "Q38859"
   },
-  "synonyms": ["Ocimum gratissimum"],
+  "synonyms": [
+    "Ocimum gratissimum"
+  ],
   "etymology": "From Greek 'okimon'",
-  "tags": ["herb", "culinary", "aromatic"],
-  "searchKeywords": ["basil", "albahaca", "pesto"],
-  "metaDescription": "Learn how to grow and care for Sweet Basil (Albahaca) in Costa Rica.",
+  "tags": [
+    "herb",
+    "culinary",
+    "aromatic"
+  ],
+  "searchKeywords": [
+    "albahaca",
+    "basil",
+    "ocimum basilicum"
+  ],
+  "metaDescription": "Aprende cómo cultivar y cuidar Albahaca (Basil) en Costa Rica.",
   "difficultyLevel": "Beginner",
   "maintenanceLevel": "Medium",
   "popularityScore": 95,

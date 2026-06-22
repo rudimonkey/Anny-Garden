@@ -1,10 +1,10 @@
 {
-  "slug": "romero",
-  "commonName": "Rosemary",
-  "scientificName": "Salvia rosmarinus",
-  "botanicalFamily": "Lamiaceae",
-  "labelES": "Romero",
-  "labelEN": "Rosemary",
+  "slug": "snake-plant",
+  "commonName": "Snake Plant",
+  "scientificName": "Dracaena trifasciata",
+  "botanicalFamily": "Asparagaceae",
+  "labelES": "Lengua de suegra",
+  "labelEN": "Snake Plant",
   "featured": false,
   "growthRate": "Moderate",
   "growthHeight": "Varies",
@@ -13,22 +13,22 @@
   "bloomTime": "Varies",
   "bloomSeason": "summer",
   "waterNeeds": "low",
-  "lightNeeds": "direct",
-  "sunlightHoursMin": 6,
-  "sunlightHoursMax": 12,
+  "lightNeeds": "indirect",
+  "sunlightHoursMin": 2,
+  "sunlightHoursMax": 4,
   "temperatureRange": "15-25°C",
   "humidityNeeds": "Medium",
   "relativeHumidityNeeds": "40-60%",
   "fertilizerNeeds": "Monthly",
   "soilNeeds": "Well-draining",
-  "nativeRegion": "Mediterranean",
+  "nativeRegion": "West Africa",
   "predominantCRRegions": "All regions",
   "droughtTolerance": "Medium",
   "hardinessZone": "10-11",
   "localNames": "",
-  "culturalUses": "Culinary, medicinal, aromatic",
-  "culturalUsesES": "Culinario, medicinal, aromático",
-  "toxicityPets": "Safe",
+  "culturalUses": "Ornamental, air purifier",
+  "culturalUsesES": "Ornamental, purificador de aire",
+  "toxicityPets": "Toxic",
   "toxicityHumans": "Safe",
   "propagationMethods": [
     "Cuttings"
@@ -36,83 +36,80 @@
   "economicImportance": "Low",
   "localSeasonality": "Year-round",
   "warnings": [
-    "Safe for pets"
+    "Toxic to pets (saponins)"
   ],
   "warningsES": [
-    "Seguro para mascotas"
+    "Tóxico para las mascotas"
   ],
   "careTips": [
-    "Needs excellent drainage",
-    "Hardy and drought tolerant"
+    "Hard to kill",
+    "Thrives on neglect"
   ],
   "careTipsES": [
-    "Necesita un drenaje excelente",
-    "Resistente y tolerante a la sequía"
+    "Difícil de matar",
+    "Prospera con el descuido"
   ],
   "facets": {
     "habitat": [
-      "exterior",
-      "garden",
-      "huerto"
+      "interior",
+      "pot"
     ],
     "growthHabit": [
-      "shrub"
+      "herbaceous"
     ],
     "use": [
-      "culinary",
-      "aromatic",
-      "medicinal",
-      "ornamental"
+      "ornamental",
+      "air-purifying"
     ],
     "difficulty": [
       "beginner"
     ],
     "pollinator": [
-      "bees"
+      "none"
     ],
-    "companion": true,
+    "companion": false,
     "maintenance": [
       "low"
     ]
   },
   "images": [
     {
-      "url": "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80&w=800",
-      "width": 800,
-      "height": 800,
-      "isPrimary": true,
-      "altText": "Romero - Perspective 1"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&q=80&w=800",
-      "width": 800,
-      "height": 800,
-      "isPrimary": false,
-      "altText": "Romero - Perspective 2"
-    },
-    {
       "url": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
-      "isPrimary": false,
-      "altText": "Romero - Perspective 3"
+      "isPrimary": true,
+      "altText": "Lengua de suegra - Perspective 1"
     },
     {
       "url": "https://images.unsplash.com/photo-1502164980785-f8aa41d53611?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 4"
+      "altText": "Lengua de suegra - Perspective 2"
     },
     {
       "url": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?auto=format&fit=crop&q=80&w=800",
       "width": 800,
       "height": 800,
       "isPrimary": false,
-      "altText": "Romero - Perspective 5"
+      "altText": "Lengua de suegra - Perspective 3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Lengua de suegra - Perspective 4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?auto=format&fit=crop&q=80&w=800",
+      "width": 800,
+      "height": 800,
+      "isPrimary": false,
+      "altText": "Lengua de suegra - Perspective 5"
     }
   ],
-  "genus": "Salvia",
+  "genus": "Dracaena",
   "cultivar": null,
   "lifeCycle": "perennial",
   "bloomStart": "Spring",
@@ -206,11 +203,11 @@
     "houseplant"
   ],
   "searchKeywords": [
-    "romero",
-    "rosemary",
-    "salvia rosmarinus"
+    "lengua de suegra",
+    "snake plant",
+    "dracaena trifasciata"
   ],
-  "metaDescription": "Aprende cómo cultivar y cuidar Romero (Rosemary) en Costa Rica.",
+  "metaDescription": "Aprende cómo cultivar y cuidar Lengua de suegra (Snake Plant) en Costa Rica.",
   "difficultyLevel": "Beginner",
   "maintenanceLevel": "Low",
   "popularityScore": 80,

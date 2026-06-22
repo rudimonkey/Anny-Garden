@@ -18,7 +18,7 @@ export const PlantImageSchema = z.object({
   caption: z.string().optional(),
   isPrimary: z.boolean(),
   attribution: z.string().optional(),
-  uploadedAt: z.date().optional(),
+  uploadedAt: z.union([z.date(), z.string().datetime()]).optional(),
   altText: z.string().optional(),
 });
 
@@ -109,7 +109,7 @@ export const ExternalIdsSchema = z.object({
 });
 
 export const ChangeLogEntrySchema = z.object({
-  date: z.date(),
+  date: z.union([z.date(), z.string().datetime()]),
   changes: z.record(z.any()),
   updatedBy: z.string(),
 });
@@ -195,13 +195,13 @@ export const PlantSchema = z.object({
   published: z.boolean(),
   source: z.object({
     api: z.string(),
-    lastSyncedAt: z.date(),
+    lastSyncedAt: z.union([z.date(), z.string().datetime()]),
     enrichmentLevel: z.number(),
   }),
   changeLog: z.array(ChangeLogEntrySchema),
   version: z.number(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.union([z.date(), z.string().datetime()]),
+  updatedAt: z.union([z.date(), z.string().datetime()]),
   createdBy: z.string(),
   updatedBy: z.string(),
 });
